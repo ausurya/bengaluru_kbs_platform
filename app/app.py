@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 
-csv_file = Path(__file__).parents[1] / 'app/data_source.csv'
+csv_file = Path(__file__).parents[1] / 'data/data_source.csv'
 # Load the CSV file
 df = pd.read_csv(csv_file)
 
@@ -20,16 +20,16 @@ def get_platform_number(bus_route):
 
 # Streamlit App
 def main():
-    st.title(':red[Kempegowda Bus Stand Platform Information]')
+    st.title(':red[Kempegowda Bus Stand Platform]')
+    st.divider()
 
     # Section 1: User Input - Search Bar and Drop Down
-    st.sidebar.header('Search Bus Route')
+    st.subheader('Search Bus Route')
     bus_routes = df['Bus Route'].unique()
-    user_input = st.sidebar.selectbox('Bus list:', bus_routes)
+    user_input = st.selectbox('', bus_routes)
 
 
     # Section 2: Display Platform Number
-    # st.header('Platform Number Information')
     if user_input:
         platform_number, destination, via = get_platform_number(user_input)
         if platform_number is not None:
