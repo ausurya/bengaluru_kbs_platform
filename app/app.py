@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the CSV file
-csv_file = '../data/source.csv'  # Replace 'your_file.csv' with the actual CSV file path
+csv_file = 'data_source.csv'  # Replace 'your_file.csv' with the actual CSV file path
 df = pd.read_csv(csv_file)
 
 # Function to get platform number based on bus route
