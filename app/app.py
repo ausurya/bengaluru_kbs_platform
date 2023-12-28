@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
 
 # Load the CSV file
 csv_file = '../data/source.csv'  # Replace 'your_file.csv' with the actual CSV file path
