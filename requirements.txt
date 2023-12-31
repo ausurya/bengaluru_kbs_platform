@@ -1,3 +1,4 @@
 streamlit-folium
 folium
 beautifulsoup4
+lxml
