@@ -1,0 +1,2925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Platforms</name>
+    <Style id="line-000000-7006-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>7.006</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-7006-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>10.509</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-7006">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-7006-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-7006-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-7394-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>7.394</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-7394-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>11.091</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-7394">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-7394-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-7394-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-7588-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>7.588</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-7588-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>11.382</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-7588">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-7588-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-7588-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-7781-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>7.781</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-7781-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>11.6715</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-7781">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-7781-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-7781-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-7975-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>7.975</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-7975-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>11.9625</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-7975">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-7975-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-7975-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-8169-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>8.169</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-8169-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>12.2535</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-8169">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-8169-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-8169-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-87CEAC-7588-normal">
+      <LineStyle>
+        <color>ffacce87</color>
+        <width>7.588</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-87CEAC-7588-highlight">
+      <LineStyle>
+        <color>ffacce87</color>
+        <width>11.382</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-87CEAC-7588">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-87CEAC-7588-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-87CEAC-7588-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-87CEAC-7781-normal">
+      <LineStyle>
+        <color>ffacce87</color>
+        <width>7.781</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-87CEAC-7781-highlight">
+      <LineStyle>
+        <color>ffacce87</color>
+        <width>11.6715</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-87CEAC-7781">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-87CEAC-7781-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-87CEAC-7781-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-880E4F-7588-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>7.588</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-880E4F-7588-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>11.382</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-880E4F-7588">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-880E4F-7588-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-880E4F-7588-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A1C2FA-7588-normal">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>7.588</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A1C2FA-7588-highlight">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>11.382</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A1C2FA-7588">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A1C2FA-7588-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A1C2FA-7588-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A1C2FA-7781-normal">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>7.781</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A1C2FA-7781-highlight">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>11.6715</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A1C2FA-7781">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A1C2FA-7781-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A1C2FA-7781-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A1C2FA-7975-normal">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>7.975</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A1C2FA-7975-highlight">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>11.9625</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A1C2FA-7975">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A1C2FA-7975-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A1C2FA-7975-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A1C2FA-8363-normal">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>8.363</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A1C2FA-8363-highlight">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>12.5445</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A1C2FA-8363">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A1C2FA-8363-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A1C2FA-8363-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CE93D8-7588-normal">
+      <LineStyle>
+        <color>ffd893ce</color>
+        <width>7.588</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-CE93D8-7588-highlight">
+      <LineStyle>
+        <color>ffd893ce</color>
+        <width>11.382</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-CE93D8-7588">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CE93D8-7588-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CE93D8-7588-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CE93D8-7781-normal">
+      <LineStyle>
+        <color>ffd893ce</color>
+        <width>7.781</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-CE93D8-7781-highlight">
+      <LineStyle>
+        <color>ffd893ce</color>
+        <width>11.6715</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-CE93D8-7781">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CE93D8-7781-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CE93D8-7781-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F48FB1-7588-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>7.588</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F48FB1-7588-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>11.382</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F48FB1-7588">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F48FB1-7588-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F48FB1-7588-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F48FB1-7781-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>7.781</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F48FB1-7781-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>11.6715</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F48FB1-7781">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F48FB1-7781-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F48FB1-7781-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F48FB1-7975-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>7.975</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F48FB1-7975-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>11.9625</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F48FB1-7975">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F48FB1-7975-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F48FB1-7975-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-7588-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.588</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-7588-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>11.382</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-7588">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-7588-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-7588-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-7781-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.781</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-7781-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>11.6715</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-7781">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-7781-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-7781-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-7975-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>7.975</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFEA00-7975-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>11.9625</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-7975">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-7975-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-7975-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Platform 1</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/9oF2p9VZaTbYlYhRh_RQMb26cEAeJvQiJS-slv1ngQbfXK3aWbYSjNEP3USDkY0EflMsHr1D9SAS-LxHUz4_NqiyRg9UEJ3_yOvKj3I8oiFhK101DcAXtWTPx_NrJCkpzWCs_z0" height="200" width="auto" /><br><br>Route (Destination): 87 (HAMPINAGAR R.P.C. LAYOUT)<br>87-A (HAMPINAGAR R.P.C. LAYOUT)<br>87-B (NAYANDAHALLI RAILWAY GATE)<br><br>VIA: MAGADI ROAD, PRASANNA, PIPELINE ROAD<br>MAGADI ROAD, PRASANNA, PIPELINE ROAD, RAILWAY GATE<br>MAGADI ROAD, PRASANNA, PIPELINE ROAD, INCOME TAX, GANGONDANAHALLI<br>]]></description>
+      <styleUrl>#line-87CEAC-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>87 (HAMPINAGAR R.P.C. LAYOUT)
+87-A (HAMPINAGAR R.P.C. LAYOUT)
+87-B (NAYANDAHALLI RAILWAY GATE)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MAGADI ROAD, PRASANNA, PIPELINE ROAD
+MAGADI ROAD, PRASANNA, PIPELINE ROAD, RAILWAY GATE
+MAGADI ROAD, PRASANNA, PIPELINE ROAD, INCOME TAX, GANGONDANAHALLI
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/9oF2p9VZaTbYlYhRh_RQMb26cEAeJvQiJS-slv1ngQbfXK3aWbYSjNEP3USDkY0EflMsHr1D9SAS-LxHUz4_NqiyRg9UEJ3_yOvKj3I8oiFhK101DcAXtWTPx_NrJCkpzWCs_z0</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5728988,12.9776273,0
+          77.5728948,12.9776743,0
+          77.5728828,12.9777201,0
+          77.5728623,12.9777718,0
+          77.5728492,12.9777998,0
+          77.5728278,12.9778364,0
+          77.572803,12.9778744,0
+          77.5727654,12.9779116,0
+          77.5727325,12.977939,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 2</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/9XvsJPNPtS66gwD9NvIin6qkhukGyXuoWqYL6c_UC47G6wm7bjn2VpJQdYBD_MSIzda85E_TMLWyEyYA4ePkzVkELn7tOqXzpadz3LduwBVzI-aLyRDbKrlzwkNrmHNP3jmIUg" height="200" width="auto" /><br><br>Route (Destination): 61 (VIJAYANAGAR)<br>61-A (CHANDRA LAYOUT)<br>61-B (SARSWATHINAGAR (BAPOOJI LAYOUT))<br>61-C (BCC LAYOUT)<br>61-E (VIJAYANAGAR TTMC)<br>61-F (GKW LAYOUT)<br>61-G (CHANDRA LAYOUT)<br>61-G (CHANDRA LAYOUT 1ST STAGE)<br>61-M (VIDYAGIRI LAYOUT)<br><br>VIA: MAGADI ROAD, PRASANNA<br>SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, INCOME TAX<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR<br>SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, ATTIGUPPE<br>SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, MARUTHI MANDIR<br>SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR<br>SUJATHA, PRASANNA, VIJAYANAGAR, INCOME TAX<br>SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT<br>SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT]]></description>
+      <styleUrl>#line-000000-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>61 (VIJAYANAGAR)
+61-A (CHANDRA LAYOUT)
+61-B (SARSWATHINAGAR (BAPOOJI LAYOUT))
+61-C (BCC LAYOUT)
+61-E (VIJAYANAGAR TTMC)
+61-F (GKW LAYOUT)
+61-G (CHANDRA LAYOUT)
+61-G (CHANDRA LAYOUT 1ST STAGE)
+61-M (VIDYAGIRI LAYOUT)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MAGADI ROAD, PRASANNA
+SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, INCOME TAX
+MAGADI ROAD, PRASANNA, VIJAYANAGAR
+SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, ATTIGUPPE
+SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, MARUTHI MANDIR
+SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR
+SUJATHA, PRASANNA, VIJAYANAGAR, INCOME TAX
+SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT
+SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/9XvsJPNPtS66gwD9NvIin6qkhukGyXuoWqYL6c_UC47G6wm7bjn2VpJQdYBD_MSIzda85E_TMLWyEyYA4ePkzVkELn7tOqXzpadz3LduwBVzI-aLyRDbKrlzwkNrmHNP3jmIUg</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5727262,12.9779451,0
+          77.572685,12.9779798,0
+          77.5726568,12.9780025,0
+          77.5726011,12.9780272,0
+          77.57257,12.9780404,0
+          77.5725391,12.978054,0
+          77.5724794,12.9780644,0
+          77.5724271,12.9780723,0
+          77.5723872,12.9780717,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 3</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/yjVrwhHQ0hIhZurpPH2THlP8eo_GsgrEgangy778fLsYbklHZXi6cP11_fMQZ7yTFhoS0tD331SAXbi0f0IERBqH5FHyWuA-DLbOVind7HIcnLcadB5Iu0kuC-swQS3UaohCgA" height="200" width="auto" /><br><br>Route (Destination): 235-B (DODDABASTI)<br>235-D (SULIKERE)<br>235-F (SPORTS AUTHORITY OF INDIA)<br>235-K (DODDABASTI)<br>235-P (CHIKKANAHALLI)<br>235-Q (MARUTHI NAGAR)<br>238 (NRUPATHUNGANAGAR)<br>238-A (NAGARBHAVI 1ST STAGE (3RD BLOCK))<br>238-AB (ITI LAYOUT)<br>238-C (BANDE MARAMMA TEMPLE)<br>238-L (AMBEDKAR COLLEGE)<br>238-U (BANGALORE UNIVERSITY QUARTERS)<br>238-V (AMBEDKAR COLLEGE)<br>238-W (NARASAPURA)<br>238-ZA (ULLALU UPANAGARA)<br>223-P (UPKAR RESIDENCY LAYOUT)<br>223-PA (UPKAR RESIDENCY LAYOUT)<br><br>VIA: MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, MARIYAPPANAPALYA<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, RAMASANDRA<br>SUJATHA 6TH BLOCK, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, GANDHIBAVANA<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, SONNENAHALLI<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, SONNENAHALLI, DODDABASTI<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, BUC, ADM OFFICE, SONNENAHALLI<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT, NAGARBHAVI CIRCLE<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT, NAGARBHAVI CIRCLE<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, KALYAN NAGAR<br>SUJATHA 6TH BLOCK, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, NRUPATHUNGANAGAR<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, MALLATHAHALLI<br>PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, MALLATHAHALLI<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, MALLATHAHALLI CROSS, VIDYANIKETAN<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT, MALLATHAHALLI CROSS, BALAJI LAYOUT<br>MAGADI ROAD, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT, MALLATHAHALLI CROSS, BALAJI LAYOUT<br><br><br><img src="https://lh3.googleusercontent.com/o5uIaRsG1pAL8iAh_rlmIv7-2wcQwm_7ABiFo1jJVqADMGYnKV-dRX2vG6mhBSKcDheA8qlbcKTBjoGZv_6Cv5cUCP_kqh1dM19kE8UIakF9FK7rU2vSG_rD0ycU-dtAEqs6" height="200" width="auto" />]]></description>
+      <styleUrl>#line-87CEAC-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>235-B (DODDABASTI)
+235-D (SULIKERE)
+235-F (SPORTS AUTHORITY OF INDIA)
+235-K (DODDABASTI)
+235-P (CHIKKANAHALLI)
+235-Q (MARUTHI NAGAR)
+238 (NRUPATHUNGANAGAR)
+238-A (NAGARBHAVI 1ST STAGE (3RD BLOCK))
+238-AB (ITI LAYOUT)
+238-C (BANDE MARAMMA TEMPLE)
+238-L (AMBEDKAR COLLEGE)
+238-U (BANGALORE UNIVERSITY QUARTERS)
+238-V (AMBEDKAR COLLEGE)
+238-W (NARASAPURA)
+238-ZA (ULLALU UPANAGARA)
+223-P (UPKAR RESIDENCY LAYOUT)
+223-PA (UPKAR RESIDENCY LAYOUT)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, MARIYAPPANAPALYA
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, RAMASANDRA
+SUJATHA 6TH BLOCK, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, GANDHIBAVANA
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, SONNENAHALLI
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, SONNENAHALLI, DODDABASTI
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, BUC, ADM OFFICE, SONNENAHALLI
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT, NAGARBHAVI CIRCLE
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT, NAGARBHAVI CIRCLE
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, KALYAN NAGAR
+SUJATHA 6TH BLOCK, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, NRUPATHUNGANAGAR
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, MALLATHAHALLI
+PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, MALLATHAHALLI
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, MALLATHAHALLI CROSS, VIDYANIKETAN
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT, MALLATHAHALLI CROSS, BALAJI LAYOUT
+MAGADI ROAD, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT, MALLATHAHALLI CROSS, BALAJI LAYOUT
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/yjVrwhHQ0hIhZurpPH2THlP8eo_GsgrEgangy778fLsYbklHZXi6cP11_fMQZ7yTFhoS0tD331SAXbi0f0IERBqH5FHyWuA-DLbOVind7HIcnLcadB5Iu0kuC-swQS3UaohCgA https://lh3.googleusercontent.com/o5uIaRsG1pAL8iAh_rlmIv7-2wcQwm_7ABiFo1jJVqADMGYnKV-dRX2vG6mhBSKcDheA8qlbcKTBjoGZv_6Cv5cUCP_kqh1dM19kE8UIakF9FK7rU2vSG_rD0ycU-dtAEqs6</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5723808,12.9780703,0
+          77.5723292,12.9780713,0
+          77.5722487,12.978056,0
+          77.5722377,12.978054,0
+          77.5721632,12.9780259,0
+          77.5721357,12.9780142,0
+          77.5720844,12.9779789,0
+          77.5720583,12.9779591,0
+          77.5720409,12.9779387,0
+          77.5720224,12.9779184,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 4</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/bCLJ6m_INmXza1tSfcOiLFSoKOIzxqXPEydV5qAKAjW4sZ4m3vUPwCHR7hk9uuQXaGuAde6xYC6LdZjwCZ5IDJae0Jfurpc5DvMp3j8kcxcjpYAzwSlknJMpD63Ew96v9KXeXw" height="200" width="auto" /><br><br>Route (Destination): 240-D (GOLLARAHATTI)<br>240-H (G HOSAHALLI)<br>240-R (MACHOHALLI)<br>241-B (KENCHANAPURA)<br>241-CB (YELE KODIGENAHALLI)<br>241-D (BHARAT NAGAR 2ND STAGE)<br>241-H (MAHADESHWARA NAGAR)<br><br>VIA: MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE<br>MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, BYADARAHALLI<br>MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, BYADARAHALLI<br>MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, KODIGENAHALLI CROSS, KANNALI<br>MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, GOLLARAHATTI<br>MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, BHARAT NAGAR 3RD STAGE<br>MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE<br>]]></description>
+      <styleUrl>#line-000000-7394</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>240-D (GOLLARAHATTI)
+240-H (G HOSAHALLI)
+240-R (MACHOHALLI)
+241-B (KENCHANAPURA)
+241-CB (YELE KODIGENAHALLI)
+241-D (BHARAT NAGAR 2ND STAGE)
+241-H (MAHADESHWARA NAGAR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE
+MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, BYADARAHALLI
+MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, BYADARAHALLI
+MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, KODIGENAHALLI CROSS, KANNALI
+MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, GOLLARAHATTI
+MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, BHARAT NAGAR 3RD STAGE
+MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/bCLJ6m_INmXza1tSfcOiLFSoKOIzxqXPEydV5qAKAjW4sZ4m3vUPwCHR7hk9uuQXaGuAde6xYC6LdZjwCZ5IDJae0Jfurpc5DvMp3j8kcxcjpYAzwSlknJMpD63Ew96v9KXeXw</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5720224,12.9779184,0
+          77.5720154,12.9779109,0
+          77.572008,12.9779031,0
+          77.5720016,12.9778949,0
+          77.5719943,12.9778864,0
+          77.5719875,12.9778773,0
+          77.5719808,12.9778691,0
+          77.5719725,12.9778583,0
+          77.5719658,12.9778492,0
+          77.5719607,12.977842,0
+          77.5719554,12.9778338,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 4-A</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/pqOWLMDJZDVQGakYwoPsf74ge3olJ2eQ3nvvvIp7R2VmKNt1DiYJpOpdtBv0CMM0SAeIA1643wAqZ9QTE2ewU1vjj-D6rpw8aK2mFHi9oRwBKJsply6GLQOQ1YlCazA_GsLQEA" height="200" width="auto" /><br><br>Route (Destination): 242-B (TAVAREKERE)<br>242-CB (THUNGANAGAR)<br>242-T (HUNNIGERE)<br>242-X (DODDERI VILLAGE)<br>242-Z (TIPPAGONDANAHALLI)<br>242-ZD (KALLURU)<br>243-D (TIGALARAPALYA)<br>243-F (GIDADAKONENAHALLI)<br><br>VIA: MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, KADABAGRE CROSS, CHANNENAHALLI<br>MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, BYADARAHALLI<br>SUJATHA 6TH BLOCK, PRASANNA, KAMAKSHIPALYA, SUNKADAKATTE, TAVAREKERE, MALLASANDRA, GERALLI<br>MAGADI ROAD, PRASANNA, A DASARAHALLI, SUNKADAKATTE, TAVAREKERE, HULUVENAHALLI CROSS, CHANDRAPPA CIRCLE, BYALALU<br>MAGADI ROAD, PRASANNA, A DASARAHALLI, SUNKADAKATTE, TAVAREKERE, GOLLARAHATTI, MARENAHALLI, CHOLANAYAKANAHALLI TB<br>MAGADI ROAD, PRASANNA, TAVAREKERE, TIPPAGONDANAHALLI, SHANUBHOGANAHALLI<br>MAGADI ROAD, PRASANNA, SUNKADAKATTE, TUNGANAGAR, ANDRAHALLI<br>MAGADI ROAD, PRASANNA, SUNKADAKATTE, EAST WEST COLLEGE<br><br><br><img src="https://lh5.googleusercontent.com/Ixsce-WIOh4l6X4RVE01_XlFMr8xtRbotWpfMtHykKbH031bRrBpjL-uHjjDNHCtdFKr1Q2tdtua7dHAaE9CLi89CaWhtebY2JiRK8PXNBvqse8uoFDKwDNerCpalvh5A-gD8w" height="200" width="auto" />]]></description>
+      <styleUrl>#line-87CEAC-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>242-B (TAVAREKERE)
+242-CB (THUNGANAGAR)
+242-T (HUNNIGERE)
+242-X (DODDERI VILLAGE)
+242-Z (TIPPAGONDANAHALLI)
+242-ZD (KALLURU)
+243-D (TIGALARAPALYA)
+243-F (GIDADAKONENAHALLI)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, KADABAGRE CROSS, CHANNENAHALLI
+MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, BYADARAHALLI
+SUJATHA 6TH BLOCK, PRASANNA, KAMAKSHIPALYA, SUNKADAKATTE, TAVAREKERE, MALLASANDRA, GERALLI
+MAGADI ROAD, PRASANNA, A DASARAHALLI, SUNKADAKATTE, TAVAREKERE, HULUVENAHALLI CROSS, CHANDRAPPA CIRCLE, BYALALU
+MAGADI ROAD, PRASANNA, A DASARAHALLI, SUNKADAKATTE, TAVAREKERE, GOLLARAHATTI, MARENAHALLI, CHOLANAYAKANAHALLI TB
+MAGADI ROAD, PRASANNA, TAVAREKERE, TIPPAGONDANAHALLI, SHANUBHOGANAHALLI
+MAGADI ROAD, PRASANNA, SUNKADAKATTE, TUNGANAGAR, ANDRAHALLI
+MAGADI ROAD, PRASANNA, SUNKADAKATTE, EAST WEST COLLEGE
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/pqOWLMDJZDVQGakYwoPsf74ge3olJ2eQ3nvvvIp7R2VmKNt1DiYJpOpdtBv0CMM0SAeIA1643wAqZ9QTE2ewU1vjj-D6rpw8aK2mFHi9oRwBKJsply6GLQOQ1YlCazA_GsLQEA https://lh5.googleusercontent.com/Ixsce-WIOh4l6X4RVE01_XlFMr8xtRbotWpfMtHykKbH031bRrBpjL-uHjjDNHCtdFKr1Q2tdtua7dHAaE9CLi89CaWhtebY2JiRK8PXNBvqse8uoFDKwDNerCpalvh5A-gD8w</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5719523,12.9778309,0
+          77.5719433,12.9778168,0
+          77.5719268,12.9777858,0
+          77.5719164,12.9777593,0
+          77.5719074,12.9777351,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 4-B</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/oku98Ke5Tnh1gbL7UuORPrh4wDxDW_aOx-fbEuaqyV-vvrtgxZo7tsposijPaQ-5hRgUKgtZUaBRm_ysMO-9FahfNetj7Pc_McabTIVJ25e57kHSOuiHOIj1FD1k9bkqyrGbAA" height="200" width="auto" /><br><br>Route (Destination): 265 (KBS-KBS)<br>265-B (TIGALARAPALYA)<br>265-E (MATTIHALLI)<br>G-7 (JANAPRIYA TOWNSHIP)<br><br>VIA: MAGADI ROAD, PRASANNA, KAMAKSHIPALYA, SUNKADAKATTE, HEGGANAHALLI, PEENYA 2ND STAGE, JALAHALLI CROSS, YESHWANTHPUR<br>MAGADI ROAD, PRASANNA, KAMAKSHIPALYA, SUNKADAKATTE, HEGGANAHALLI, PEENYA 2ND STAGE, ANDRAHALLI<br>MAGADI ROAD, PRASANNA, KAMAKSHIPALYA, SUNKADAKATTE, HEGGANAHALLI, NTTF, JALAHALLI CROSS, MARANAYAKANAHALLI<br>SUJATHA, PRASANNA, SUNKADAKATTE, GOLLARAHATTI, KADABAGERE CROSS<br><br><br><img src="https://lh6.googleusercontent.com/u9QHV1hq3wI7IvK2bxz44z6ZKxTkmrnDwQH8KP8b9sHgWWbNk4vvIieGRGfQHkkeBiWSnSJk5AedFzfcGg3YFU_0YATaBY2t72zVuRtLDVtyY3MSAc2N7vmzpW7eemI0vAbFcQ" height="200" width="auto" />]]></description>
+      <styleUrl>#line-000000-7006</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>265 (KBS-KBS)
+265-B (TIGALARAPALYA)
+265-E (MATTIHALLI)
+G-7 (JANAPRIYA TOWNSHIP)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MAGADI ROAD, PRASANNA, KAMAKSHIPALYA, SUNKADAKATTE, HEGGANAHALLI, PEENYA 2ND STAGE, JALAHALLI CROSS, YESHWANTHPUR
+MAGADI ROAD, PRASANNA, KAMAKSHIPALYA, SUNKADAKATTE, HEGGANAHALLI, PEENYA 2ND STAGE, ANDRAHALLI
+MAGADI ROAD, PRASANNA, KAMAKSHIPALYA, SUNKADAKATTE, HEGGANAHALLI, NTTF, JALAHALLI CROSS, MARANAYAKANAHALLI
+SUJATHA, PRASANNA, SUNKADAKATTE, GOLLARAHATTI, KADABAGERE CROSS
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/oku98Ke5Tnh1gbL7UuORPrh4wDxDW_aOx-fbEuaqyV-vvrtgxZo7tsposijPaQ-5hRgUKgtZUaBRm_ysMO-9FahfNetj7Pc_McabTIVJ25e57kHSOuiHOIj1FD1k9bkqyrGbAA https://lh6.googleusercontent.com/u9QHV1hq3wI7IvK2bxz44z6ZKxTkmrnDwQH8KP8b9sHgWWbNk4vvIieGRGfQHkkeBiWSnSJk5AedFzfcGg3YFU_0YATaBY2t72zVuRtLDVtyY3MSAc2N7vmzpW7eemI0vAbFcQ</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5719064,12.9777318,0
+          77.5718957,12.9777018,0
+          77.5718893,12.9776711,0
+          77.5718863,12.9776391,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 5</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/lwn4TTSBUs86KIHP7xsShdaKrvg0vUd_2lqAcq-knXh7vkCQp2rQxojCWzionAHaMXC9hNOERxJiTsSJ-8mZae_Jvy0HfqlQtY_CYhbNndnamJVPOYsBS2a2dHINsqDZA4Mltw" height="200" width="auto" /><br><br>Route (Destination): 88 (BASAVESHWARANAGAR)<br>88-A (BASAVESHWARANAGAR, SANE GURUVANAHALLI)<br>96 (BASAVESHWARANAGAR)<br>96-A (BASAVESHWARANAGAR)<br>96-B (KAMALANAGARA)<br>96-D (KAMALANAGARA)<br>96-E (BEML LAYOUT)<br>96-F (BHEEMAJYOTHINAGAR)<br>96-G (SHANKARNAG BUS STAND)<br><br>VIA: SUJATHA TALKIES, DHOBIGHAT<br>BHASHYAM CIRCLE, DHOBIGHAT<br>MALLESHWARAM CIRCLE, SHANKAR MUTT<br>SUJATHA TALKIES, INDUSTRIAL TOWN<br>INDUSTRIAL TOWN, BASAVESHWARANAGAR<br>MARIYAPPANA PALYA, SHANKAR MUTT<br>MALLESHWARAM CIRCLE, MODI HOSPITAL<br>MALLESHWARAM CIRCLE, MARIYAPPANA PALYA<br>NAGAPPA BLOCK, NAVARANG TALKIES<br>]]></description>
+      <styleUrl>#line-F48FB1-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>88 (BASAVESHWARANAGAR)
+88-A (BASAVESHWARANAGAR, SANE GURUVANAHALLI)
+96 (BASAVESHWARANAGAR)
+96-A (BASAVESHWARANAGAR)
+96-B (KAMALANAGARA)
+96-D (KAMALANAGARA)
+96-E (BEML LAYOUT)
+96-F (BHEEMAJYOTHINAGAR)
+96-G (SHANKARNAG BUS STAND)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>SUJATHA TALKIES, DHOBIGHAT
+BHASHYAM CIRCLE, DHOBIGHAT
+MALLESHWARAM CIRCLE, SHANKAR MUTT
+SUJATHA TALKIES, INDUSTRIAL TOWN
+INDUSTRIAL TOWN, BASAVESHWARANAGAR
+MARIYAPPANA PALYA, SHANKAR MUTT
+MALLESHWARAM CIRCLE, MODI HOSPITAL
+MALLESHWARAM CIRCLE, MARIYAPPANA PALYA
+NAGAPPA BLOCK, NAVARANG TALKIES
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/lwn4TTSBUs86KIHP7xsShdaKrvg0vUd_2lqAcq-knXh7vkCQp2rQxojCWzionAHaMXC9hNOERxJiTsSJ-8mZae_Jvy0HfqlQtY_CYhbNndnamJVPOYsBS2a2dHINsqDZA4Mltw</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.571778,12.9778184,0
+          77.5717565,12.977759,0
+          77.5717371,12.9776776,0
+          77.5717347,12.9776453,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 6</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/5b7eC_ACv9OH_Z2_N2HWov9-gexsVknKeTz1npUeDRj-mlFkWVlOAgLdMaHFtikPmfQWOobbmU38F0VF_N2IaIMhEW0AZVXB1cb73YrD1ocbCfK2hh8o2hDzsJ27P-0_wVvykQ" height="200" width="auto" /><br><br>Route (Destination): 78-A (ISKON TEMPLE)<br>78-E (YESHWANTHPUR RAILWAY STATION)<br>80 (MAHALAKSHMI LAYOUT)<br>80-A (NANDINI LAYOUT)<br>80-B (JAI MARUTHINAGARA CIRCLE)<br>80-C (GORAGUNTE PALYA)<br>80-D (JAI MARUTHINAGAR)<br>80-E (KRISHNANANDA NAGAR)<br>80-F (JAI BHUVANESHWARI NAGAR)<br><br>VIA: SUJATHA, RAJAJINAGAR 1ST BLOCK<br>SUJATHA, ISKON TEMPLE<br>SUJATHA, RAJAJINAGAR 1ST BLOCK<br>SUJATHA, MAHALAKSHMI LAYOUT<br>SUJATHA, RAJAJINAGAR 1ST BLOCK<br>ESI, MAHALAKSMI LAYOUT<br>SUJATHA, RAJAJINAGAR 1ST BLOCK<br>SUJATHA, MAHALAKSHMI LAYOUT<br>SUJATHA, KANTEERAVA STUDIO<br>]]></description>
+      <styleUrl>#line-000000-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>78-A (ISKON TEMPLE)
+78-E (YESHWANTHPUR RAILWAY STATION)
+80 (MAHALAKSHMI LAYOUT)
+80-A (NANDINI LAYOUT)
+80-B (JAI MARUTHINAGARA CIRCLE)
+80-C (GORAGUNTE PALYA)
+80-D (JAI MARUTHINAGAR)
+80-E (KRISHNANANDA NAGAR)
+80-F (JAI BHUVANESHWARI NAGAR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>SUJATHA, RAJAJINAGAR 1ST BLOCK
+SUJATHA, ISKON TEMPLE
+SUJATHA, RAJAJINAGAR 1ST BLOCK
+SUJATHA, MAHALAKSHMI LAYOUT
+SUJATHA, RAJAJINAGAR 1ST BLOCK
+ESI, MAHALAKSMI LAYOUT
+SUJATHA, RAJAJINAGAR 1ST BLOCK
+SUJATHA, MAHALAKSHMI LAYOUT
+SUJATHA, KANTEERAVA STUDIO
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/5b7eC_ACv9OH_Z2_N2HWov9-gexsVknKeTz1npUeDRj-mlFkWVlOAgLdMaHFtikPmfQWOobbmU38F0VF_N2IaIMhEW0AZVXB1cb73YrD1ocbCfK2hh8o2hDzsJ27P-0_wVvykQ</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.57178,12.9778211,0
+          77.5717881,12.9778413,0
+          77.5718005,12.9778626,0
+          77.5718196,12.9778942,0
+          77.5718467,12.9779387,0
+          77.5718638,12.9779635,0
+          77.5718783,12.9779861,0
+          77.5718931,12.9780044,0
+          77.5719081,12.97802,0
+          77.5719249,12.9780334,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 6-A</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/JSkr-CaWJkRKmmwp5qCXlmUFFv5kFmqFKuU3sRCWHFVSGwzyDM1SFcysyvYQbg4bEJbkIKcYEVFb5v5xOjcVu_mwgT9m03qt2puyRnYuhG0SVudjoxs5wBHgBTNEBYRaveFK" height="200" width="auto" /><br><br>Route (Destination): 80-G (SWATHANTHRA YODHARA NAGAR)<br>80-R (DR. RAJKUMAR PUNYA BHOOMI)<br>80-K (SAKAMMA LAYOUT)<br>80-L (ASRAYA NAGAR)<br>89 (KURUBARAHALLI)<br>89-A (KAVERI NAGAR)<br>89-B (GELEYARA BALAGA)<br>89-C (KURUBARAHALLI)<br>89-D (KURUBARAHALLI, JC NAGAR)<br><br>VIA: RAJAJINAGAR 1ST BLOCK, KANTEERAVA STUDIO<br>SUJATHA, MAHALAKSHMI LAYOUT, SHANKARA NAGAR<br>SUJATHA, ESI, MAHALAKSHMI LAYOUT, JAI MARUTHI NAGAR<br>ESI, MAHALAKSMI LAYOUT, KANTEERAVA NAGAR<br>SUJATHA, RAJAJINAGAR 1ST BLOCK<br>SUJATHA, SHANKAR MUTT<br>SUJATHA, RAJAJINAGAR 1ST BLOCK<br>ESI, RAJAJINAGAR 1ST BLOCK<br>CENTRAL, HARISHCHANDRAGHAT, MODI HOSPITAL<br>]]></description>
+      <styleUrl>#line-F48FB1-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>80-G (SWATHANTHRA YODHARA NAGAR)
+80-R (DR. RAJKUMAR PUNYA BHOOMI)
+80-K (SAKAMMA LAYOUT)
+80-L (ASRAYA NAGAR)
+89 (KURUBARAHALLI)
+89-A (KAVERI NAGAR)
+89-B (GELEYARA BALAGA)
+89-C (KURUBARAHALLI)
+89-D (KURUBARAHALLI, JC NAGAR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>RAJAJINAGAR 1ST BLOCK, KANTEERAVA STUDIO
+SUJATHA, MAHALAKSHMI LAYOUT, SHANKARA NAGAR
+SUJATHA, ESI, MAHALAKSHMI LAYOUT, JAI MARUTHI NAGAR
+ESI, MAHALAKSMI LAYOUT, KANTEERAVA NAGAR
+SUJATHA, RAJAJINAGAR 1ST BLOCK
+SUJATHA, SHANKAR MUTT
+SUJATHA, RAJAJINAGAR 1ST BLOCK
+ESI, RAJAJINAGAR 1ST BLOCK
+CENTRAL, HARISHCHANDRAGHAT, MODI HOSPITAL
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/JSkr-CaWJkRKmmwp5qCXlmUFFv5kFmqFKuU3sRCWHFVSGwzyDM1SFcysyvYQbg4bEJbkIKcYEVFb5v5xOjcVu_mwgT9m03qt2puyRnYuhG0SVudjoxs5wBHgBTNEBYRaveFK</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5719249,12.9780334,0
+          77.5719517,12.9780579,0
+          77.5719798,12.9780812,0
+          77.5720158,12.9781085,0
+          77.5720415,12.9781272,0
+          77.572058,12.9781383,0
+          77.5720744,12.9781484,0
+          77.5720962,12.9781586,0
+          77.57212,12.9781693,0
+          77.5721384,12.9781778,0
+          77.5721498,12.9781814,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 7</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/EA7-gTF1LjwRLpyN-je8ZFSuWVNpCu3tiseA7Fx49ADEZNWy1pPcq7Ee8rgZR_KXSqwOUTsEumWlEm1dtIhbmiptPbJ3Zi32kb1hOzu8v5LpXiH7A3AR3dcNusveK8zpIcpp7A" height="200" width="auto" /><br><br>Route (Destination): 89-E (KAVERI NAGAR)<br>89-F (GELEYARA BALAGA)<br>252-F (PEENYA 2ND STAGE)<br>252-H (RAJEEVGHANDHI NAGAR)<br>264 (JALAHALLI CROSS)<br>267-A (CHOWDESHWARI NAGAR)<br><br>VIA: SUJATHA, BHEEMAJYOTHINAGAR<br>SUJATHA, RAJAJINAGAR 1ST BLOCK<br>SUJATHA, MAHALAKSHMI LAYOUT<br>SUJATHA, MAHALAKSHMI LAYOUT<br>ESI, KRISHNANDANAGAR<br>MAHALAKSHMI LAYOUT, SHANKARNAGAR<br>]]></description>
+      <styleUrl>#line-000000-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>89-E (KAVERI NAGAR)
+89-F (GELEYARA BALAGA)
+252-F (PEENYA 2ND STAGE)
+252-H (RAJEEVGHANDHI NAGAR)
+264 (JALAHALLI CROSS)
+267-A (CHOWDESHWARI NAGAR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>SUJATHA, BHEEMAJYOTHINAGAR
+SUJATHA, RAJAJINAGAR 1ST BLOCK
+SUJATHA, MAHALAKSHMI LAYOUT
+SUJATHA, MAHALAKSHMI LAYOUT
+ESI, KRISHNANDANAGAR
+MAHALAKSHMI LAYOUT, SHANKARNAGAR
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/EA7-gTF1LjwRLpyN-je8ZFSuWVNpCu3tiseA7Fx49ADEZNWy1pPcq7Ee8rgZR_KXSqwOUTsEumWlEm1dtIhbmiptPbJ3Zi32kb1hOzu8v5LpXiH7A3AR3dcNusveK8zpIcpp7A</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5721525,12.9781824,0
+          77.5721726,12.9781876,0
+          77.5722061,12.9781968,0
+          77.5722407,12.9782059,0
+          77.5722585,12.9782102,0
+          77.5722816,12.9782125,0
+          77.5723078,12.9782157,0
+          77.5723359,12.9782177,0
+          77.572363,12.9782193,0
+          77.5723922,12.9782183,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 8-A</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/SdSxsTvMMBLIeKo58kiNO5_JpnTl53sg0O7lWwn7zx1lK2gV5zzyTjLgoqWClhr77i0D1rscDKLZhL6oio5qyfWEF4doiYqCMtXp81YFbmdcRnTeHake6fbuFnycFh_q4TkH" height="200" width="auto" /><br><br>Route (Destination): 45-E (CHANNAMANNAKERE ACHUKATTU)<br>45-F (CHANNAMANNAKERE ACHUKATTU)<br>45-G (AGS LAYOUT)<br><br>VIA: KR MARKET, KATHRIGUPPE<br>CHAMARAJAPETE, KATHRIGUPPE<br>HOSAKEREHALLI CROSS, ITTAMADAVU<br>]]></description>
+      <styleUrl>#line-F48FB1-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>45-E (CHANNAMANNAKERE ACHUKATTU)
+45-F (CHANNAMANNAKERE ACHUKATTU)
+45-G (AGS LAYOUT)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>KR MARKET, KATHRIGUPPE
+CHAMARAJAPETE, KATHRIGUPPE
+HOSAKEREHALLI CROSS, ITTAMADAVU
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/SdSxsTvMMBLIeKo58kiNO5_JpnTl53sg0O7lWwn7zx1lK2gV5zzyTjLgoqWClhr77i0D1rscDKLZhL6oio5qyfWEF4doiYqCMtXp81YFbmdcRnTeHake6fbuFnycFh_q4TkH</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5723949,12.9782184,0
+          77.5724234,12.978218,0
+          77.5724445,12.978218,0
+          77.5724599,12.9782167,0
+          77.5724791,12.9782115,0
+          77.5725189,12.978202,0
+          77.5725622,12.9781889,0
+          77.572595,12.9781775,0
+          77.5726329,12.9781644,0
+          77.5726474,12.9781553,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 8-B</name>
+      <description><![CDATA[Route (Destination): 45-H<br>45-H<br>45-K<br>45-M<br>49<br>49-B<br>210-P<br>210-W<br>210-X<br>210-Z<br><br>VIA: ]]></description>
+      <styleUrl>#line-000000-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>45-H
+45-H
+45-K
+45-M
+49
+49-B
+210-P
+210-W
+210-X
+210-Z
+</value>
+        </Data>
+        <Data name="VIA">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5726514,12.978154,0
+          77.5726765,12.9781409,0
+          77.5727077,12.978124,0
+          77.5727329,12.9781112,0
+          77.572759,12.9780965,0
+          77.572801,12.9780657,0
+          77.5728224,12.9780513,0
+          77.5728438,12.9780325,0
+          77.5728515,12.9780246,0
+          77.5728583,12.9780174,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 9</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/24ICpqYqb6ooX4lS1GmMAAVTk8KG5_0Uv2kRW3QrNoShbMqRg_KLNWsIbbiQg9AjzM9wiHmZcfLEJMfixHkH5uBAFqVDIbuP2QptCDWyIBohBqtheCxlZtPiIqmXR7HBT4I" height="200" width="auto" /><br><br>Route (Destination): 210-A (ISRO LAYOUT)<br>210-E (VASANTHAPURA)<br>210-I (CHIKKALLASANDRA)<br>210-J (RAMANJENEYA LAYOUT)<br>210-K (UTTARAHALLI<br>BHARATH CO-OPERATIVE SOCIETY)<br>210-NA (POORNAPRAGNA LAYOUT)<br><br>VIA: KR MARKET, KUMARASWAMY LAYOUT<br>TOWN HALL, UTTARAHALLI<br>CORPORATION, BANASHANKRI, BDA COMPLEX<br>CORPORATION, PADMANABHA NAGAR<br>CORPORATION, BANASHANKRI, BDA COMPLEX<br>KR MARKET, PADMANABHA NAGAR<br>PADMANABHA NAGARA, UTTARAHALLI<br>]]></description>
+      <styleUrl>#line-F48FB1-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>210-A (ISRO LAYOUT)
+210-E (VASANTHAPURA)
+210-I (CHIKKALLASANDRA)
+210-J (RAMANJENEYA LAYOUT)
+210-K (UTTARAHALLI
+BHARATH CO-OPERATIVE SOCIETY)
+210-NA (POORNAPRAGNA LAYOUT)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>KR MARKET, KUMARASWAMY LAYOUT
+TOWN HALL, UTTARAHALLI
+CORPORATION, BANASHANKRI, BDA COMPLEX
+CORPORATION, PADMANABHA NAGAR
+CORPORATION, BANASHANKRI, BDA COMPLEX
+KR MARKET, PADMANABHA NAGAR
+PADMANABHA NAGARA, UTTARAHALLI
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/24ICpqYqb6ooX4lS1GmMAAVTk8KG5_0Uv2kRW3QrNoShbMqRg_KLNWsIbbiQg9AjzM9wiHmZcfLEJMfixHkH5uBAFqVDIbuP2QptCDWyIBohBqtheCxlZtPiIqmXR7HBT4I</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5728583,12.9780174,0
+          77.5728814,12.9779939,0
+          77.5728948,12.9779802,0
+          77.5729062,12.9779671,0
+          77.5729163,12.9779534,0
+          77.5729293,12.9779349,0
+          77.5729491,12.9779083,0
+          77.5729655,12.9778848,0
+          77.5729753,12.9778684,0
+          77.5729931,12.9778302,0
+          77.5730028,12.9778096,0
+          77.5730098,12.977793,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 10</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/JrXwPsiq2TJlorLXZOo7oxBb5yOcCk1dEd_huoLWFHCna0d8C4XZ6VwyZaEGFaib8mTYxajT3uJ0MaOLG4SpPgzF4-yP6UHGHVAsCvkT_vm2uaIV8V50uZzrgeXBDJ1KvIqno3M" height="200" width="auto" /><br><br>Route (Destination): 36 (SREENAGARA)<br>36-A (AVALAHALLI BDA PARK)<br>36-B (GIRINAGARA EXTENSION)<br>36-D (MUNESHWARA BLOCK)<br>36-E (GIRINAGARA)<br>36-F (KALIDASA LAYOUT)<br>36-H (GIRINAGARA)<br>36-G (AVALAHALLI NEW BDA LAYOUT) <br>10 (AVALAHALLI BDA PARK)<br><br>VIA: CORPORATION, LALBAGH MAIN GATE<br>KR MARKET, APEX BANK<br>CHAMARAJPETE, APEX BANK<br>KR MARKET, APEX BANK<br>CORPORATION, APEX BANK<br>KR MARKET, SREENAGARA<br>CHAMARAJPETE, APEX BANK<br>KR MARKET, NAGENDRA BLOCK<br>CHAMARAJAPETE, ASHRAMA<br>]]></description>
+      <styleUrl>#line-000000-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>36 (SREENAGARA)
+36-A (AVALAHALLI BDA PARK)
+36-B (GIRINAGARA EXTENSION)
+36-D (MUNESHWARA BLOCK)
+36-E (GIRINAGARA)
+36-F (KALIDASA LAYOUT)
+36-H (GIRINAGARA)
+36-G (AVALAHALLI NEW BDA LAYOUT) 
+10 (AVALAHALLI BDA PARK)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>CORPORATION, LALBAGH MAIN GATE
+KR MARKET, APEX BANK
+CHAMARAJPETE, APEX BANK
+KR MARKET, APEX BANK
+CORPORATION, APEX BANK
+KR MARKET, SREENAGARA
+CHAMARAJPETE, APEX BANK
+KR MARKET, NAGENDRA BLOCK
+CHAMARAJAPETE, ASHRAMA
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/JrXwPsiq2TJlorLXZOo7oxBb5yOcCk1dEd_huoLWFHCna0d8C4XZ6VwyZaEGFaib8mTYxajT3uJ0MaOLG4SpPgzF4-yP6UHGHVAsCvkT_vm2uaIV8V50uZzrgeXBDJ1KvIqno3M</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5730115,12.97779,0
+          77.5730209,12.9777639,0
+          77.5730286,12.9777407,0
+          77.5730349,12.9777172,0
+          77.5730444,12.9776728,0
+          77.5730511,12.9776418,0
+          77.5730521,12.977626,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 11</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/x_d2O3VeskALZPhUvRvUThN4BuO4eTcNvYoOX-uSZUHktku9-s3A6w-uPgvX-7a2_1h_yjxwYMqg-a_wpye73mj9KaZt4Y7lGo9sO5WUixH78gAjIc2hwmtL_2Q9GrcFLmGF5WM" height="200" width="auto" /><br><br>Route (Destination): 2 (JP NAGARA 6TH PHASE)<br>2-A (JP NAGARA 1ST PHASE)<br>2-E (JP NAGAR 6TH PHASE)<br>2-G (JP NAGARA 3RD PHASE)<br><br>VIA: LALBAGH MAIN GATE, JAYNAGAR 4TH BLOCK<br>CORPORATION, JAYNAGAR 4TH BLOCK<br>LALBAGH MAIN GATE, JAYNAGAR 4TH BLOCK<br>CORPORATION, JAYNAGAR 4TH BLOCK<br>]]></description>
+      <styleUrl>#line-A1C2FA-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>2 (JP NAGARA 6TH PHASE)
+2-A (JP NAGARA 1ST PHASE)
+2-E (JP NAGAR 6TH PHASE)
+2-G (JP NAGARA 3RD PHASE)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>LALBAGH MAIN GATE, JAYNAGAR 4TH BLOCK
+CORPORATION, JAYNAGAR 4TH BLOCK
+LALBAGH MAIN GATE, JAYNAGAR 4TH BLOCK
+CORPORATION, JAYNAGAR 4TH BLOCK
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/x_d2O3VeskALZPhUvRvUThN4BuO4eTcNvYoOX-uSZUHktku9-s3A6w-uPgvX-7a2_1h_yjxwYMqg-a_wpye73mj9KaZt4Y7lGo9sO5WUixH78gAjIc2hwmtL_2Q9GrcFLmGF5WM</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5732362,12.9776391,0
+          77.5732314,12.9776757,0
+          77.5732271,12.9777123,0
+          77.573224,12.9777371,0
+          77.5732187,12.9777593,0
+          77.5732114,12.9777887,0
+          77.5732006,12.9778351,0
+          77.5731865,12.977873,0
+          77.5731812,12.9778877,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 11-A</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/t-7ERbdztFEb0NweCMUZhYt6USs0NphzpU42HS2s5tTd025JrcJHor37ntQheHV9JEv9i8BF_40rdXrgiPWZRe8_iT2KHYLhv6TGRezu6WZ-XlcPeB4uqGqM6ArSBfdaUoIWuw" height="200" width="auto" /><br><br>Route (Destination): 210-R (VASANTHAPURA)<br>210-U (KUMARSWAMY LAYOUT)<br>211-B (SOMANAHALLI)<br>211-F (KAGGALIPURA)<br>211-L (BCC LAYOUT (RAGUVANAHALLI))<br>212-B (MUNESHWARANAGAR)<br>212-D (AGARA)<br>213-Z (HAROHALLI)<br><br>VIA: MONOTYPE, ISRO LAYOUT<br>KR MARKET, MONOTYPE<br>BANASHANKARI, KAGGALIPURA<br>BANASHANKARI, KONANKUNTE CROSS<br>KR MARKET, CORPORATION<br>CORPORATION, BANASHANKRI<br>CORPORATION, TALAGHATTAPURA<br>KR MARKET, UDAYANAPALYA<br>]]></description>
+      <styleUrl>#line-000000-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>210-R (VASANTHAPURA)
+210-U (KUMARSWAMY LAYOUT)
+211-B (SOMANAHALLI)
+211-F (KAGGALIPURA)
+211-L (BCC LAYOUT (RAGUVANAHALLI))
+212-B (MUNESHWARANAGAR)
+212-D (AGARA)
+213-Z (HAROHALLI)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MONOTYPE, ISRO LAYOUT
+KR MARKET, MONOTYPE
+BANASHANKARI, KAGGALIPURA
+BANASHANKARI, KONANKUNTE CROSS
+KR MARKET, CORPORATION
+CORPORATION, BANASHANKRI
+CORPORATION, TALAGHATTAPURA
+KR MARKET, UDAYANAPALYA
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/t-7ERbdztFEb0NweCMUZhYt6USs0NphzpU42HS2s5tTd025JrcJHor37ntQheHV9JEv9i8BF_40rdXrgiPWZRe8_iT2KHYLhv6TGRezu6WZ-XlcPeB4uqGqM6ArSBfdaUoIWuw</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5731795,12.977892,0
+          77.57316,12.9779419,0
+          77.5731339,12.9779834,0
+          77.5731047,12.9780302,0
+          77.5730799,12.9780658,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 11-B</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/7g_cfTzM-XNYgBkp8XrHogmyl7C2vf_2Xz6tDVh8BsKOIKpqOwKJzo98bY0W6uxVRn2Okq1lrFXMbda1yWrsMXipjX4G6SC7EL8A8S03iKOSR0DOBsAyl4yyFPHsHjHXiljbLQ" height="200" width="auto" /><br><br>Route (Destination): 215-R (ESHAWARA LAYOUT)<br>215-G (SHRINIDHI LAYOUT (KOTTANUR))<br>215-H (JAMBUSAVARI DINNE)<br>215-I (PUNJAB NATIONAL BANK LAYOUT)<br>215-J (KOTTANURU)<br>215-M (VINAYAKANAGAR)<br>215-N (ANJANAPURA)<br>215-NA (AMRUTHANAGAR)<br><br>VIA: VIJAYA COLLEGE, PUTTENAHALLI<br>KR MARKET, KONANAKUNTE CROSS<br>VIJAYA COLLEGE, KOTTANURU DINNE<br>CORPORATION, JARAGANAHALLI<br>VIJAYA COLLEGE, CHANCHAGHATTA<br>CORPORATION, JAYNAGAR 5TH BLOCK<br>KR MARKET, SOUTH END CIRCLE<br>MAHILA SEVA SAMAJA ANJANAPURA<br>]]></description>
+      <styleUrl>#line-A1C2FA-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>215-R (ESHAWARA LAYOUT)
+215-G (SHRINIDHI LAYOUT (KOTTANUR))
+215-H (JAMBUSAVARI DINNE)
+215-I (PUNJAB NATIONAL BANK LAYOUT)
+215-J (KOTTANURU)
+215-M (VINAYAKANAGAR)
+215-N (ANJANAPURA)
+215-NA (AMRUTHANAGAR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>VIJAYA COLLEGE, PUTTENAHALLI
+KR MARKET, KONANAKUNTE CROSS
+VIJAYA COLLEGE, KOTTANURU DINNE
+CORPORATION, JARAGANAHALLI
+VIJAYA COLLEGE, CHANCHAGHATTA
+CORPORATION, JAYNAGAR 5TH BLOCK
+KR MARKET, SOUTH END CIRCLE
+MAHILA SEVA SAMAJA ANJANAPURA
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/7g_cfTzM-XNYgBkp8XrHogmyl7C2vf_2Xz6tDVh8BsKOIKpqOwKJzo98bY0W6uxVRn2Okq1lrFXMbda1yWrsMXipjX4G6SC7EL8A8S03iKOSR0DOBsAyl4yyFPHsHjHXiljbLQ</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5730769,12.9780697,0
+          77.5730604,12.9780932,0
+          77.5730473,12.9781093,0
+          77.5730318,12.978127,0
+          77.5730142,12.9781445,0
+          77.5729944,12.9781649,0
+          77.5729726,12.9781863,0
+          77.5729598,12.9781965,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 12</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/syF_uaifoasWrMAGCxTlHuND4p_xqdILVoSle2iZeBMcc6WQe8k9fytCV5ArtM7pGUPVW2-w7toQBimg6sw6A8Bpgg8i_AZ-h3jgkHxIHfNb1tUWjmUzU5keDeoNHRrzyyn2wg" height="200" width="auto" /><br><br>Route (Destination): 12 (BANASHANKARI)<br>12-A (BANASHANKARI 2ND STAGE)<br>12-B (PADMANABHA NAGAR)<br>12-C (PADMANABHA NAGAR)<br>12-D (KADIRENAHALLI PARK)<br>12-E (BANASHANKARI)<br>12-F (CHIKKALLASANDRA)<br>15-C (KUMARSWAMY LAYOUT)<br>15-E (KUMARSWAMY LAYOUT)<br><br>VIA: LALBAGH MAIN GATE, VIJAYA COLLEGE<br>CORPORATION, VIJAYA COLLEGE<br>LALBAGH MAIN GATE, BANASHANKARI 2ND STAGE<br>CORPORATION, VIJAYA COLLEGE, TATA SILK FARM<br>CORPORATION, VIJAYA COLLEGE<br>CORPORATION, SOUTHEND CIRCLE<br>LALBAGH MAIN GATE, MANOTYPE<br>CORPORATION, VIJAYA COLLEGE, TATA SILK FARM<br>KR MARKET, MANOTYPE<br>]]></description>
+      <styleUrl>#line-000000-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>12 (BANASHANKARI)
+12-A (BANASHANKARI 2ND STAGE)
+12-B (PADMANABHA NAGAR)
+12-C (PADMANABHA NAGAR)
+12-D (KADIRENAHALLI PARK)
+12-E (BANASHANKARI)
+12-F (CHIKKALLASANDRA)
+15-C (KUMARSWAMY LAYOUT)
+15-E (KUMARSWAMY LAYOUT)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>LALBAGH MAIN GATE, VIJAYA COLLEGE
+CORPORATION, VIJAYA COLLEGE
+LALBAGH MAIN GATE, BANASHANKARI 2ND STAGE
+CORPORATION, VIJAYA COLLEGE, TATA SILK FARM
+CORPORATION, VIJAYA COLLEGE
+CORPORATION, SOUTHEND CIRCLE
+LALBAGH MAIN GATE, MANOTYPE
+CORPORATION, VIJAYA COLLEGE, TATA SILK FARM
+KR MARKET, MANOTYPE
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/syF_uaifoasWrMAGCxTlHuND4p_xqdILVoSle2iZeBMcc6WQe8k9fytCV5ArtM7pGUPVW2-w7toQBimg6sw6A8Bpgg8i_AZ-h3jgkHxIHfNb1tUWjmUzU5keDeoNHRrzyyn2wg</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5729572,12.9781984,0
+          77.5729029,12.9782399,0
+          77.572877,12.9782592,0
+          77.5728472,12.9782778,0
+          77.5727979,12.9783062,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 12-A</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/ADQC7WGHBee3-_768Vh9Lrwa8E70Bh7bLJ0XUqMfZCZsNISZNeLHEtYclRVsbm9NfpgMfBFrPfmySex8AkLGLZl9p0G5qzaLpQNkHtjTu27vqA0DFEEeQErsutZnHBcQGWmvMg" height="200" width="auto" /><br><br>Route (Destination): 15-G (KUMARSWAMY LAYOUT 2ND STAGE)<br>15-H (JHB COLONY)<br>15-J (BANASHANKARI 2ND STAGE)<br>15-L (MINAJ NAGAR)<br><br>VIA: TOWN HALL, MANOTYPE<br>CORPORATION, KADIRENAHALLI CROSS<br>KR MARKET, MANOTYPE<br>KR MARKET, KADIRENAHALLI CROSS<br>]]></description>
+      <styleUrl>#line-A1C2FA-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>15-G (KUMARSWAMY LAYOUT 2ND STAGE)
+15-H (JHB COLONY)
+15-J (BANASHANKARI 2ND STAGE)
+15-L (MINAJ NAGAR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>TOWN HALL, MANOTYPE
+CORPORATION, KADIRENAHALLI CROSS
+KR MARKET, MANOTYPE
+KR MARKET, KADIRENAHALLI CROSS
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/ADQC7WGHBee3-_768Vh9Lrwa8E70Bh7bLJ0XUqMfZCZsNISZNeLHEtYclRVsbm9NfpgMfBFrPfmySex8AkLGLZl9p0G5qzaLpQNkHtjTu27vqA0DFEEeQErsutZnHBcQGWmvMg</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5727942,12.9783088,0
+          77.5727728,12.978319,0
+          77.5727044,12.9783464,0
+          77.5726698,12.9783595,0
+          77.5726346,12.9783683,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 13-A</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/8kGzgkBsw9ZOBg9KNy1xw2sZHXvuKGr_eRn5aEFRBqSnP9SI2ivwUaTXN0JPYUbRlHcMpd0qwWPqEphI0VaPliFN6_3xO4oxfZEgAlKrphd2panvjOWuunPoGYKdgnmG2fUnFw" height="200" width="auto" /><br><br>Route (Destination): 25-F	(BTM LAYOUT)<br>25-G	(BTM LAYOUT)<br>25-H	(KUVEMPUNAGAR)<br>25-K	(JP NAGAR 4TH STAGE, DOLLAR'S COLONY)<br>25-N	(BTM 7TH MAIN ROAD)<br>25-J	(KUVEMPUNAGAR)<br>364-A	(MICO SHRAMAJEEVI COLONY)<br>364-B	(DEVARACHIKKANAHALLI)<br>364-C	(VIJAYA BANK COLONY)<br><br>VIA: CORPORATION, VIJAYA COLLEGE<br>CORPORATION, VIJAYA COLLEGE<br>CORPORATION, LALBAGH<br>MAHARANI COLLEGE, JAYNAGAR 4TH BLOCK<br>CORPORATION, ASHOKA PILLAR, JAYNAGAR 4TH BLOCK EAST<br>CORPORATION, ASHOKA PILLAR<br>CORPORATION, SOUTHEND CIRCLE, BILEKALLI<br>CORPORATION, SOUTHEND CIRCLE, VIJAYA BANK COLONY<br>CORPORATION, SOUTHEND CIRCLE<br>]]></description>
+      <styleUrl>#line-000000-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value><![CDATA[25-F	(BTM LAYOUT)
+25-G	(BTM LAYOUT)
+25-H	(KUVEMPUNAGAR)
+25-K	(JP NAGAR 4TH STAGE, DOLLAR'S COLONY)
+25-N	(BTM 7TH MAIN ROAD)
+25-J	(KUVEMPUNAGAR)
+364-A	(MICO SHRAMAJEEVI COLONY)
+364-B	(DEVARACHIKKANAHALLI)
+364-C	(VIJAYA BANK COLONY)
+]]></value>
+        </Data>
+        <Data name="VIA">
+          <value>CORPORATION, VIJAYA COLLEGE
+CORPORATION, VIJAYA COLLEGE
+CORPORATION, LALBAGH
+MAHARANI COLLEGE, JAYNAGAR 4TH BLOCK
+CORPORATION, ASHOKA PILLAR, JAYNAGAR 4TH BLOCK EAST
+CORPORATION, ASHOKA PILLAR
+CORPORATION, SOUTHEND CIRCLE, BILEKALLI
+CORPORATION, SOUTHEND CIRCLE, VIJAYA BANK COLONY
+CORPORATION, SOUTHEND CIRCLE
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/8kGzgkBsw9ZOBg9KNy1xw2sZHXvuKGr_eRn5aEFRBqSnP9SI2ivwUaTXN0JPYUbRlHcMpd0qwWPqEphI0VaPliFN6_3xO4oxfZEgAlKrphd2panvjOWuunPoGYKdgnmG2fUnFw</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5726299,12.9783699,0
+          77.5725752,12.9783836,0
+          77.5725364,12.9783915,0
+          77.5725113,12.9783941,0
+          77.5724729,12.9783964,0
+          77.5724371,12.9783997,0
+          77.5724006,12.978402,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 13-B</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/6VYlWvSP1VTjw7OfGxevGj5Fr_fmo3SU3FJXo9dZ28HWAyQQytOzNwGVhURIjgItGz7cHtz00z20lpx9PuzLLKpXbbxy57gsJdALSMKoQGz8B_AW2wS_dLftXny9a1mXWKwH2A" height="200" width="auto" /><br><br>Route (Destination): 364-F	(NARAYANAPPANA HALLI)<br>364-G	(KODICHIKKANA HALLI)<br><br>VIA: SHANTINAGAR, JAYADEVA HOSPITAL<br>CORPORATION, JAYADEVA HOSPITAL<br>]]></description>
+      <styleUrl>#line-A1C2FA-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>364-F	(NARAYANAPPANA HALLI)
+364-G	(KODICHIKKANA HALLI)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>SHANTINAGAR, JAYADEVA HOSPITAL
+CORPORATION, JAYADEVA HOSPITAL
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/6VYlWvSP1VTjw7OfGxevGj5Fr_fmo3SU3FJXo9dZ28HWAyQQytOzNwGVhURIjgItGz7cHtz00z20lpx9PuzLLKpXbbxy57gsJdALSMKoQGz8B_AW2wS_dLftXny9a1mXWKwH2A</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5723962,12.978402,0
+          77.5723483,12.9784,0
+          77.5722973,12.978398,0
+          77.5722698,12.9783971,0
+          77.5722514,12.9783941,0
+          77.5722222,12.9783882,0
+          77.57219,12.9783813,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 14-A</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/yosXFGEfd2DKh77Rn6wLW3owBm8oWqzPynoDQzMOKoQdxIhCgRNBsCcerS_3V4UDuWjgKJEcPQn3ntaF0M_VQ3aGDmhm_hdTPFN8sKe0VWx6caW-3z7xLQMftr3KYb0dg6zzhA" height="200" width="auto" /><br><br>Route (Destination): 165-G	(KORAMANGALA 8TH BLOCK)<br>168-D	(TAVAREKERE)<br>168-E	(JAI BHEEMANAGARA)<br>168-F	(OLD GURAPPANAPALYA)<br>171	(KORAMANGALA )<br>171-B	(KORAMANGALA 8TH BLOCK)<br>171-C	(KORAMANGALA KENDRIYA SADANA)<br>171-D	(VENKATAPURA)<br><br>VIA: CORPORATION, WILSON GARDEN<br>CORPORATION, NIMHANS<br>CORPORATION, NIMHANS<br>SHANTHINAGAR, NIMHANS<br>CORPORATION, BANGALORE DAIRY<br>SHANTHINAGAR, WILSON GARDEN<br>NIMHANS, BANGLORE DAIRY<br>CORPORATION, BANGALORE DAIRY<br>]]></description>
+      <styleUrl>#line-000000-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>165-G	(KORAMANGALA 8TH BLOCK)
+168-D	(TAVAREKERE)
+168-E	(JAI BHEEMANAGARA)
+168-F	(OLD GURAPPANAPALYA)
+171	(KORAMANGALA )
+171-B	(KORAMANGALA 8TH BLOCK)
+171-C	(KORAMANGALA KENDRIYA SADANA)
+171-D	(VENKATAPURA)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>CORPORATION, WILSON GARDEN
+CORPORATION, NIMHANS
+CORPORATION, NIMHANS
+SHANTHINAGAR, NIMHANS
+CORPORATION, BANGALORE DAIRY
+SHANTHINAGAR, WILSON GARDEN
+NIMHANS, BANGLORE DAIRY
+CORPORATION, BANGALORE DAIRY
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/yosXFGEfd2DKh77Rn6wLW3owBm8oWqzPynoDQzMOKoQdxIhCgRNBsCcerS_3V4UDuWjgKJEcPQn3ntaF0M_VQ3aGDmhm_hdTPFN8sKe0VWx6caW-3z7xLQMftr3KYb0dg6zzhA</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.572185,12.9783797,0
+          77.5721465,12.9783716,0
+          77.5721143,12.9783634,0
+          77.5720891,12.9783546,0
+          77.5720627,12.9783441,0
+          77.5720434,12.9783373,0
+          77.5720234,12.9783298,0
+          77.5720111,12.9783215,0
+          77.5719916,12.9783098,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 14-B</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/PL15ZWyZFS5e7b_SYvV9lQm79-iBVnOwDlXH6S_OuXZI3A03EmJbHsTrAWapiFZOSrctSKLkRK2fLfHTiGm0OT6stap7zBDjVWMNYSQA8wLT_0mLXow3ZGwLZVNUN1ZrRtrFbw" height="200" width="auto" /><br><br>Route (Destination): 171-F	(KORAMANGALA HOUSING COMPANY)<br>171-G	(KORAMANGALA)<br>171-H	(KORAMANGALA HOUSING COMPANY)<br>171-J	(KORAMANGALA)<br>171-PP	(KORAMNAGALA)<br><br>VIA: SHANTI NAGAR, BANGLORE DAIRY<br>CORPORATION, HOSUR ROAD, KALYANA MANTAPA<br>CORPORATION, DAIRY, AUDUGODI<br>BANGLORE DAIRY, KRM, KALYANA MANTAPA<br>CORPORATION, DAIRY, AUDUGODI<br>]]></description>
+      <styleUrl>#line-A1C2FA-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>171-F	(KORAMANGALA HOUSING COMPANY)
+171-G	(KORAMANGALA)
+171-H	(KORAMANGALA HOUSING COMPANY)
+171-J	(KORAMANGALA)
+171-PP	(KORAMNAGALA)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>SHANTI NAGAR, BANGLORE DAIRY
+CORPORATION, HOSUR ROAD, KALYANA MANTAPA
+CORPORATION, DAIRY, AUDUGODI
+BANGLORE DAIRY, KRM, KALYANA MANTAPA
+CORPORATION, DAIRY, AUDUGODI
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/PL15ZWyZFS5e7b_SYvV9lQm79-iBVnOwDlXH6S_OuXZI3A03EmJbHsTrAWapiFZOSrctSKLkRK2fLfHTiGm0OT6stap7zBDjVWMNYSQA8wLT_0mLXow3ZGwLZVNUN1ZrRtrFbw</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5719879,12.9783085,0
+          77.5719597,12.9782928,0
+          77.5719336,12.9782772,0
+          77.5719098,12.9782612,0
+          77.5718689,12.9782298,0
+          77.5718491,12.978215,0
+          77.571832,12.9782007,0
+          77.5718135,12.9781808,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 15-D</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/w_FZ_lHxiL9thZfvDZ0dTw1IKiG2loj2G4apC8od8STT1XJRXJtAOaP8k_j_KEXd64Z4DB0AVVk_vbu0w7XpnXVk7umudyDg-SVR7RPxNruKzN5IeAEbzixoS69mnmqx8mMLm8U" height="200" width="auto" /><br><br>Route (Destination): 353-C	(JIGANI)<br>354-C	(MARASUR)<br>355-A	(SREERAMPURA)<br>355-C	(JIGANI)<br>355-Q	(DYAVASANDRA)<br>356	(CHANDAPURA)<br>356-A	(TATTANAHALLI)<br>356-C	(ELECTRONIC CITY)<br>356-D	(SAMPUGENAGAR)<br><br>VIA: MADIVALA, RAJAPURA<br>MADIVALA, KOODLU GATE, IGLURU<br>HEBBAGODI, MARADEVANHALLI<br>KOODLU GATE, TEMPLE CROSS<br>MADIVALA, KONAPPANA AGRAHARA<br>SINGASANDRA, BTL COLLEGE<br>KOODLU GATE, BYRADEVAHALLI<br>SINGASANDRA, KONAPPANA AGRAHARA<br>MADIVALA, HUSKURU GATE<br>]]></description>
+      <styleUrl>#line-000000-8169</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>353-C	(JIGANI)
+354-C	(MARASUR)
+355-A	(SREERAMPURA)
+355-C	(JIGANI)
+355-Q	(DYAVASANDRA)
+356	(CHANDAPURA)
+356-A	(TATTANAHALLI)
+356-C	(ELECTRONIC CITY)
+356-D	(SAMPUGENAGAR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MADIVALA, RAJAPURA
+MADIVALA, KOODLU GATE, IGLURU
+HEBBAGODI, MARADEVANHALLI
+KOODLU GATE, TEMPLE CROSS
+MADIVALA, KONAPPANA AGRAHARA
+SINGASANDRA, BTL COLLEGE
+KOODLU GATE, BYRADEVAHALLI
+SINGASANDRA, KONAPPANA AGRAHARA
+MADIVALA, HUSKURU GATE
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/w_FZ_lHxiL9thZfvDZ0dTw1IKiG2loj2G4apC8od8STT1XJRXJtAOaP8k_j_KEXd64Z4DB0AVVk_vbu0w7XpnXVk7umudyDg-SVR7RPxNruKzN5IeAEbzixoS69mnmqx8mMLm8U</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5718102,12.9781785,0
+          77.5717817,12.9781481,0
+          77.5717596,12.9781242,0
+          77.5717394,12.9780997,0
+          77.5717223,12.9780782,0
+          77.5716999,12.9780504,0
+          77.5716952,12.9780435,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 17-D</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/6vGUzz7VxeVvwPkSQyREDeIcdrR9Q8nPrwSpHvPsqpASPpoPX_sB3IO1wrzCpQyQQmnic2sXZDPO0PtuEWAdJzbMDBSt3m-Kkft2wDbK5hmh_-v9QTGJSqfoOBUF1Zr0CbwI" height="200" width="auto" /><br><br>Route (Destination): 335-A	(SATHYA SAI HOSPITAL)<br>335-F	(LAL BAHADUR SHASTRI NAGAR)<br>336-B	(KEMPAPURA)<br>381	(THIMMASANDRA)<br><br>VIA: MILITARY HOSPITAL, MARATHAHALLI<br>MAYOHALL, HAL MAIN GATE<br>DOMLURU, YAMALURU<br>HALASURU, HALAPPANAHALLI<br>]]></description>
+      <styleUrl>#line-A1C2FA-8363</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>335-A	(SATHYA SAI HOSPITAL)
+335-F	(LAL BAHADUR SHASTRI NAGAR)
+336-B	(KEMPAPURA)
+381	(THIMMASANDRA)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MILITARY HOSPITAL, MARATHAHALLI
+MAYOHALL, HAL MAIN GATE
+DOMLURU, YAMALURU
+HALASURU, HALAPPANAHALLI
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/6vGUzz7VxeVvwPkSQyREDeIcdrR9Q8nPrwSpHvPsqpASPpoPX_sB3IO1wrzCpQyQQmnic2sXZDPO0PtuEWAdJzbMDBSt3m-Kkft2wDbK5hmh_-v9QTGJSqfoOBUF1Zr0CbwI</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5716928,12.9780403,0
+          77.571672,12.9780115,0
+          77.5716608,12.9779957,0
+          77.5716503,12.9779792,0
+          77.5716407,12.9779664,0
+          77.5716321,12.9779498,0
+          77.5716255,12.9779347,0
+          77.5716177,12.9779191,0
+          77.5715953,12.977872,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 18</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/Ia0t33vwJFNoP617noHmRM7BkFGM9SwEsWPS7U1Io-x7QTDqaMxRSKv1ShQHuT9y1RuwOpNQ7Q6gU2Jpf9d_sHqJen56J9MMEm0qftwOIqgOE-QYLQNA4QdsnODG2n6nrYGTNg" height="200" width="auto" /><br><br>Route (Destination): 131	(DOOPANAHALLI)<br>131-B	(OLD BYAPPANAHALLI)<br>131-C	(DOMLURU)<br>314-H	(DOMLURU)<br>314-D	(INDIRANAGAR, ESI HOSPITAL)<br>314-B	(JEEVANABHIMA NAGAR)<br>138-D	(JEEVANABHIMA NAGAR)<br><br>VIA: CORPORATION, ULSOOR<br>MAYOHALL, ULSOOR<br>ULSOOR, DOOPANAHALLI<br>MALLESHPALYA<br>VIGNANANAGAR<br>C.V. RAMAN NAGAR<br>K.R. CIRCLE, ULSOOR<br>]]></description>
+      <styleUrl>#line-000000-8169</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>131	(DOOPANAHALLI)
+131-B	(OLD BYAPPANAHALLI)
+131-C	(DOMLURU)
+314-H	(DOMLURU)
+314-D	(INDIRANAGAR, ESI HOSPITAL)
+314-B	(JEEVANABHIMA NAGAR)
+138-D	(JEEVANABHIMA NAGAR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>CORPORATION, ULSOOR
+MAYOHALL, ULSOOR
+ULSOOR, DOOPANAHALLI
+MALLESHPALYA
+VIGNANANAGAR
+C.V. RAMAN NAGAR
+K.R. CIRCLE, ULSOOR
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/Ia0t33vwJFNoP617noHmRM7BkFGM9SwEsWPS7U1Io-x7QTDqaMxRSKv1ShQHuT9y1RuwOpNQ7Q6gU2Jpf9d_sHqJen56J9MMEm0qftwOIqgOE-QYLQNA4QdsnODG2n6nrYGTNg</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5715651,12.977788,0
+          77.5715685,12.9777979,0
+          77.5715822,12.9778367,0
+          77.5715939,12.9778681,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 18-A</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/ZJtwOOqhvlZiw2juXD2EV36_8Y763hUrBWAQ1KlZuHPhK8DmVOlsvBQPYQynQIjr9YdytG8BYKiV5QCllMNG7TTsYbmPfUN9Zk1PKpEi4jjl58VbL0u4UfIFi-vKKtZefuProg" height="200" width="auto" /><br><br>Route (Destination): 314-B	(C.V. RAMAN NAGAR)<br>314-D	(288 VIGNYANA NAGAR)<br>314-E	(D.R.D.O. TOWNSHIP)<br>314-G	(BYRASANDRA)<br>314-H	(MALLESH PALYA)<br>314-T	(BASAVANAGAR)<br>314-X	(ABBAIAREDDY LAYOUT)<br>314-Z	(JAGADISHANAGAR)<br><br>VIA: HALASURU, NAGAVARAPALYA<br>MAYOHALL, MALLESHPALYA<br>HALASURU, KAGGADASAPURA<br>MEYOHALLI, BEML GATE<br>CORPORATION, THIPPASANDRA CROSS<br>HALASURU, MALLESH PALYA<br>HALASURU, VIGNANANAGAR<br>HALASURU, BEML GATE<br>]]></description>
+      <styleUrl>#line-880E4F-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>314-B	(C.V. RAMAN NAGAR)
+314-D	(288 VIGNYANA NAGAR)
+314-E	(D.R.D.O. TOWNSHIP)
+314-G	(BYRASANDRA)
+314-H	(MALLESH PALYA)
+314-T	(BASAVANAGAR)
+314-X	(ABBAIAREDDY LAYOUT)
+314-Z	(JAGADISHANAGAR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>HALASURU, NAGAVARAPALYA
+MAYOHALL, MALLESHPALYA
+HALASURU, KAGGADASAPURA
+MEYOHALLI, BEML GATE
+CORPORATION, THIPPASANDRA CROSS
+HALASURU, MALLESH PALYA
+HALASURU, VIGNANANAGAR
+HALASURU, BEML GATE
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/ZJtwOOqhvlZiw2juXD2EV36_8Y763hUrBWAQ1KlZuHPhK8DmVOlsvBQPYQynQIjr9YdytG8BYKiV5QCllMNG7TTsYbmPfUN9Zk1PKpEi4jjl58VbL0u4UfIFi-vKKtZefuProg</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5715631,12.9777841,0
+          77.5715568,12.9777619,0
+          77.571552,12.9777406,0
+          77.571548,12.9777195,0
+          77.571543,12.9776962,0
+          77.5715399,12.9776796,0
+          77.5715376,12.9776648,0
+          77.5715366,12.9776463,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 19</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/wiI3ngQGaXIOFPVQuuQEqtaGVQOGCpeS9j_F_-9AT4ox_pGtsvsEapj_ia4Zb5miCn1ynZM9sIn6sSflYCARslx2cKS8dLygypP3Hp1SvdP4lKbDzhxdQJnkHEgKV40H-UIzXA" height="200" width="auto" /><br><br>Route (Destination): 126	(JEEVANAHALLI)<br>129	(SHIVAJINAGAR)<br>290	(NAGAVARA)<br>290-B	(NAGAVARA)<br>290-T	(HBR LAYOUT 1ST STAGE)<br>290-J	(MESTRI PALYA)<br>291-H	(RK HEGDE NAGAR)<br>291-M	(GOVINDAPURA)<br>302-F	(BABASAB PALYA)<br>302-B	(JALAVAYU VIHARA)<br>302-K	(LINGARAJAPURA KHB COLONY)<br>302-N	(KALYANANAGAR)<br>302-A	(BABASAB PALYA)<br><br>VIA: INDIAN EXPRESS, COLES PARK<br>VIDHANA SOUDHA, INDIAN EXPRESS<br>VIDHAN SOUDHA, COLES PARK<br>INDIAN EXPRESS, CANTONMENT<br>INDIAN EXPRESS, KACHAKANAHALLI<br>INDIAN EXPRESS, NAGAVARA<br>VIDHANA SOUDHA, MUSLIM COLONY<br>INDIAN EXPRESS, COLES PARK<br>COLES PARK, SUBBAIAHNA PALYA<br>ITC FACTORY, KAMMANAHALLI<br>KR CIRCLE, MARUTHISEVANAGAR<br>VASANTHANAGAR, COLES PARK<br>KR CIRCLE, ITC FACTORY<br><br><br><img src="https://lh4.googleusercontent.com/TwGgp_XkWNaevyqJW3j8ZOMG-3RVyDjaWNSDidFIFEgMjdaK85HL4-hdBBd2c-zi-Dmx4wDU6fLBRr1_ndbGp_67CVdTszkLCvqTqNCnn3TsZIPjexZw4ZDvQvzLIR0mzkrW-Q" height="200" width="auto" />]]></description>
+      <styleUrl>#line-FFEA00-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>126	(JEEVANAHALLI)
+129	(SHIVAJINAGAR)
+290	(NAGAVARA)
+290-B	(NAGAVARA)
+290-T	(HBR LAYOUT 1ST STAGE)
+290-J	(MESTRI PALYA)
+291-H	(RK HEGDE NAGAR)
+291-M	(GOVINDAPURA)
+302-F	(BABASAB PALYA)
+302-B	(JALAVAYU VIHARA)
+302-K	(LINGARAJAPURA KHB COLONY)
+302-N	(KALYANANAGAR)
+302-A	(BABASAB PALYA)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>INDIAN EXPRESS, COLES PARK
+VIDHANA SOUDHA, INDIAN EXPRESS
+VIDHAN SOUDHA, COLES PARK
+INDIAN EXPRESS, CANTONMENT
+INDIAN EXPRESS, KACHAKANAHALLI
+INDIAN EXPRESS, NAGAVARA
+VIDHANA SOUDHA, MUSLIM COLONY
+INDIAN EXPRESS, COLES PARK
+COLES PARK, SUBBAIAHNA PALYA
+ITC FACTORY, KAMMANAHALLI
+KR CIRCLE, MARUTHISEVANAGAR
+VASANTHANAGAR, COLES PARK
+KR CIRCLE, ITC FACTORY
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/wiI3ngQGaXIOFPVQuuQEqtaGVQOGCpeS9j_F_-9AT4ox_pGtsvsEapj_ia4Zb5miCn1ynZM9sIn6sSflYCARslx2cKS8dLygypP3Hp1SvdP4lKbDzhxdQJnkHEgKV40H-UIzXA https://lh4.googleusercontent.com/TwGgp_XkWNaevyqJW3j8ZOMG-3RVyDjaWNSDidFIFEgMjdaK85HL4-hdBBd2c-zi-Dmx4wDU6fLBRr1_ndbGp_67CVdTszkLCvqTqNCnn3TsZIPjexZw4ZDvQvzLIR0mzkrW-Q</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5713184,12.9776505,0
+          77.571321,12.9776858,0
+          77.5713241,12.9777175,0
+          77.5713311,12.9777576,0
+          77.5713381,12.9777962,0
+          77.5713472,12.9778357,0
+          77.5713532,12.9778606,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 19-A</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/E0EiEGpq-rb-7t6onubXgoluHSTN7iigwDP4ivT7JLTnqYOVFc-FP8OO2k37OdIKMqZ1o0ZrVQm_D_Mah4Aj5ieckbPSeBdHW84JqbTDUEsfFrZ7DgaPazlIf8IWegz9Zbewpg" height="200" width="auto" /><br><br>Route (Destination): 292-A	(K NARAYANAPURA)<br>292-B	(NAGARESH NAGENAHALLI)<br>292-C	(K NARAYANAPURA)<br>293-N	(GEDDALAHALLI)<br>293-H	(DASANAYAKANAHALLI)<br>294-E	(BILISHIVALAYA)<br>295-A	(DODDAGUBBI)<br>295-B	(ANGALIPURA)<br>296-A	(YARABNAHALLI)<br><br>VIA: SHIVANANDA STORE, HEBBALA<br>CONTONMENT, LINGARAJAPURA<br>INDIAN EXPRESS, ITC<br>INDIAN EXPRESS, COLES PARK<br>INDIAN EXPRESS, BAGALURU<br>INDIAN EXPRESS, KACHAKANAHALLI<br>CONTONMENT, HENNUR CROSS<br>INDIAN EXPRESS, GEDDALAHALLI<br>PULKESHINAGAR, CHIKKAGUBBI CROSS<br>]]></description>
+      <styleUrl>#line-000000-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>292-A	(K NARAYANAPURA)
+292-B	(NAGARESH NAGENAHALLI)
+292-C	(K NARAYANAPURA)
+293-N	(GEDDALAHALLI)
+293-H	(DASANAYAKANAHALLI)
+294-E	(BILISHIVALAYA)
+295-A	(DODDAGUBBI)
+295-B	(ANGALIPURA)
+296-A	(YARABNAHALLI)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>SHIVANANDA STORE, HEBBALA
+CONTONMENT, LINGARAJAPURA
+INDIAN EXPRESS, ITC
+INDIAN EXPRESS, COLES PARK
+INDIAN EXPRESS, BAGALURU
+INDIAN EXPRESS, KACHAKANAHALLI
+CONTONMENT, HENNUR CROSS
+INDIAN EXPRESS, GEDDALAHALLI
+PULKESHINAGAR, CHIKKAGUBBI CROSS
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/E0EiEGpq-rb-7t6onubXgoluHSTN7iigwDP4ivT7JLTnqYOVFc-FP8OO2k37OdIKMqZ1o0ZrVQm_D_Mah4Aj5ieckbPSeBdHW84JqbTDUEsfFrZ7DgaPazlIf8IWegz9Zbewpg</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5713586,12.9778671,0
+          77.5713603,12.9778747,0
+          77.5713671,12.977897,0
+          77.5713888,12.9779521,0
+          77.5714139,12.978005,0
+          77.5714347,12.9780458,0
+          77.5714417,12.9780605,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 19-B</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/4_Y50k2Uwik9MvDRRgwJLCHOwApGChRYPG-OP3Izy99V2qYVwkIy1eWXMfUu8BGBgjdVFdLtzZqu2dFhhkJssKTZ2PdsBKpbIGCCiiD0ZX2-vIP4sNbTIhYlVaIjP-n_ZoSWag" height="200" width="auto" /><br><br>Route (Destination): 296-B	(HBR LAYOUT 5TH STAGE)<br>296-C	(KALYANANAGAR)<br>296-N	(KADA AGRHARA)<br>296-T	(HBR LAYOUT 1ST STAGE)<br>296-V	(HBR, BDA COMPLEX)<br>300-B	(BANASWADI)<br>300-C	(K.R. PURAM)<br>415-H	(AMARAJYOTHI LAYOUT)<br><br>VIA: COLES PARK, HBR LAYOUT, K.P.T.C.L. OFFICE<br>COLES PARK, LINGARAJAPURA<br>VASANTHANAGAR, CLARENCE SCHOOL<br>CLARENCE SCHOL, KACHARAKANAHALLI<br>CONTONMENT, LINGARAJAPURA<br>MARUTHI, SEVANAGAR<br>COLES PARK, BANASWADI<br>HEBBALA, NAGAWARA<br>]]></description>
+      <styleUrl>#line-FFEA00-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>296-B	(HBR LAYOUT 5TH STAGE)
+296-C	(KALYANANAGAR)
+296-N	(KADA AGRHARA)
+296-T	(HBR LAYOUT 1ST STAGE)
+296-V	(HBR, BDA COMPLEX)
+300-B	(BANASWADI)
+300-C	(K.R. PURAM)
+415-H	(AMARAJYOTHI LAYOUT)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>COLES PARK, HBR LAYOUT, K.P.T.C.L. OFFICE
+COLES PARK, LINGARAJAPURA
+VASANTHANAGAR, CLARENCE SCHOOL
+CLARENCE SCHOL, KACHARAKANAHALLI
+CONTONMENT, LINGARAJAPURA
+MARUTHI, SEVANAGAR
+COLES PARK, BANASWADI
+HEBBALA, NAGAWARA
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/4_Y50k2Uwik9MvDRRgwJLCHOwApGChRYPG-OP3Izy99V2qYVwkIy1eWXMfUu8BGBgjdVFdLtzZqu2dFhhkJssKTZ2PdsBKpbIGCCiiD0ZX2-vIP4sNbTIhYlVaIjP-n_ZoSWag</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5714525,12.9780795,0
+          77.5714632,12.9780991,0
+          77.5715024,12.9781556,0
+          77.571543,12.9782089,0
+          77.5715933,12.9782687,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 19-C</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/ZAgHg6XqmabZmGZnP80Acq_119YaACtYLhbZzgPu4fbfWWTWPSdDWINR3Eu6Nh_ViuwXLhpEuRz8cVV0yEOmouRo_eJ3a4dkJS_Xzu6doFNdm3lrE17X4RicsbizuYjIvyB4qg" height="200" width="auto" /><br><br>Route (Destination): 56	(JAGAJEEVANRAM NAGAR)<br>57-A	(BAPUJINAGAR)<br>58	(TIMBER YARD LAYOUT)<br>58-C	(TELECOM LAYOUT)<br>59-D	(NAYANDAHALLI RAILWAY GATE)<br>218-A	(KAMBIPURA)<br>221-A	(TAVAREKERE)<br><br>VIA: KR MARKET, SIRASI CIRCLE<br>CORPORATION, SIRASI CIRCLE<br>CORPORATION, NEW GUDDADAHALLI<br>KR MARKET, BAPUJINAGAR<br>KR MARKET, ATTIGUPPE<br>M.C.T.C. BUS STATION, KENGERI<br>NAYANDAHALLI, KOMMAGHATTA<br>]]></description>
+      <styleUrl>#line-000000-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>56	(JAGAJEEVANRAM NAGAR)
+57-A	(BAPUJINAGAR)
+58	(TIMBER YARD LAYOUT)
+58-C	(TELECOM LAYOUT)
+59-D	(NAYANDAHALLI RAILWAY GATE)
+218-A	(KAMBIPURA)
+221-A	(TAVAREKERE)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>KR MARKET, SIRASI CIRCLE
+CORPORATION, SIRASI CIRCLE
+CORPORATION, NEW GUDDADAHALLI
+KR MARKET, BAPUJINAGAR
+KR MARKET, ATTIGUPPE
+M.C.T.C. BUS STATION, KENGERI
+NAYANDAHALLI, KOMMAGHATTA
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/ZAgHg6XqmabZmGZnP80Acq_119YaACtYLhbZzgPu4fbfWWTWPSdDWINR3Eu6Nh_ViuwXLhpEuRz8cVV0yEOmouRo_eJ3a4dkJS_Xzu6doFNdm3lrE17X4RicsbizuYjIvyB4qg</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5715976,12.9782764,0
+          77.5716218,12.9783003,0
+          77.5716765,12.978348,0
+          77.5717364,12.9783953,0
+          77.5717488,12.9784055,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 19-D</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/qJdfZlgJ3Q9nuhjlZzhg4EwPa4Qo33jOF1yduugTRiPZM4B8ZKNdipGKMwzqDyF_rCO-y-_nZxhKOlPvaOZQ_5yQZN2nZKskG7seF4H9pPv6zquJ0Irvyt8KVjuLPiIiCZPuMWI" height="200" width="auto" /><br><br>Route (Destination): 222-C	(NAGADEVANAHALLI)<br>225-CB	(B.H.E.L. LAYOUT)<br>225-G	(BANGARAPPANAGAR)<br>225-H	(SHAKTI HILLS RESORTS)<br>405	(KEMPEGOWDA BUS STATION)<br><br>VIA: BAPUJINAGAR, NAYANDAHALLI, KENGERI<br>COTTONPETE, R.R. TEMPLE, B.H.E.L. LAYOUT CROSS<br>KR MARKET, BPUJINAGAR, DEVADIGA SOUDHA<br>COTTONPETE, NAYANDAHALLI, DEVADIGA SOUDHA<br>COTTONPETE, R.V. COLLEGE, MALLATHAHALLI, KAMAKSHIPALYA<br>]]></description>
+      <styleUrl>#line-FFEA00-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>222-C	(NAGADEVANAHALLI)
+225-CB	(B.H.E.L. LAYOUT)
+225-G	(BANGARAPPANAGAR)
+225-H	(SHAKTI HILLS RESORTS)
+405	(KEMPEGOWDA BUS STATION)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>BAPUJINAGAR, NAYANDAHALLI, KENGERI
+COTTONPETE, R.R. TEMPLE, B.H.E.L. LAYOUT CROSS
+KR MARKET, BPUJINAGAR, DEVADIGA SOUDHA
+COTTONPETE, NAYANDAHALLI, DEVADIGA SOUDHA
+COTTONPETE, R.V. COLLEGE, MALLATHAHALLI, KAMAKSHIPALYA
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/qJdfZlgJ3Q9nuhjlZzhg4EwPa4Qo33jOF1yduugTRiPZM4B8ZKNdipGKMwzqDyF_rCO-y-_nZxhKOlPvaOZQ_5yQZN2nZKskG7seF4H9pPv6zquJ0Irvyt8KVjuLPiIiCZPuMWI</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5717565,12.9784128,0
+          77.5718129,12.9784565,0
+          77.57184,12.9784755,0
+          77.5718739,12.9784948,0
+          77.5719168,12.9785186,0
+          77.5719356,12.9785265,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 20-A</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/lszqSoUiN4ycddAVY-q-CRV5rERX5H2ic9SlCj0AO5wuUjExvGvkSJCIiotwAbiCCqTEJmAeCGOcaL7dJ2Mq64ccdvnVbMEkArFBHOwVz7j63AO3oWCtEqRH_LNesaUWoksvww" height="200" width="auto" /><br><br>Route (Destination): 250-S	(GELEYARA BALAGA)<br>250-Y	(KUDARAGERE COLONY)<br>250-SA	(KUDARAGERE)<br>250-CB	(MALLASANDRA)<br>251-B	(RAJANUKUNTE)<br>252	(PEENYA 2ND STAGE)<br>252-C	(MACHOHALLI)<br>252-D	(RAJNI FORUM)<br>252-E	(LAGGERE)<br><br>VIA: YESHWANTHPUR, DASARAHALLI<br>YESHWANTHPUR, SEEDEDAHALLI<br>R.M.C. YARD, THOTADAGUDDAHALLI<br>R.M.C. YARD, BAGALAGUNTE CROSS<br>YESHWANTHPUR, HESARAGHATTA CROSS<br>YESHWANTHPUR, JALAHALLI CROSS<br>YESHWANTHPUR, SUNKADAKATTE<br>YESHWANTHPUR, JALAHALLI CROSS<br>R.M.C. YARD, JALAHALLI CROSS<br>]]></description>
+      <styleUrl>#line-000000-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>250-S	(GELEYARA BALAGA)
+250-Y	(KUDARAGERE COLONY)
+250-SA	(KUDARAGERE)
+250-CB	(MALLASANDRA)
+251-B	(RAJANUKUNTE)
+252	(PEENYA 2ND STAGE)
+252-C	(MACHOHALLI)
+252-D	(RAJNI FORUM)
+252-E	(LAGGERE)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>YESHWANTHPUR, DASARAHALLI
+YESHWANTHPUR, SEEDEDAHALLI
+R.M.C. YARD, THOTADAGUDDAHALLI
+R.M.C. YARD, BAGALAGUNTE CROSS
+YESHWANTHPUR, HESARAGHATTA CROSS
+YESHWANTHPUR, JALAHALLI CROSS
+YESHWANTHPUR, SUNKADAKATTE
+YESHWANTHPUR, JALAHALLI CROSS
+R.M.C. YARD, JALAHALLI CROSS
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/lszqSoUiN4ycddAVY-q-CRV5rERX5H2ic9SlCj0AO5wuUjExvGvkSJCIiotwAbiCCqTEJmAeCGOcaL7dJ2Mq64ccdvnVbMEkArFBHOwVz7j63AO3oWCtEqRH_LNesaUWoksvww</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.571945,12.9785304,0
+          77.5720044,12.9785562,0
+          77.5720473,12.9785722,0
+          77.5720956,12.9785879,0
+          77.5721264,12.978596,0
+          77.5721562,12.9786013,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 20-C</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/9pLqPC5SsIj4PLtUBRocX77MeC3S2npHSsTdOhs6ZRLEapJQgJPkq9yyiC2h1t9PwPoLBA5iR-FviThgvINfaOpWrIYLhkW110SZtZ6fk20yX61k4vZH8QnDnG8V4pSgfDfX" height="200" width="auto" /><br><br>Route (Destination): 258-T	(KANNAMANGALA)<br>258-VA	(BYRASANDRA)<br>258-VB	(CHIKKAMARANAHALLI)<br>258-VD	(BETTASANDRA)<br>258-WA	(JODIRAGITHIMMASANDRA)<br>261	(PEENYA 2ND STAGE)<br>263-D	(K.R.S. GOWDA LAYOUT)<br>263-F	(BYADARAHALLI)<br>263-G	(GANGONDANAHALLI)<br><br>VIA: DASARAHALLI, NELAMANGALA<br>JALAHALLI CROSS, NELAMANGALA<br>YESHWANTHPUR, NELAMANGALA<br>JALAHALLI CROSS, NELAMANGALA<br>YESHWANTHPUR, NELAMANGALA<br>MALLESHWARAM RAILWAY STATION<br>YESHWANTHPUR, DASARAHALLI<br>MALLESHWARAM, NELAGEDARANAHALLI<br>YESHWANTHPUR, NELAGEDARANAHALLI<br>]]></description>
+      <styleUrl>#line-FFEA00-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>258-T	(KANNAMANGALA)
+258-VA	(BYRASANDRA)
+258-VB	(CHIKKAMARANAHALLI)
+258-VD	(BETTASANDRA)
+258-WA	(JODIRAGITHIMMASANDRA)
+261	(PEENYA 2ND STAGE)
+263-D	(K.R.S. GOWDA LAYOUT)
+263-F	(BYADARAHALLI)
+263-G	(GANGONDANAHALLI)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>DASARAHALLI, NELAMANGALA
+JALAHALLI CROSS, NELAMANGALA
+YESHWANTHPUR, NELAMANGALA
+JALAHALLI CROSS, NELAMANGALA
+YESHWANTHPUR, NELAMANGALA
+MALLESHWARAM RAILWAY STATION
+YESHWANTHPUR, DASARAHALLI
+MALLESHWARAM, NELAGEDARANAHALLI
+YESHWANTHPUR, NELAGEDARANAHALLI
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/9pLqPC5SsIj4PLtUBRocX77MeC3S2npHSsTdOhs6ZRLEapJQgJPkq9yyiC2h1t9PwPoLBA5iR-FviThgvINfaOpWrIYLhkW110SZtZ6fk20yX61k4vZH8QnDnG8V4pSgfDfX</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5721605,12.9786029,0
+          77.5721931,12.9786088,0
+          77.572218,12.978614,0
+          77.5722454,12.9786166,0
+          77.5723111,12.9786215,0
+          77.5723573,12.9786221,0
+          77.5723899,12.9786189,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 21</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/I72vZFVz_dG8n5NNta75nUF07lsFTAmfL3fvW2Hz_lCQZ5-il8bB3YygEojXWXFT7RhfzAed1RmPRa-qn6OgzIupBfwapT2E41DA4Lb2N45KyQPnPdgPWy2Jk-zFIT4U7KJD" height="200" width="auto" /><br><br>Route (Destination): 82	(KEMPEGOWDA BUS STAND)<br>82-A	(YESHWANTHPUR RAILWAY STATION)<br>82-C	(YESHWANTHPUR RAILWAY STATION)<br>90-E	(YESHWANTHPUR RAILWAY STATION)<br>98-B	(RMV 2ND STAGE)<br>98-E	(LAKSHMIDEVI NAGAR)<br>98-F	(VIDHANASOUDHA LAYOUT)<br>98-G	(LOTTEGOLLAHALLI)<br>99-B	(CHOWDESHWARI BUS STAND)<br><br>VIA: HARISHCHANDRAGHAT, YESHWANTHPUR<br>MALLESHWARAM, YESHWANTHPUR<br>CENTRAL, YESHWANTHPUR<br>CENTRAL, YESHWANTHPUR<br>MALLESHWARAM, DEVASANDRA<br>YESHWANTHPUR, KANTIRAVANAGAR<br>MALLESHWARAM 8TH CROSS, GORGUNTEPALYA<br>MALLESHWARAM, DEVASANDRA<br>MALLESHWARAM, MATTHIKERE<br>]]></description>
+      <styleUrl>#line-000000-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>82	(KEMPEGOWDA BUS STAND)
+82-A	(YESHWANTHPUR RAILWAY STATION)
+82-C	(YESHWANTHPUR RAILWAY STATION)
+90-E	(YESHWANTHPUR RAILWAY STATION)
+98-B	(RMV 2ND STAGE)
+98-E	(LAKSHMIDEVI NAGAR)
+98-F	(VIDHANASOUDHA LAYOUT)
+98-G	(LOTTEGOLLAHALLI)
+99-B	(CHOWDESHWARI BUS STAND)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>HARISHCHANDRAGHAT, YESHWANTHPUR
+MALLESHWARAM, YESHWANTHPUR
+CENTRAL, YESHWANTHPUR
+CENTRAL, YESHWANTHPUR
+MALLESHWARAM, DEVASANDRA
+YESHWANTHPUR, KANTIRAVANAGAR
+MALLESHWARAM 8TH CROSS, GORGUNTEPALYA
+MALLESHWARAM, DEVASANDRA
+MALLESHWARAM, MATTHIKERE
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/I72vZFVz_dG8n5NNta75nUF07lsFTAmfL3fvW2Hz_lCQZ5-il8bB3YygEojXWXFT7RhfzAed1RmPRa-qn6OgzIupBfwapT2E41DA4Lb2N45KyQPnPdgPWy2Jk-zFIT4U7KJD</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5723983,12.9786179,0
+          77.5724419,12.9786162,0
+          77.57247,12.9786143,0
+          77.5724911,12.9786117,0
+          77.5725391,12.9786055,0
+          77.5725686,12.9786019,0
+          77.5725911,12.9785973,0
+          77.572633,12.9785855,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 22</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/okgoTRrZpVlNb_q7FQBtLtroN8FTHsCzA8WohT8WsUspqTGioDEvqJgGhvjjC7xpXcIHynboPeHjmNoxnVWtawMD8OJVkWAcXmJKdcqTk5t1ATfkKvaH5VBxl1GmGT8SgU1z" height="200" width="auto" /><br><br>Route (Destination): 266-H	(MARASANDRA CIRCLE)<br>269	(RAMACHANDRAPURA)<br>269-B	(VIDYARANYAPURA)<br>271	(JALAHALLI EAST AREA CAMP)<br>271-A	(ABBIGERE)<br>271-B	(KUVEMPUNAGAR 2ND STAGE)<br>271-C	(SINGAPURA)<br>271-D	(JALAHALLI VILLAGE)<br>271-E	(VEERASAGARA)<br><br>VIA: MATTHIKERE, MS PALYA, DIBBUR<br>MALLESHWARAM, BEL CIRCLE<br>MATTHIKERE, BALIGA CIRCLE<br>BEL CIRCLE, JALAHALLI EAST<br>MATTHIKERE, GANGAMMA CIRCLE<br>MATTHIKERE<br>BEL MARKET, KUVEMPUNAGAR<br>MALLESHWARAM, MUTHYALANAGAR<br>MALLESHWARAM, MS PALYA<br>]]></description>
+      <styleUrl>#line-FFEA00-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>266-H	(MARASANDRA CIRCLE)
+269	(RAMACHANDRAPURA)
+269-B	(VIDYARANYAPURA)
+271	(JALAHALLI EAST AREA CAMP)
+271-A	(ABBIGERE)
+271-B	(KUVEMPUNAGAR 2ND STAGE)
+271-C	(SINGAPURA)
+271-D	(JALAHALLI VILLAGE)
+271-E	(VEERASAGARA)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MATTHIKERE, MS PALYA, DIBBUR
+MALLESHWARAM, BEL CIRCLE
+MATTHIKERE, BALIGA CIRCLE
+BEL CIRCLE, JALAHALLI EAST
+MATTHIKERE, GANGAMMA CIRCLE
+MATTHIKERE
+BEL MARKET, KUVEMPUNAGAR
+MALLESHWARAM, MUTHYALANAGAR
+MALLESHWARAM, MS PALYA
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/okgoTRrZpVlNb_q7FQBtLtroN8FTHsCzA8WohT8WsUspqTGioDEvqJgGhvjjC7xpXcIHynboPeHjmNoxnVWtawMD8OJVkWAcXmJKdcqTk5t1ATfkKvaH5VBxl1GmGT8SgU1z</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5726397,12.9785836,0
+          77.5726742,12.9785744,0
+          77.5726933,12.9785689,0
+          77.5727251,12.9785572,0
+          77.5727567,12.9785451,0
+          77.5727892,12.9785316,0
+          77.572813,12.9785222,0
+          77.5728345,12.9785143,0
+          77.5728499,12.9785058,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 22-B</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/jjrUk_6I2i9C8CV5JMa-1zV_PpNQ22vq1b7dwKOZpA8TFjWOUaJVYrmJd57UCJtowQ_d80ya4GhA8TljxtiK8V-HGmwDNydp8qM1U-29S8j9-oiDW4Z-0ICcbxmok6dGNSpx2g" height="200" width="auto" /><br><br>Route (Destination): 276	(VIDYARANYAPURA)<br>276-C	(LOTTEGOLLAHALLI)<br>276-J	(YELAHANKA)<br><br>VIA: MALLESHWARAM, DEVASANDRA<br>MALLESHWARAM, DEVASANDRA<br>MATHIKERE, ATTUR LAYOUT<br>]]></description>
+      <styleUrl>#line-000000-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>276	(VIDYARANYAPURA)
+276-C	(LOTTEGOLLAHALLI)
+276-J	(YELAHANKA)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MALLESHWARAM, DEVASANDRA
+MALLESHWARAM, DEVASANDRA
+MATHIKERE, ATTUR LAYOUT
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/jjrUk_6I2i9C8CV5JMa-1zV_PpNQ22vq1b7dwKOZpA8TFjWOUaJVYrmJd57UCJtowQ_d80ya4GhA8TljxtiK8V-HGmwDNydp8qM1U-29S8j9-oiDW4Z-0ICcbxmok6dGNSpx2g</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5728565,12.9785026,0
+          77.5729015,12.97848,0
+          77.5729377,12.9784617,0
+          77.5729672,12.9784451,0
+          77.5730202,12.9784137,0
+          77.5730537,12.9783892,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 23</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/RdmL0FhZl8W43FkhJoyzjDTNmzG1MBFvv6O8qfpgztNUx5TGXMruCK7TMU2SI9AEOv74-hAs5ArCkVUfe53VXe4fOfX7JNASjRDHvW4E0VBw6xLhXz0VbyFpN2NM4lKCSJ6sCGo" height="200" width="auto" /><br><br>Route (Destination): 279-C	(TATANAGAR)<br>279-E	(BHOOPASANDRA)<br>279-K	(PATELAPPA LAYOUT)<br>281-F	(KANNAMANGALA GATE)<br>282-F	(MARANAYAKANAHALLI)<br>282-G	(KODAGALAHATTI)<br>284	(YELAHANKA)<br>284-C	(NYAYANGA BADAVANE)<br>415-H	(AMARJYOTHI LAYOUT)<br><br>VIA: MEKHRI CIRCLE, NAGASHETTIHALLI<br>RAJMAHAL GUTTAHALLI, GEDDALAHALLI<br>MEKHRI CIRCLE, ASHWATHNAGAR<br>MEKHRI CIRCLE, HUNASAMARANAHALLI<br>HEBBAL, BETTAHALASURU CROSS<br>MEKHRI CIRCLE, YELAHANKA<br>MEKHRI CIRCLE, BYATARAYANAPURA<br>RAJMAHAL GUTTAHALLI, ALLALASANDRA<br>HEBBALA, NAGAVARA<br>]]></description>
+      <styleUrl>#line-FFEA00-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>279-C	(TATANAGAR)
+279-E	(BHOOPASANDRA)
+279-K	(PATELAPPA LAYOUT)
+281-F	(KANNAMANGALA GATE)
+282-F	(MARANAYAKANAHALLI)
+282-G	(KODAGALAHATTI)
+284	(YELAHANKA)
+284-C	(NYAYANGA BADAVANE)
+415-H	(AMARJYOTHI LAYOUT)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MEKHRI CIRCLE, NAGASHETTIHALLI
+RAJMAHAL GUTTAHALLI, GEDDALAHALLI
+MEKHRI CIRCLE, ASHWATHNAGAR
+MEKHRI CIRCLE, HUNASAMARANAHALLI
+HEBBAL, BETTAHALASURU CROSS
+MEKHRI CIRCLE, YELAHANKA
+MEKHRI CIRCLE, BYATARAYANAPURA
+RAJMAHAL GUTTAHALLI, ALLALASANDRA
+HEBBALA, NAGAVARA
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/RdmL0FhZl8W43FkhJoyzjDTNmzG1MBFvv6O8qfpgztNUx5TGXMruCK7TMU2SI9AEOv74-hAs5ArCkVUfe53VXe4fOfX7JNASjRDHvW4E0VBw6xLhXz0VbyFpN2NM4lKCSJ6sCGo</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5730608,12.9783847,0
+          77.5730996,12.9783562,0
+          77.5731265,12.9783321,0
+          77.5731627,12.9782997,0
+          77.5731925,12.9782644,0
+          77.5732177,12.9782357,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 23-A</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/Svgi7O3_L309J_exNrwTWrWv6k8sr4rU2mOSblNmjpzIaqrl0Okqafn2VTT24kjUgcNJyzrDcWVr4Vevh8WcewfZ9j4m8RivLvcZl8gdJ2ArDRvGP6z52X0gB3THFFX2ogBJRw" height="200" width="auto" /><br><br>Route (Destination): 284-D	(YELAHANKA NEW TOWN)<br>285-M	(DODDABALLAPURA)<br>286-F	(K NARAYANAPURA)<br>286-G	(JAKKUR)<br>287-G	(COFFEE BOARD LAYOUT)<br>287-J	(CHAMUNDESHWARINAGAR)<br>288-D	(KODIGEHALLI)<br>288-G	(KODIGEHALLI CANARA BANK COLONY)<br><br>VIA: RAJMAHAL GUTTAHALLI, BYATARAYANAPURA<br>BYATARAYANAPURA, RAJANUKUNTE<br>HEBBALA, BYATARAYANAPURA<br>MEKHRI CIRCLE, BYATARAYANAPURA<br>MEKHRI CIRCLE, MILITARY DAIRY FORUM<br>RAJMAHAL GUTTAHALLI, HEBBAL<br>MEKHRI CIRCLE, HEBBAL<br>MEKHRI CIRCLE, HEBBAL<br>]]></description>
+      <styleUrl>#line-000000-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>284-D	(YELAHANKA NEW TOWN)
+285-M	(DODDABALLAPURA)
+286-F	(K NARAYANAPURA)
+286-G	(JAKKUR)
+287-G	(COFFEE BOARD LAYOUT)
+287-J	(CHAMUNDESHWARINAGAR)
+288-D	(KODIGEHALLI)
+288-G	(KODIGEHALLI CANARA BANK COLONY)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>RAJMAHAL GUTTAHALLI, BYATARAYANAPURA
+BYATARAYANAPURA, RAJANUKUNTE
+HEBBALA, BYATARAYANAPURA
+MEKHRI CIRCLE, BYATARAYANAPURA
+MEKHRI CIRCLE, MILITARY DAIRY FORUM
+RAJMAHAL GUTTAHALLI, HEBBAL
+MEKHRI CIRCLE, HEBBAL
+MEKHRI CIRCLE, HEBBAL
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/Svgi7O3_L309J_exNrwTWrWv6k8sr4rU2mOSblNmjpzIaqrl0Okqafn2VTT24kjUgcNJyzrDcWVr4Vevh8WcewfZ9j4m8RivLvcZl8gdJ2ArDRvGP6z52X0gB3THFFX2ogBJRw</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5732271,12.9782268,0
+          77.5732482,12.9781978,0
+          77.5732679,12.9781729,0
+          77.5732851,12.9781462,0
+          77.5733045,12.9781135,0
+          77.5733217,12.9780805,0
+          77.5733371,12.9780406,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 23-B</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/SUWf3hul1BtQunx5dxADm2MDXzvrlal1M0H3KwSTtzcYKuDC8aYsg1T24c9YUBS17u0_UfeIcPPz60Tqthaw93wC_dhcvAH0sfF1Vj6HRhZ5k10MsdePPSjBuBRLcEe-MLFj44Y" height="200" width="auto" /><br><br>Route (Destination): 288-H	(THINDLU)<br>289-M	(BEGUR)<br>297-G	(NERAGANAHALLI)<br>298-G	(ERATAGANAHALLI)<br>298-M	(DEVANAHALLI)<br>298-MA	(BOMMAVARA)<br>402-B	(YELAHANKA NEW TOWN 5TH STAGE)<br><br>VIA: MEKHRI CIRCLE, SANJEEVINI NAGAR<br>MEKHRI CIRCLE, YELAHANKA<br>HEBBALA, SADAHALLI<br>HEBBAL, CHIKKAJALA<br>YELAHANKA, CHIKKAJALA<br>HEBBAL, KANNAMANGALA GATE<br>HEBBAL, YELAHANKA NEW TOWN<br><br><br><img src="https://lh4.googleusercontent.com/y77rgDkT0HbkNLghuuuYtwK7cnx6b_TVfZBki0YU5M3rsL_-F7DOjauGp5-qMhfS2wx1-8UFhx78NfdLc1QPO49N-Ta7mu5p2FkhYOr7nPKnKU3xHr3YPKBgojTUd7lwfSONAWk" height="200" width="auto" />]]></description>
+      <styleUrl>#line-FFEA00-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>288-H	(THINDLU)
+289-M	(BEGUR)
+297-G	(NERAGANAHALLI)
+298-G	(ERATAGANAHALLI)
+298-M	(DEVANAHALLI)
+298-MA	(BOMMAVARA)
+402-B	(YELAHANKA NEW TOWN 5TH STAGE)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MEKHRI CIRCLE, SANJEEVINI NAGAR
+MEKHRI CIRCLE, YELAHANKA
+HEBBALA, SADAHALLI
+HEBBAL, CHIKKAJALA
+YELAHANKA, CHIKKAJALA
+HEBBAL, KANNAMANGALA GATE
+HEBBAL, YELAHANKA NEW TOWN
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/SUWf3hul1BtQunx5dxADm2MDXzvrlal1M0H3KwSTtzcYKuDC8aYsg1T24c9YUBS17u0_UfeIcPPz60Tqthaw93wC_dhcvAH0sfF1Vj6HRhZ5k10MsdePPSjBuBRLcEe-MLFj44Y https://lh4.googleusercontent.com/y77rgDkT0HbkNLghuuuYtwK7cnx6b_TVfZBki0YU5M3rsL_-F7DOjauGp5-qMhfS2wx1-8UFhx78NfdLc1QPO49N-Ta7mu5p2FkhYOr7nPKnKU3xHr3YPKBgojTUd7lwfSONAWk</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5733411,12.9780338,0
+          77.5733525,12.9780027,0
+          77.5733789,12.9779299,0
+          77.5733893,12.9779024,0
+          77.5734031,12.9778544,0
+          77.5734058,12.977844,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 23-C</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/3valUviLDLih1GQRNjo2OkKUbljGV0wTHnKMvT5-QIwBfpNQ9iSY0DxlePD5LWSakqgt0w371RHQD0QLpH_NC71CpF3Rl7x93fh38LJ5wXDBRYYr4nA7yvSjYhyzjnGfujufew" height="200" width="auto" /><br><br>Route (Destination): 297-J	(NERAGANAHALLI)<br>298-G	(ERATAGANAHALLI)<br>298-M	(DEVANAHALLI)<br>298-MA	(BOMMAVARA)<br>402-B	(YELAHANKA NEW TOWN 5TH STAGE)<br><br>VIA: HEBBALA, SADAHALLI<br>HEBBALA, CHIKKAJALA<br>YELAHANKA, CHIKKAJALA<br>HEBBAL, KANNAMANGALA GATE<br>HEBBAL, YELAHANKA NEW TOWN<br>]]></description>
+      <styleUrl>#line-000000-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>297-J	(NERAGANAHALLI)
+298-G	(ERATAGANAHALLI)
+298-M	(DEVANAHALLI)
+298-MA	(BOMMAVARA)
+402-B	(YELAHANKA NEW TOWN 5TH STAGE)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>HEBBALA, SADAHALLI
+HEBBALA, CHIKKAJALA
+YELAHANKA, CHIKKAJALA
+HEBBAL, KANNAMANGALA GATE
+HEBBAL, YELAHANKA NEW TOWN
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/3valUviLDLih1GQRNjo2OkKUbljGV0wTHnKMvT5-QIwBfpNQ9iSY0DxlePD5LWSakqgt0w371RHQD0QLpH_NC71CpF3Rl7x93fh38LJ5wXDBRYYr4nA7yvSjYhyzjnGfujufew</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5734081,12.97784,0
+          77.5734201,12.9777916,0
+          77.5734315,12.9777423,0
+          77.5734396,12.9776985,0
+          77.5734473,12.977657,0
+          77.573451,12.977623,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 24</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/L1aQ6FnMQAFAzcksTQSxagB9JzkHYBJgyKHreIv0U6HZxF_rMdqqvAJxjYsftr15HPlj4z-0o54SGwgVHv3bJ6GtRwpmkm274yrC9pKRumccFWvseMsmT1KmA46Lg6mXs9qlOnc" height="200" width="auto" /><br><br>Route (Destination): 108-B	(GANGANAGAR)<br>111-C	(KAVALBYRASANDRA)<br>114-C	(SULTHANAPALYA)<br>415-A	(SHYAMPUR)<br>415-B	(VISHWANATHA NAGENAHALLI)<br><br>VIA: VASANTHANAGAR, MUNIREDDYPALYA<br>VASANTHANAGAR, MUNIREDDYPALYA<br>VASANTHANAGAR, MUNIREDDYPALYA<br>VASANTHANAGAR, HMT LAYOUT<br>VASANTHANAGAR, HMT LAYOUT<br>]]></description>
+      <styleUrl>#line-CE93D8-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>108-B	(GANGANAGAR)
+111-C	(KAVALBYRASANDRA)
+114-C	(SULTHANAPALYA)
+415-A	(SHYAMPUR)
+415-B	(VISHWANATHA NAGENAHALLI)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>VASANTHANAGAR, MUNIREDDYPALYA
+VASANTHANAGAR, MUNIREDDYPALYA
+VASANTHANAGAR, MUNIREDDYPALYA
+VASANTHANAGAR, HMT LAYOUT
+VASANTHANAGAR, HMT LAYOUT
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/L1aQ6FnMQAFAzcksTQSxagB9JzkHYBJgyKHreIv0U6HZxF_rMdqqvAJxjYsftr15HPlj4z-0o54SGwgVHv3bJ6GtRwpmkm274yrC9pKRumccFWvseMsmT1KmA46Lg6mXs9qlOnc</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5734047,12.9776241,0
+          77.573399,12.9776672,0
+          77.5733886,12.9777224,0
+          77.5733776,12.9777747,0
+          77.5733662,12.9778136,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 25</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/LQFOdXS0sEH4ffrLgzttd3ZSdJjclG0py0xfnRpdPvqMn3BADuG1b7jHXUZgCeB75vuiiVI1IFmcm34lWQyGg8ZzyOfqogYPrHPUra6zZ3SYu4AUoSfhw3n8UtkJQVgc-Zs0" height="200" width="auto" /><br><br>Route (Destination): 104	(SADASHIVANAGAR)<br><br>VIA: CENTRAL, MALLESHWARAM<br>]]></description>
+      <styleUrl>#line-000000-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>104	(SADASHIVANAGAR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>CENTRAL, MALLESHWARAM
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/LQFOdXS0sEH4ffrLgzttd3ZSdJjclG0py0xfnRpdPvqMn3BADuG1b7jHXUZgCeB75vuiiVI1IFmcm34lWQyGg8ZzyOfqogYPrHPUra6zZ3SYu4AUoSfhw3n8UtkJQVgc-Zs0</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5733642,12.9778233,0
+          77.5733511,12.9778687,0
+          77.5733457,12.9778877,0
+          77.573336,12.9779184,0
+          77.5733223,12.977955,0
+          77.5733126,12.9779798,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 25-A</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/yiEd4W1rvgZa7LIPvUBQNkWamg_P-1wzg77mAxm9Qe9O5_LW66qdh0yFsPsexbE2iyCdE5-VWGzB5TgNoOa_c2wby0yeBWGvtsmQ25kZ-SgzT4gbz2Jkm-9Pr882_hFULBxY" height="200" width="auto" /><br><br>Route (Destination): 145	(NEELASANDRA)<br>145-A	(NEELASANDRA ROSE GARDEN)<br>146	(VIVEK NAGAR)<br>146-B	(SRINIVAGILU)<br>146-E	(EJIPURA)<br><br>VIA: CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN<br>CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN, NEELASANDRA<br>CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN<br>CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN, EJIPURA<br>CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN, VIVEK NAGAR<br>]]></description>
+      <styleUrl>#line-CE93D8-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>145	(NEELASANDRA)
+145-A	(NEELASANDRA ROSE GARDEN)
+146	(VIVEK NAGAR)
+146-B	(SRINIVAGILU)
+146-E	(EJIPURA)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN
+CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN, NEELASANDRA
+CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN
+CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN, EJIPURA
+CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN, VIVEK NAGAR
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/yiEd4W1rvgZa7LIPvUBQNkWamg_P-1wzg77mAxm9Qe9O5_LW66qdh0yFsPsexbE2iyCdE5-VWGzB5TgNoOa_c2wby0yeBWGvtsmQ25kZ-SgzT4gbz2Jkm-9Pr882_hFULBxY</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5733032,12.9779929,0
+          77.5732817,12.9780497,0
+          77.5732723,12.9780706,0
+          77.5732619,12.9780892,0
+          77.5732381,12.9781301,0
+          77.573223,12.9781553,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 25-B</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/cJb93GZqD7C3xDPgKcAJTpVQ84Vq-G0C7eteeZTrHdHp7yScZW6ZfAJp2cXMODEyNqww0dWEMDT2JsN2ZD2YYxrw9iqwfYQrmD6g4KKjkcULVFgLYOfHDut5MnUIplxtg3xveA" height="200" width="auto" /><br><br>Route (Destination): 340-A	(H.S.R. LAYOUT (CAMBRIDGE SCHOOL))<br>340-M	(H.S.R. 2ND SECTOR (CAMBRIDGE SCHOOL))<br>340-L	(HOSUR MAIN ROAD)<br>340-H	(KORAMANGALA)<br>340-G	(BDA COMPLEX)<br>340-F	(PARANGIPALYA)<br>341-D	(BELANDURU)<br>341-E	(HARALUR)<br>342-F	(SARJAPUR)<br><br>VIA: MAHARANI COLLEGE, DIARY CIRCLE, AGARA, PARANGIPALYA<br>MAHARANI COLLEGE, WILSON GARDEN, JAKKASANDRA, PARANGIPALYA<br>CORPORATION, BELLANDUR MAIN ROAD, CENTRAL JAIL<br>CORPORATION, DIARY CIRCLE<br>ADUGODI, JAKKASANDRA, H.S.R. LAYOUT 2ND SECTOR<br>WILSON GARDEN, ADUGODI<br>CORPORATION, DIARY CIRCLE, AGADA<br>CORPORATION, JAKKASANDRA, HARALUR CROSS<br>CORPORATION, JAKKASANDRA, DODDAKANNELLI, AMERE<br>]]></description>
+      <styleUrl>#line-000000-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>340-A	(H.S.R. LAYOUT (CAMBRIDGE SCHOOL))
+340-M	(H.S.R. 2ND SECTOR (CAMBRIDGE SCHOOL))
+340-L	(HOSUR MAIN ROAD)
+340-H	(KORAMANGALA)
+340-G	(BDA COMPLEX)
+340-F	(PARANGIPALYA)
+341-D	(BELANDURU)
+341-E	(HARALUR)
+342-F	(SARJAPUR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MAHARANI COLLEGE, DIARY CIRCLE, AGARA, PARANGIPALYA
+MAHARANI COLLEGE, WILSON GARDEN, JAKKASANDRA, PARANGIPALYA
+CORPORATION, BELLANDUR MAIN ROAD, CENTRAL JAIL
+CORPORATION, DIARY CIRCLE
+ADUGODI, JAKKASANDRA, H.S.R. LAYOUT 2ND SECTOR
+WILSON GARDEN, ADUGODI
+CORPORATION, DIARY CIRCLE, AGADA
+CORPORATION, JAKKASANDRA, HARALUR CROSS
+CORPORATION, JAKKASANDRA, DODDAKANNELLI, AMERE
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/cJb93GZqD7C3xDPgKcAJTpVQ84Vq-G0C7eteeZTrHdHp7yScZW6ZfAJp2cXMODEyNqww0dWEMDT2JsN2ZD2YYxrw9iqwfYQrmD6g4KKjkcULVFgLYOfHDut5MnUIplxtg3xveA</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.573218,12.9781572,0
+          77.5731912,12.9781945,0
+          77.5731754,12.9782157,0
+          77.5731586,12.978236,0
+          77.5731419,12.9782546,0
+          77.5731251,12.9782738,0
+          77.5731097,12.9782869,0
+          77.5731,12.9782948,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 26</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/aYNiLeaR6X7g1nb6P9chYsgDoYKFgdlcocX74LmFqv9nlRkHkBY7lqfjnbNf-HOCNBUiTlDkm4LRA-2aJPBbQ4WFvrX4AELFjNaFM5Gex0dT17OzMkNKwhtzpg4KoUIPrbFxuA" height="200" width="auto" /><br><br>Route (Destination): KBS-3A	(ATTIBELE)<br>KBS-3C	(CHANDAPURA)<br>KBS-3E	(ELECTRONIC CITY WIPRO GATE)<br>342-F	(SARJAPURA)<br>343-A	(HULLAHALLI)<br>343-B	(KODICHIKKANAHALLI)<br>343-L	(HONGASANDRA MICO LAYOUT)<br>343-K	(VISHWAPRIYA LAYOUT)<br>344-B	(BETTADASANAPURA)<br><br>VIA: MADIWALA, BOMMANAHALLI, SINGASANDRA, HEBBAGODI, CHANDAPURA<br>MADIWALA, BOMMANAHALLI, SINGASANDRA, HEBBAGODI, NARAYANA HRUDAYALAYA<br>MADIWALA, BOMMANAHALLI, KONAPPANA AGRAHARA<br>CORPORATION, SHANTHI NAGAR, KORAMANGALA 1ST BLOCK, BELLANDUR GATE<br>MADIWALA, BOMMANAHALLI, HONGSANDRA, BETTADASANAPURA CROSS<br>LALBAGH<br>MADIWALA, BOMMANAHALLI, HONGASANDRA<br>MADIWALA, BOMMANAHALLI, HONGASANDRA<br>MADIWALA, BOMMANAHALLI, BEGURU<br>]]></description>
+      <styleUrl>#line-CE93D8-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>KBS-3A	(ATTIBELE)
+KBS-3C	(CHANDAPURA)
+KBS-3E	(ELECTRONIC CITY WIPRO GATE)
+342-F	(SARJAPURA)
+343-A	(HULLAHALLI)
+343-B	(KODICHIKKANAHALLI)
+343-L	(HONGASANDRA MICO LAYOUT)
+343-K	(VISHWAPRIYA LAYOUT)
+344-B	(BETTADASANAPURA)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MADIWALA, BOMMANAHALLI, SINGASANDRA, HEBBAGODI, CHANDAPURA
+MADIWALA, BOMMANAHALLI, SINGASANDRA, HEBBAGODI, NARAYANA HRUDAYALAYA
+MADIWALA, BOMMANAHALLI, KONAPPANA AGRAHARA
+CORPORATION, SHANTHI NAGAR, KORAMANGALA 1ST BLOCK, BELLANDUR GATE
+MADIWALA, BOMMANAHALLI, HONGSANDRA, BETTADASANAPURA CROSS
+LALBAGH
+MADIWALA, BOMMANAHALLI, HONGASANDRA
+MADIWALA, BOMMANAHALLI, HONGASANDRA
+MADIWALA, BOMMANAHALLI, BEGURU
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/aYNiLeaR6X7g1nb6P9chYsgDoYKFgdlcocX74LmFqv9nlRkHkBY7lqfjnbNf-HOCNBUiTlDkm4LRA-2aJPBbQ4WFvrX4AELFjNaFM5Gex0dT17OzMkNKwhtzpg4KoUIPrbFxuA</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5730977,12.9782974,0
+          77.5730762,12.9783184,0
+          77.5730604,12.9783318,0
+          77.5730319,12.9783514,0
+          77.5730088,12.9783676,0
+          77.5729798,12.9783872,0
+          77.5729551,12.9784026,0
+          77.5729337,12.9784141,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 26-A</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/GQ01LRDazDOKAy4RnOWU5fAMCooACPtNwJ91shhjeq-YAUN-sZwtnrYCMPRMc9Evlj7YVvOUvh5IzBLCXX8y5F3oibCUPIGsy4rEI2Rl-xEPz_baz2L0rcau4XGml1_w--85iQ" height="200" width="auto" /><br><br>Route (Destination): 346-C	(RAYASANDRA)<br>346-H	(PARAPPANA AGRAHARA)<br>346-CK	(KARNATAKA SLUM BOARD)<br>347-H	(BASAPURA)<br>346-N	(DODDATHOGURU MUNESHWARA TEMPLE)<br>346-V	(DODDANAGAMANGALA)<br>347-B	(KUDLU)<br>347-C	(CHIKKA BEGUR)<br>347-HD	(DEVENDRA NAGAR (CHIKKATHOGURU))<br>347-E	(SOMASUNDARAPALYA)<br>347-L	(HOSAPALYA)<br>348	(MANGAMMANA PALYA)<br><br>VIA: BANGLORE DAIRY, MADIWALA, KUDLE GATE, HOSA ROAD<br>BANGLORE DAIRY, MADIWALA, KUDLE GATE, HOSA ROAD<br>MADIWALA, HOSA ROAD, CENTRAL JAIL<br>MADIWALA, SINGASANDRA, HOSA ROAD<br>MADIWALA, SINGASANDRA, KONAPPANA AGRAHARA<br>MADIWALA, BOMMANAHALLI, SINGASANDRA<br>MADIWALA, BOMMANAHALLI<br>MADIWALA, BOMMANAHALLI, HOSA ROAD<br>MADIWALA, BOMMANAHALLI, HOSA ROAD, CHIKKATHOGURU<br>MADIWALA, BOMMANAHALLI, KUDLUGATE<br>MADIWALA, BOMMANAHALLI, KUDLUGATE, SOMASUNDARAPALYA<br>MADIWALA, SI APARTMENT<br><br><br><img src="https://lh4.googleusercontent.com/NSfDfje-6_cm64MXhkrvY7ifcfzoWz3fmaTmZR3T4Q8C3vuP97L8FDx-PZcw2AcCw4pTCBrK9Z74iBhq15foeYRQj1Rko1bG7ynFRTsG6nExYuT0-bWYvAIrb4PNG8NmMGMLWFk" height="200" width="auto" />]]></description>
+      <styleUrl>#line-000000-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>346-C	(RAYASANDRA)
+346-H	(PARAPPANA AGRAHARA)
+346-CK	(KARNATAKA SLUM BOARD)
+347-H	(BASAPURA)
+346-N	(DODDATHOGURU MUNESHWARA TEMPLE)
+346-V	(DODDANAGAMANGALA)
+347-B	(KUDLU)
+347-C	(CHIKKA BEGUR)
+347-HD	(DEVENDRA NAGAR (CHIKKATHOGURU))
+347-E	(SOMASUNDARAPALYA)
+347-L	(HOSAPALYA)
+348	(MANGAMMANA PALYA)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>BANGLORE DAIRY, MADIWALA, KUDLE GATE, HOSA ROAD
+BANGLORE DAIRY, MADIWALA, KUDLE GATE, HOSA ROAD
+MADIWALA, HOSA ROAD, CENTRAL JAIL
+MADIWALA, SINGASANDRA, HOSA ROAD
+MADIWALA, SINGASANDRA, KONAPPANA AGRAHARA
+MADIWALA, BOMMANAHALLI, SINGASANDRA
+MADIWALA, BOMMANAHALLI
+MADIWALA, BOMMANAHALLI, HOSA ROAD
+MADIWALA, BOMMANAHALLI, HOSA ROAD, CHIKKATHOGURU
+MADIWALA, BOMMANAHALLI, KUDLUGATE
+MADIWALA, BOMMANAHALLI, KUDLUGATE, SOMASUNDARAPALYA
+MADIWALA, SI APARTMENT
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/GQ01LRDazDOKAy4RnOWU5fAMCooACPtNwJ91shhjeq-YAUN-sZwtnrYCMPRMc9Evlj7YVvOUvh5IzBLCXX8y5F3oibCUPIGsy4rEI2Rl-xEPz_baz2L0rcau4XGml1_w--85iQ https://lh4.googleusercontent.com/NSfDfje-6_cm64MXhkrvY7ifcfzoWz3fmaTmZR3T4Q8C3vuP97L8FDx-PZcw2AcCw4pTCBrK9Z74iBhq15foeYRQj1Rko1bG7ynFRTsG6nExYuT0-bWYvAIrb4PNG8NmMGMLWFk</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5729243,12.9784202,0
+          77.5729015,12.978432,0
+          77.572872,12.9784457,0
+          77.5728211,12.9784709,0
+          77.5728006,12.9784804,0
+          77.5727711,12.9784921,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 26-B</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/nl5MxE_1ZW9MfySbmautvnpl0MfVvF1U3Cit6bdleDlHHRvvY83SL3zqT-h4Z2fZKg1U0uAThIGusEtF9y7wBf5RzcSFqE9ErLfdZvljJV2noNjo6mz-O67Gj8Eqo-UuWctXgA" height="200" width="auto" /><br><br>Route (Destination): 351-A	(NARAYANAGHATTA)<br>351-J	(HANDENAHALLI)<br>352-A	(HENNAGARA)<br>352-B	(MASTENAHALLI)<br>353-C	(JIGANI)<br>354-B	(SHETTIHALLI)<br>354-C	(MARASUR)<br>355-A	(SRIRAMPURA)<br>355-E	(BANDENALLASANDRA)<br><br>VIA: MADIWALA, HEBBAGODI, CHANDAPURA, RAMASANDRA<br>MADIWALA, HEBBAGODI, CHANDAPURA, RAMASANDRA, MUTTA NELLORU<br>MADIWALA, HEBBAGODI, KITHAGANUR<br>MADIWALA, HEBBAGODI, HENNAGARA<br>MADIWALA, HEBBAGODI, HINMAKKI, SHITANAYAKANAHALLI, MADAPATTANA<br>LALBAGH, MADIWALA, HEBBAGODI, CHANDAPURA, HIGGALURU<br>MADIWALA, HEBBAGODI, CHANDAPURA, HIGGALURU<br>MADIWALA, HEBBAGODI, ARMADALLI<br>MADIWALA, HEBBAGODI, BIOCON FACTORY, KYALASANAHALLI<br>]]></description>
+      <styleUrl>#line-CE93D8-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>351-A	(NARAYANAGHATTA)
+351-J	(HANDENAHALLI)
+352-A	(HENNAGARA)
+352-B	(MASTENAHALLI)
+353-C	(JIGANI)
+354-B	(SHETTIHALLI)
+354-C	(MARASUR)
+355-A	(SRIRAMPURA)
+355-E	(BANDENALLASANDRA)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MADIWALA, HEBBAGODI, CHANDAPURA, RAMASANDRA
+MADIWALA, HEBBAGODI, CHANDAPURA, RAMASANDRA, MUTTA NELLORU
+MADIWALA, HEBBAGODI, KITHAGANUR
+MADIWALA, HEBBAGODI, HENNAGARA
+MADIWALA, HEBBAGODI, HINMAKKI, SHITANAYAKANAHALLI, MADAPATTANA
+LALBAGH, MADIWALA, HEBBAGODI, CHANDAPURA, HIGGALURU
+MADIWALA, HEBBAGODI, CHANDAPURA, HIGGALURU
+MADIWALA, HEBBAGODI, ARMADALLI
+MADIWALA, HEBBAGODI, BIOCON FACTORY, KYALASANAHALLI
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/nl5MxE_1ZW9MfySbmautvnpl0MfVvF1U3Cit6bdleDlHHRvvY83SL3zqT-h4Z2fZKg1U0uAThIGusEtF9y7wBf5RzcSFqE9ErLfdZvljJV2noNjo6mz-O67Gj8Eqo-UuWctXgA</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5727668,12.9784941,0
+          77.5727265,12.9785104,0
+          77.5726927,12.9785231,0
+          77.5726658,12.9785317,0
+          77.572644,12.9785385,0
+          77.5726142,12.9785464,0
+          77.5725847,12.9785535,0
+          77.5725713,12.9785562,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 26-C</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/VMQCrYCwtAkM0PKMbkLxHdsMekjbUTEExp4hiXia-JzhceATS5TpVZmGqzNpKZvvAXGkTn_nMHWhTGBJyn8570PC0FCaSbGprArEMjHiThShzuyYUfPb2qwhmg5423JTzWNW" height="200" width="auto" /><br><br>Route (Destination): 356-A	(THATTNAHALLI)<br>356-D	(SAMPIGENAGAR)<br>356-H	(SURYANAGAR (CHANDAPUR))<br>356-M	(ANEKAL)<br>356-CB	(ELECTRONIC CITY 2ND STAGE)<br>358-A	(SAMANDURU)<br>360-B	(ATTIBELE)<br>360-J	(ATTIBELE)<br><br>VIA: MADIWALA, HEBBAGODI, CHANDAPURA, HIGGALURU<br>MADIWALA, KUDLUGATE, HUSKUR GATE<br>MADIWALA, HEBBAGODI, CHANDAPURA<br>MADIWALA, HEBBAGODI, CHANDAPURA, JGGALURU, TARAPUR GATE<br>MADIWALA, KONAPPANA AGRAHARA<br>MADIWALA, HEBBAGODI, CHANDAPURA, GUTTADAHATTI CROSS, KAMBLIPURA TEMPLE<br>MADIWALA, HEBBAGODI, CHANDAPURA<br>LALBAGH, MADIWALA, HEBBAGODI, CHANDAPURA<br>]]></description>
+      <styleUrl>#line-000000-7975</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>356-A	(THATTNAHALLI)
+356-D	(SAMPIGENAGAR)
+356-H	(SURYANAGAR (CHANDAPUR))
+356-M	(ANEKAL)
+356-CB	(ELECTRONIC CITY 2ND STAGE)
+358-A	(SAMANDURU)
+360-B	(ATTIBELE)
+360-J	(ATTIBELE)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MADIWALA, HEBBAGODI, CHANDAPURA, HIGGALURU
+MADIWALA, KUDLUGATE, HUSKUR GATE
+MADIWALA, HEBBAGODI, CHANDAPURA
+MADIWALA, HEBBAGODI, CHANDAPURA, JGGALURU, TARAPUR GATE
+MADIWALA, KONAPPANA AGRAHARA
+MADIWALA, HEBBAGODI, CHANDAPURA, GUTTADAHATTI CROSS, KAMBLIPURA TEMPLE
+MADIWALA, HEBBAGODI, CHANDAPURA
+LALBAGH, MADIWALA, HEBBAGODI, CHANDAPURA
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/VMQCrYCwtAkM0PKMbkLxHdsMekjbUTEExp4hiXia-JzhceATS5TpVZmGqzNpKZvvAXGkTn_nMHWhTGBJyn8570PC0FCaSbGprArEMjHiThShzuyYUfPb2qwhmg5423JTzWNW</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5725659,12.9785568,0
+          77.5725351,12.978562,0
+          77.5724908,12.9785679,0
+          77.5724643,12.9785715,0
+          77.5724401,12.9785738,0
+          77.572416,12.9785748,0
+          77.5723831,12.9785758,0
+          77.5723684,12.9785755,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 27</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/t7kL9qWEWhuMpGps2voo1A6dPI-Ez7YbH24OIxRWvhYyBU7G_DdHtOeVp2CFIET7oZrep5XL_DX5CS18iz2Guz87czeoReog1tKZfaYQpOQ5dNlaJg96ppcPvSkXUID60YGT0Q" height="200" width="auto" /><br><br>Route (Destination): 365	(BANNERGHATTA NATIONAL PARK)<br>365-C	(KOPPA)<br>365-D	(BILVARADAHALLI)<br>365-E	(SHANUBHOGANAHALLI)<br>365-F	(NOSENURU)<br>365-J	(JIGANI)<br>365-N	(GEDDENAHALLI)<br>365-P	(ANEKAL)<br><br>VIA: BANGALORE DAIRY, GOTTIGERE, KALKERE<br>BANGALORE DAIRY, BILEKANAHALLI, BASAVANAPURA, KOPPA GATE<br>BANGALORE DAIRY, GOTTIGERE, BASAVANAPURA<br>BANGALORE DAIRY, GOTTIGERE, BILAVARADAHALLI<br>BANGALORE DIARY, GOTTIGERE, KOPPA GATE, JIGANI, HARAGADDE<br>BANGALORE DIARY, GOTTIGERE, BANNERGHATTA CIRCLE, KOPPA GATE<br>BANGALORE DIARY, GOTTIGERE, JIGANI, GOWDANAHALLI<br>BANGALORE DIARY, GOTTIGERE, BANNERGHATTA CIRCLE, HARAGADDE<br>]]></description>
+      <styleUrl>#line-CE93D8-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>365	(BANNERGHATTA NATIONAL PARK)
+365-C	(KOPPA)
+365-D	(BILVARADAHALLI)
+365-E	(SHANUBHOGANAHALLI)
+365-F	(NOSENURU)
+365-J	(JIGANI)
+365-N	(GEDDENAHALLI)
+365-P	(ANEKAL)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>BANGALORE DAIRY, GOTTIGERE, KALKERE
+BANGALORE DAIRY, BILEKANAHALLI, BASAVANAPURA, KOPPA GATE
+BANGALORE DAIRY, GOTTIGERE, BASAVANAPURA
+BANGALORE DAIRY, GOTTIGERE, BILAVARADAHALLI
+BANGALORE DIARY, GOTTIGERE, KOPPA GATE, JIGANI, HARAGADDE
+BANGALORE DIARY, GOTTIGERE, BANNERGHATTA CIRCLE, KOPPA GATE
+BANGALORE DIARY, GOTTIGERE, JIGANI, GOWDANAHALLI
+BANGALORE DIARY, GOTTIGERE, BANNERGHATTA CIRCLE, HARAGADDE
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/t7kL9qWEWhuMpGps2voo1A6dPI-Ez7YbH24OIxRWvhYyBU7G_DdHtOeVp2CFIET7oZrep5XL_DX5CS18iz2Guz87czeoReog1tKZfaYQpOQ5dNlaJg96ppcPvSkXUID60YGT0Q</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5723627,12.9785758,0
+          77.5723426,12.9785757,0
+          77.5723201,12.9785764,0
+          77.5722987,12.9785744,0
+          77.572237,12.9785695,0
+          77.5722128,12.9785663,0
+          77.5722001,12.9785634,0
+          77.5721897,12.9785608,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 27-A</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/fVcR08Ecao8kqQFpF63FQAQ1KOSlpa4DgykZQ9bPn9NDBE9mG4BFuC9qlaPi8qGC2Hb4CCpPXdzcWzCwmOQJpLAANXsjDTCFIre-zjyrijKqT10lbdLHPc4ENT2KnObb16kX" height="200" width="auto" /><br><br>Route (Destination): 369-C	(HULIMAVU)<br>369-D	(SHANTINIKETAN LAYOUT)<br>369-J	(C.K. PALYA)<br>365-Q	(DYAVASANDRA)<br>365-R	(BASAVANAPURA)<br>365-W	(VADERA MANCHENAHALLI)<br>367-F	(PILLAGANAHALLI)<br>369-CA	(CHIKKAMMANAHALLI)<br>369-H	(MICO SHRAMAJEEVI COLONY)<br>369-F	(HOMMADEVANAHALLI)<br>372-F	(NISARGA BADAVANE)<br><br>VIA: BANGALORE DIARY, BILEKANAHALLI, HULIMAVU GATE<br>BANGALORE DIARY, BILEKANAHALLI, AREKERE GATE<br>BANGALORE DIARY, HULIMAVU GATE, CHIKKAMMANAHALLI<br>BANGALORE DIARY, HULIMAVU GATE, JIGANI HARAGADDE<br>BANGALORE DIARY, HULIMAVU GATE, GOTTIGERE<br>BANGALORE DIARY, HULIMAVU GATE, KALKERE, JIGANI<br>BANGALORE DIARY, HULIMAVU GATE, BASAVANAPURA GATE<br>BANGALORE DIARY, BILEKANAHALLI, HULIMAVU<br>BANGALORE DIARY, BILEKANAHALLI, AREKERE GATE<br>BANGALORE DIARY, BILEKANAHALLI, CHIKKAMMANAHALLI<br>BANGALORE DIARY, BILEKANAHALLI, KALKERE, KOPPA GATE<br>]]></description>
+      <styleUrl>#line-000000-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>369-C	(HULIMAVU)
+369-D	(SHANTINIKETAN LAYOUT)
+369-J	(C.K. PALYA)
+365-Q	(DYAVASANDRA)
+365-R	(BASAVANAPURA)
+365-W	(VADERA MANCHENAHALLI)
+367-F	(PILLAGANAHALLI)
+369-CA	(CHIKKAMMANAHALLI)
+369-H	(MICO SHRAMAJEEVI COLONY)
+369-F	(HOMMADEVANAHALLI)
+372-F	(NISARGA BADAVANE)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>BANGALORE DIARY, BILEKANAHALLI, HULIMAVU GATE
+BANGALORE DIARY, BILEKANAHALLI, AREKERE GATE
+BANGALORE DIARY, HULIMAVU GATE, CHIKKAMMANAHALLI
+BANGALORE DIARY, HULIMAVU GATE, JIGANI HARAGADDE
+BANGALORE DIARY, HULIMAVU GATE, GOTTIGERE
+BANGALORE DIARY, HULIMAVU GATE, KALKERE, JIGANI
+BANGALORE DIARY, HULIMAVU GATE, BASAVANAPURA GATE
+BANGALORE DIARY, BILEKANAHALLI, HULIMAVU
+BANGALORE DIARY, BILEKANAHALLI, AREKERE GATE
+BANGALORE DIARY, BILEKANAHALLI, CHIKKAMMANAHALLI
+BANGALORE DIARY, BILEKANAHALLI, KALKERE, KOPPA GATE
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/fVcR08Ecao8kqQFpF63FQAQ1KOSlpa4DgykZQ9bPn9NDBE9mG4BFuC9qlaPi8qGC2Hb4CCpPXdzcWzCwmOQJpLAANXsjDTCFIre-zjyrijKqT10lbdLHPc4ENT2KnObb16kX</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5721843,12.9785574,0
+          77.5721404,12.9785499,0
+          77.572118,12.9785454,0
+          77.5720844,12.9785342,0
+          77.5720432,12.9785202,0
+          77.5720214,12.9785124,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 28</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/vRarifOQ2PEimzDV4WYiOYQ4F-V30WJq5NM7rccHniXnaK21XaywUL9FgRNKNb9WeHfYWAxVccFgt4pDZtGOxzajXFfnxG6uvOE8F5gMZxv-zwCHKD8cL4PdZdLtsqXBRBYD" height="200" width="auto" /><br><br>Route (Destination): 304-R	(B.N. BACHE GOWDA BADAVANE)<br>304-L	(MEDIMALLASANDRA)<br>304-X	(AREHALLI)<br>304-J	(KALKUNTE AGRAHARA)<br>304-Z	(CHIKKA THIRUPATHI)<br>305-D	(CHANNASANDRA)<br>305-S	(SOURYA HOSPITAL)<br><br>VIA: CORPORATION,HALASURU, K.R. PURAM RAILWAY STATION, CHANNASANDRA, MEDIMALLASANDRA, NARAYANAKERE<br>CORPORATION, HALASURU, K.R. PURAM RAILWAY STATION, GARUDACHAR PALYA, HOODI, BODANA HOSAHALLI, DUNNASANDRA<br>HALASURU, K.R. PURAM RAILWAY STATION, CHANNASANDRA, DUNNASANDRA<br>CORPORATION, HALASURU, GARUDACHAR PALYA, HOPE FARM, DUNNASANDRA<br>GARUDACHAR PALYA, BODANA HOSAHALLI, KALKUNTE AGRAHARA<br>HALASURI, GARUDACHAR PALYA, HOPE FARM<br>HALASURU, GARUDACHAR PALYA, CHANNASANDRA, NADUVATTI<br>]]></description>
+      <styleUrl>#line-CE93D8-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>304-R	(B.N. BACHE GOWDA BADAVANE)
+304-L	(MEDIMALLASANDRA)
+304-X	(AREHALLI)
+304-J	(KALKUNTE AGRAHARA)
+304-Z	(CHIKKA THIRUPATHI)
+305-D	(CHANNASANDRA)
+305-S	(SOURYA HOSPITAL)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>CORPORATION,HALASURU, K.R. PURAM RAILWAY STATION, CHANNASANDRA, MEDIMALLASANDRA, NARAYANAKERE
+CORPORATION, HALASURU, K.R. PURAM RAILWAY STATION, GARUDACHAR PALYA, HOODI, BODANA HOSAHALLI, DUNNASANDRA
+HALASURU, K.R. PURAM RAILWAY STATION, CHANNASANDRA, DUNNASANDRA
+CORPORATION, HALASURU, GARUDACHAR PALYA, HOPE FARM, DUNNASANDRA
+GARUDACHAR PALYA, BODANA HOSAHALLI, KALKUNTE AGRAHARA
+HALASURI, GARUDACHAR PALYA, HOPE FARM
+HALASURU, GARUDACHAR PALYA, CHANNASANDRA, NADUVATTI
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/vRarifOQ2PEimzDV4WYiOYQ4F-V30WJq5NM7rccHniXnaK21XaywUL9FgRNKNb9WeHfYWAxVccFgt4pDZtGOxzajXFfnxG6uvOE8F5gMZxv-zwCHKD8cL4PdZdLtsqXBRBYD</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5720173,12.978511,0
+          77.5719876,12.9784974,0
+          77.571951,12.9784797,0
+          77.5719185,12.9784641,0
+          77.5718799,12.9784415,0
+          77.5718544,12.9784265,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 28-A</name>
+      <description><![CDATA[<img src="https://lh4.googleusercontent.com/npLvETfD2BMszPz8742G-5Qu9-T8jM-tiaRU0jxXmqcnmzpAH9OzgOZwmnkCvQ1Of9KsMpzAwwDeAGolMg-iHCDGXN1fvn3Xs0oh8r_QbNezAyiq6UttVevakCJgmmQ9AYlLqg" height="200" width="auto" /><br><br>Route (Destination): 315-J	(RAMPURA)<br>315-K	(K.R. PURAM)<br>315-L	(RAMAMURTHY NAGAR)<br>315-P	(SHANTI LAYOUT)<br>315-T	(KITHAGANUR)<br>315-V	(KADUGODI BALAJI CIRCLE)<br><br>VIA: HALASURU, K.R. PURAM, AVALAHALLI, BIDARAHALLI, ADURU<br>HALASURU, BENNIGANAHALLI, CHANNASANDRA BRIDGE, RAMURTHY NAGAR<br>HALASURU, BENNIGANAHALLI BRIDGE, RING ROAD<br>HALASURU, BENNIGANAHALLI, RAMURTHY NAGAR, KOWDENAHALLI<br>HALASURU, BENNIGANAHALLI, KOWDENAHALLI, T.C. PALYA<br>HALASURU, K.R. PURAM, SADARAMANGALA, HOODI<br>]]></description>
+      <styleUrl>#line-000000-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>315-J	(RAMPURA)
+315-K	(K.R. PURAM)
+315-L	(RAMAMURTHY NAGAR)
+315-P	(SHANTI LAYOUT)
+315-T	(KITHAGANUR)
+315-V	(KADUGODI BALAJI CIRCLE)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>HALASURU, K.R. PURAM, AVALAHALLI, BIDARAHALLI, ADURU
+HALASURU, BENNIGANAHALLI, CHANNASANDRA BRIDGE, RAMURTHY NAGAR
+HALASURU, BENNIGANAHALLI BRIDGE, RING ROAD
+HALASURU, BENNIGANAHALLI, RAMURTHY NAGAR, KOWDENAHALLI
+HALASURU, BENNIGANAHALLI, KOWDENAHALLI, T.C. PALYA
+HALASURU, K.R. PURAM, SADARAMANGALA, HOODI
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh4.googleusercontent.com/npLvETfD2BMszPz8742G-5Qu9-T8jM-tiaRU0jxXmqcnmzpAH9OzgOZwmnkCvQ1Of9KsMpzAwwDeAGolMg-iHCDGXN1fvn3Xs0oh8r_QbNezAyiq6UttVevakCJgmmQ9AYlLqg</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5718484,12.9784235,0
+          77.5718246,12.9784091,0
+          77.5717968,12.978387,0
+          77.5717767,12.9783687,0
+          77.5717539,12.9783497,0
+          77.57173,12.9783291,0
+          77.5717126,12.9783124,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 28-B</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/oVRTLJnslSX6-imCFg-kxJFrth10tR1TAhzMzfe1aHGwMJIGXbI7uAzgoCWaOnZ0aIA-SOBufDKThDD2ZNnJFtBtA-CnGxRG-rg6aBpO5JGVzFOe8QU_shsMjwj03gbPDW-o9g" height="200" width="auto" /><br><br>Route (Destination): 315-V	(KADUGODI BALAJI CIRCLE)<br>316-B	(BUDIGERE)<br>316-E	(CHEEMASANDRA)<br>316-G	(MANDURU)<br>316-M	(SINGRAHALLI)<br>317-A	(HOSAKOTE)<br>317-P	(KANNAMANGALA)<br>317-V	(POOJENA AGRAHARA (NADUVATTI))<br>381	(THIMMASANDRA)<br>381-E	(KAMBIPURA)<br>381-A	(POOJENA AGRAHARA)<br>HK-12	(HOSAKOTE)<br><br>VIA: HALASURU, K.R. PURAM, SADARAMANGALA, HOODI<br>HALASURU, K.R. PURA, AVALAHALLI, BUDIGERE CROSS<br>HALASURU, K.R. PURA, AVALAHALLI, CHEEMASANDRA CROSS<br>HALASURU, K.R. PURA, AVALAHALLI, BUDIGERE CROSS<br>HALASURU, K.R. PURA, BUDIGERE CROSS, BUDIGERE<br>HALASURU, K.R. PURA, BUDIGERE CROSS<br>HALASURU, K.R. PURA, BUDIGERE CROSS, KAJI SONNENAHALLI<br>HALASURU, K.R.PURA, BUDIGERE CROSS, HOSAKOTE, KODIHALLI, BASAVANAHALLI<br>HALASURU, K.R.PURA, BATTARAHALLI, BUDIGERE CROSS, HOSAKOTE<br>HALASURU, K.R.PURA, BATTARAHALLI, BUDIGERE CROSS, HOSAKOTE<br>HALASURU, K.R.PURA, BATTARAHALLI, BUDIGERE CROSS, HOSAKOTE<br>HALASURU, K.R.PURA, BATTARAHALLI, BUDIGERE CROSS, HOSAKOTE<br>]]></description>
+      <styleUrl>#line-CE93D8-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>315-V	(KADUGODI BALAJI CIRCLE)
+316-B	(BUDIGERE)
+316-E	(CHEEMASANDRA)
+316-G	(MANDURU)
+316-M	(SINGRAHALLI)
+317-A	(HOSAKOTE)
+317-P	(KANNAMANGALA)
+317-V	(POOJENA AGRAHARA (NADUVATTI))
+381	(THIMMASANDRA)
+381-E	(KAMBIPURA)
+381-A	(POOJENA AGRAHARA)
+HK-12	(HOSAKOTE)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>HALASURU, K.R. PURAM, SADARAMANGALA, HOODI
+HALASURU, K.R. PURA, AVALAHALLI, BUDIGERE CROSS
+HALASURU, K.R. PURA, AVALAHALLI, CHEEMASANDRA CROSS
+HALASURU, K.R. PURA, AVALAHALLI, BUDIGERE CROSS
+HALASURU, K.R. PURA, BUDIGERE CROSS, BUDIGERE
+HALASURU, K.R. PURA, BUDIGERE CROSS
+HALASURU, K.R. PURA, BUDIGERE CROSS, KAJI SONNENAHALLI
+HALASURU, K.R.PURA, BUDIGERE CROSS, HOSAKOTE, KODIHALLI, BASAVANAHALLI
+HALASURU, K.R.PURA, BATTARAHALLI, BUDIGERE CROSS, HOSAKOTE
+HALASURU, K.R.PURA, BATTARAHALLI, BUDIGERE CROSS, HOSAKOTE
+HALASURU, K.R.PURA, BATTARAHALLI, BUDIGERE CROSS, HOSAKOTE
+HALASURU, K.R.PURA, BATTARAHALLI, BUDIGERE CROSS, HOSAKOTE
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/oVRTLJnslSX6-imCFg-kxJFrth10tR1TAhzMzfe1aHGwMJIGXbI7uAzgoCWaOnZ0aIA-SOBufDKThDD2ZNnJFtBtA-CnGxRG-rg6aBpO5JGVzFOe8QU_shsMjwj03gbPDW-o9g</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5717048,12.9783069,0
+          77.5716877,12.9782906,0
+          77.5716693,12.978275,0
+          77.5716542,12.9782615,0
+          77.5716391,12.9782462,0
+          77.5716275,12.9782347,0
+          77.5716143,12.9782193,0
+          77.5715962,12.978199,0
+          77.5715824,12.9781827,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 29</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/imS2J-k2U7fb_jHmubC3ValvDLW3v53VsqR4rf2bkfLY14bdHX8emVXl2Yt6CLtb_Xg5E9awR47s4FGzmF1CgF33TRfAfSj4DDlgUs2VPClRIlqjL9VGHyEn9GbYP2qy1L69Rw" height="200" width="auto" /><br><br>Route (Destination): 319-F	(BATTANDURU AGRAHARA)<br>319-J	(AMBEDKAR NAGAR)<br>320-A	(NAGONDANAHALLI)<br>321-J	(MUTTUKURU)<br>322-A	(THATHANUR)<br><br>VIA: HALASURU, GARUDACHAR PALYA, HOODI, AGRAHARA<br>HALASURU, GARUDACHAR PALYA, HOODI, BA AGRAHARA<br>HALASURU, GARUDACHAR PALYA, HOODI, IMMADIHALLI<br>HALASURU, GARUDACHAR PALYA, HOODI, NAGANAYAKANAKOTE<br>HALASURU, CHANNASANDRA, MATKAGURU, MUTHUGADAHALLI<br>]]></description>
+      <styleUrl>#line-000000-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>319-F	(BATTANDURU AGRAHARA)
+319-J	(AMBEDKAR NAGAR)
+320-A	(NAGONDANAHALLI)
+321-J	(MUTTUKURU)
+322-A	(THATHANUR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>HALASURU, GARUDACHAR PALYA, HOODI, AGRAHARA
+HALASURU, GARUDACHAR PALYA, HOODI, BA AGRAHARA
+HALASURU, GARUDACHAR PALYA, HOODI, IMMADIHALLI
+HALASURU, GARUDACHAR PALYA, HOODI, NAGANAYAKANAKOTE
+HALASURU, CHANNASANDRA, MATKAGURU, MUTHUGADAHALLI
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/imS2J-k2U7fb_jHmubC3ValvDLW3v53VsqR4rf2bkfLY14bdHX8emVXl2Yt6CLtb_Xg5E9awR47s4FGzmF1CgF33TRfAfSj4DDlgUs2VPClRIlqjL9VGHyEn9GbYP2qy1L69Rw</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5715772,12.9781759,0
+          77.5715584,12.9781514,0
+          77.571547,12.9781347,0
+          77.5715336,12.9781167,0
+          77.5715162,12.9780906,0
+          77.5714937,12.9780576,0
+          77.5714807,12.9780363,0
+          77.5714709,12.9780128,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 29-A</name>
+      <description><![CDATA[<img src="https://lh6.googleusercontent.com/VEw6FF81fp7l7nC_a5M-QM_jFFN5Ps49GWJyryNuXyOMKonGhBjwZH9E0R_0l2osZN1GdW9il19UJdYFmN37jfE5jtTV1owA1l1G1atC0m8BfW7CVLeYPdFRisH7Xd62TTY5cg" height="200" width="auto" /><br><br>Route (Destination): 323-AK	(GONIGHATTAPURA)<br>232-F	(NERIGE)<br>325-A	(HAROHALLI)<br>327-A	(DOMMASANDRA)<br>327-G	(KUGUR)<br>327-K	(SARJAPURA)<br>328-E	(VARTHUR)<br>328-M	(MADHURA NAGAR)<br><br>VIA: MARATHAHALLI, VARTHUR, RAMAGONDANAHALLI<br>MARATHAHALLI, VARTHUR, GUNJURU<br>MARATHAHALLI, SIDDAPURA, VARTHUR<br>MARATHAHALLI, VARTHUR, GUNJURU<br>MARATHAHALLI, SIDDAPURA, VARTHUR, NERIGE<br>MARATHAHALLI, KADUBISANAHALLI, KANNALI, KODATIGET, HEMARE<br>MARATHAHALLI, SIDDAPURA, KODI<br>MARATHAHALLI, SIDDAPURA, VARTHUR<br>]]></description>
+      <styleUrl>#line-CE93D8-7588</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>323-AK	(GONIGHATTAPURA)
+232-F	(NERIGE)
+325-A	(HAROHALLI)
+327-A	(DOMMASANDRA)
+327-G	(KUGUR)
+327-K	(SARJAPURA)
+328-E	(VARTHUR)
+328-M	(MADHURA NAGAR)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>MARATHAHALLI, VARTHUR, RAMAGONDANAHALLI
+MARATHAHALLI, VARTHUR, GUNJURU
+MARATHAHALLI, SIDDAPURA, VARTHUR
+MARATHAHALLI, VARTHUR, GUNJURU
+MARATHAHALLI, SIDDAPURA, VARTHUR, NERIGE
+MARATHAHALLI, KADUBISANAHALLI, KANNALI, KODATIGET, HEMARE
+MARATHAHALLI, SIDDAPURA, KODI
+MARATHAHALLI, SIDDAPURA, VARTHUR
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh6.googleusercontent.com/VEw6FF81fp7l7nC_a5M-QM_jFFN5Ps49GWJyryNuXyOMKonGhBjwZH9E0R_0l2osZN1GdW9il19UJdYFmN37jfE5jtTV1owA1l1G1atC0m8BfW7CVLeYPdFRisH7Xd62TTY5cg</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5714679,12.9780066,0
+          77.5714616,12.9779939,0
+          77.5714536,12.9779769,0
+          77.5714454,12.9779592,0
+          77.5714351,12.9779354,0
+          77.5714186,12.9778939,0
+          77.5714082,12.9778678,0
+          77.5714029,12.9778521,0
+          77.5714002,12.9778341,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Platform 29-B</name>
+      <description><![CDATA[<img src="https://lh5.googleusercontent.com/i3Ot7JIApLaTKrcbuBGnAYM0eBNPQpK5SoU4Rvbyq4GPIyhKA7vPIFT6vIPIAFEnBGgpFDC2hDcNkFkP5fto7qym_IQwqTuhmKGmj83PZbuWRquF4n1t8CvuNE903DUSqDj4eeA" height="200" width="auto" /><br><br>Route (Destination): 334-C	(NAGASANDRA)<br>334-D	(VARTHUR)<br>335-AA	(WHITEFIELD TTMC)<br>335-N	(KADUGODI)<br>335-F	(LAL BAHADUR SHASTRI NAGAR)<br>336-B	(KEMPAPURA)<br>KBS-1I	(KADUGODI)<br>KBS-1K	(KADUGODI)<br><br>VIA: DOMLURU, N.A.L., GOLF CLUB<br>DOMLURU, HAL, MARATHAHALLI, KODI<br>MARATHAHALLI, KUNDALAHALLI, GRAPHIT INDIA<br>DOMLURU, HAL, MARATHAHALLI, ITPL, HOPE FARM<br>DOMLURU, HAL<br>DOMLURU, HAL, YAMALURU<br>DOMLURU, HAL, MARATHAHALLI, ITPL, VAIDEHI<br>DOMLUR, MARATHAHALLI, SIDDAPURA, KODI, WHITEFIELD<br>]]></description>
+      <styleUrl>#line-000000-7781</styleUrl>
+      <ExtendedData>
+        <Data name="Route (Destination)">
+          <value>334-C	(NAGASANDRA)
+334-D	(VARTHUR)
+335-AA	(WHITEFIELD TTMC)
+335-N	(KADUGODI)
+335-F	(LAL BAHADUR SHASTRI NAGAR)
+336-B	(KEMPAPURA)
+KBS-1I	(KADUGODI)
+KBS-1K	(KADUGODI)
+</value>
+        </Data>
+        <Data name="VIA">
+          <value>DOMLURU, N.A.L., GOLF CLUB
+DOMLURU, HAL, MARATHAHALLI, KODI
+MARATHAHALLI, KUNDALAHALLI, GRAPHIT INDIA
+DOMLURU, HAL, MARATHAHALLI, ITPL, HOPE FARM
+DOMLURU, HAL
+DOMLURU, HAL, YAMALURU
+DOMLURU, HAL, MARATHAHALLI, ITPL, VAIDEHI
+DOMLUR, MARATHAHALLI, SIDDAPURA, KODI, WHITEFIELD
+</value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://lh5.googleusercontent.com/i3Ot7JIApLaTKrcbuBGnAYM0eBNPQpK5SoU4Rvbyq4GPIyhKA7vPIFT6vIPIAFEnBGgpFDC2hDcNkFkP5fto7qym_IQwqTuhmKGmj83PZbuWRquF4n1t8CvuNE903DUSqDj4eeA</value>
+        </Data>
+      </ExtendedData>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5713706,12.9776483,0
+          77.571372,12.9776832,0
+          77.5713753,12.9777084,0
+          77.571381,12.9777394,0
+          77.5713894,12.9777865,0
+          77.5714008,12.9778365,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

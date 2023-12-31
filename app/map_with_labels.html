@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d90593dd55484f5d7c67f61fbf0ad53e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d90593dd55484f5d7c67f61fbf0ad53e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d90593dd55484f5d7c67f61fbf0ad53e = L.map(
+                "map_d90593dd55484f5d7c67f61fbf0ad53e",
+                {
+                    center: [12.9776273, 77.5728988],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_46ca2689d8b953a7c88c0df2cb37c952 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_46ca2689d8b953a7c88c0df2cb37c952.addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+            var marker_feaef596f7c441f60daccacc693ebea9 = L.marker(
+                [12.9776273, 77.5728988],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_dc409d7ed8454c789ba1af33f7ce0eff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bc3120eeb8088641eb7bfbcc3328522 = $(`<div id="html_7bc3120eeb8088641eb7bfbcc3328522" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 1&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/9oF2p9VZaTbYlYhRh_RQMb26cEAeJvQiJS-slv1ngQbfXK3aWbYSjNEP3USDkY0EflMsHr1D9SAS-LxHUz4_NqiyRg9UEJ3_yOvKj3I8oiFhK101DcAXtWTPx_NrJCkpzWCs_z0&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 87 (HAMPINAGAR R.P.C. LAYOUT)&lt;br&gt;87-A (HAMPINAGAR R.P.C. LAYOUT)&lt;br&gt;87-B (NAYANDAHALLI RAILWAY GATE)&lt;br&gt;&lt;br&gt;VIA: MAGADI ROAD, PRASANNA, PIPELINE ROAD&lt;br&gt;MAGADI ROAD, PRASANNA, PIPELINE ROAD, RAILWAY GATE&lt;br&gt;MAGADI ROAD, PRASANNA, PIPELINE ROAD, INCOME TAX, GANGONDANAHALLI&lt;br&gt;</div>`)[0];
+                popup_dc409d7ed8454c789ba1af33f7ce0eff.setContent(html_7bc3120eeb8088641eb7bfbcc3328522);
+            
+        
+
+        marker_feaef596f7c441f60daccacc693ebea9.bindPopup(popup_dc409d7ed8454c789ba1af33f7ce0eff)
+        ;
+
+        
+    
+    
+            var marker_26066d8efd4cd6b39ed0e72ac339e70f = L.marker(
+                [12.9779451, 77.5727262],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_05070008243ecc054071963606b0e2f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dda709437005ea65829001ed8fcf3119 = $(`<div id="html_dda709437005ea65829001ed8fcf3119" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 2&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/9XvsJPNPtS66gwD9NvIin6qkhukGyXuoWqYL6c_UC47G6wm7bjn2VpJQdYBD_MSIzda85E_TMLWyEyYA4ePkzVkELn7tOqXzpadz3LduwBVzI-aLyRDbKrlzwkNrmHNP3jmIUg&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 61 (VIJAYANAGAR)&lt;br&gt;61-A (CHANDRA LAYOUT)&lt;br&gt;61-B (SARSWATHINAGAR (BAPOOJI LAYOUT))&lt;br&gt;61-C (BCC LAYOUT)&lt;br&gt;61-E (VIJAYANAGAR TTMC)&lt;br&gt;61-F (GKW LAYOUT)&lt;br&gt;61-G (CHANDRA LAYOUT)&lt;br&gt;61-G (CHANDRA LAYOUT 1ST STAGE)&lt;br&gt;61-M (VIDYAGIRI LAYOUT)&lt;br&gt;&lt;br&gt;VIA: MAGADI ROAD, PRASANNA&lt;br&gt;SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, INCOME TAX&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR&lt;br&gt;SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, ATTIGUPPE&lt;br&gt;SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, MARUTHI MANDIR&lt;br&gt;SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR&lt;br&gt;SUJATHA, PRASANNA, VIJAYANAGAR, INCOME TAX&lt;br&gt;SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT&lt;br&gt;SUJATHA, 6TH BLOCK, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT</div>`)[0];
+                popup_05070008243ecc054071963606b0e2f9.setContent(html_dda709437005ea65829001ed8fcf3119);
+            
+        
+
+        marker_26066d8efd4cd6b39ed0e72ac339e70f.bindPopup(popup_05070008243ecc054071963606b0e2f9)
+        ;
+
+        
+    
+    
+            var marker_890f9f6ab929778ce95a70aa436f38e3 = L.marker(
+                [12.9780703, 77.5723808],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_5366485996740843d49557ca5e3126fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c166f381a1adf60722b04ba3b1118b64 = $(`<div id="html_c166f381a1adf60722b04ba3b1118b64" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 3&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/yjVrwhHQ0hIhZurpPH2THlP8eo_GsgrEgangy778fLsYbklHZXi6cP11_fMQZ7yTFhoS0tD331SAXbi0f0IERBqH5FHyWuA-DLbOVind7HIcnLcadB5Iu0kuC-swQS3UaohCgA&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 235-B (DODDABASTI)&lt;br&gt;235-D (SULIKERE)&lt;br&gt;235-F (SPORTS AUTHORITY OF INDIA)&lt;br&gt;235-K (DODDABASTI)&lt;br&gt;235-P (CHIKKANAHALLI)&lt;br&gt;235-Q (MARUTHI NAGAR)&lt;br&gt;238 (NRUPATHUNGANAGAR)&lt;br&gt;238-A (NAGARBHAVI 1ST STAGE (3RD BLOCK))&lt;br&gt;238-AB (ITI LAYOUT)&lt;br&gt;238-C (BANDE MARAMMA TEMPLE)&lt;br&gt;238-L (AMBEDKAR COLLEGE)&lt;br&gt;238-U (BANGALORE UNIVERSITY QUARTERS)&lt;br&gt;238-V (AMBEDKAR COLLEGE)&lt;br&gt;238-W (NARASAPURA)&lt;br&gt;238-ZA (ULLALU UPANAGARA)&lt;br&gt;223-P (UPKAR RESIDENCY LAYOUT)&lt;br&gt;223-PA (UPKAR RESIDENCY LAYOUT)&lt;br&gt;&lt;br&gt;VIA: MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, MARIYAPPANAPALYA&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, RAMASANDRA&lt;br&gt;SUJATHA 6TH BLOCK, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, GANDHIBAVANA&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, SONNENAHALLI&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, SONNENAHALLI, DODDABASTI&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, BUC, ADM OFFICE, SONNENAHALLI&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT, NAGARBHAVI CIRCLE&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT, NAGARBHAVI CIRCLE&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, KALYAN NAGAR&lt;br&gt;SUJATHA 6TH BLOCK, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, NRUPATHUNGANAGAR&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, MALLATHAHALLI&lt;br&gt;PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, MALLATHAHALLI&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, MUDALAPALYA, NAGARBHAVI CIRCLE, MALLATHAHALLI CROSS, VIDYANIKETAN&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT, MALLATHAHALLI CROSS, BALAJI LAYOUT&lt;br&gt;MAGADI ROAD, PRASANNA, VIJAYANAGAR, INCOME TAX, CHANDRA LAYOUT, MALLATHAHALLI CROSS, BALAJI LAYOUT&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/o5uIaRsG1pAL8iAh_rlmIv7-2wcQwm_7ABiFo1jJVqADMGYnKV-dRX2vG6mhBSKcDheA8qlbcKTBjoGZv_6Cv5cUCP_kqh1dM19kE8UIakF9FK7rU2vSG_rD0ycU-dtAEqs6&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;</div>`)[0];
+                popup_5366485996740843d49557ca5e3126fa.setContent(html_c166f381a1adf60722b04ba3b1118b64);
+            
+        
+
+        marker_890f9f6ab929778ce95a70aa436f38e3.bindPopup(popup_5366485996740843d49557ca5e3126fa)
+        ;
+
+        
+    
+    
+            var marker_ff4f440cd79a3a14eee58da894e2025d = L.marker(
+                [12.9779184, 77.5720224],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_c8a2c216ce013355995b940e9c0d9f30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9325bdca78b1f9ed7c427bddfadba871 = $(`<div id="html_9325bdca78b1f9ed7c427bddfadba871" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 4&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/bCLJ6m_INmXza1tSfcOiLFSoKOIzxqXPEydV5qAKAjW4sZ4m3vUPwCHR7hk9uuQXaGuAde6xYC6LdZjwCZ5IDJae0Jfurpc5DvMp3j8kcxcjpYAzwSlknJMpD63Ew96v9KXeXw&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 240-D (GOLLARAHATTI)&lt;br&gt;240-H (G HOSAHALLI)&lt;br&gt;240-R (MACHOHALLI)&lt;br&gt;241-B (KENCHANAPURA)&lt;br&gt;241-CB (YELE KODIGENAHALLI)&lt;br&gt;241-D (BHARAT NAGAR 2ND STAGE)&lt;br&gt;241-H (MAHADESHWARA NAGAR)&lt;br&gt;&lt;br&gt;VIA: MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE&lt;br&gt;MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, BYADARAHALLI&lt;br&gt;MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, BYADARAHALLI&lt;br&gt;MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, KODIGENAHALLI CROSS, KANNALI&lt;br&gt;MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, GOLLARAHATTI&lt;br&gt;MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, BHARAT NAGAR 3RD STAGE&lt;br&gt;MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE&lt;br&gt;</div>`)[0];
+                popup_c8a2c216ce013355995b940e9c0d9f30.setContent(html_9325bdca78b1f9ed7c427bddfadba871);
+            
+        
+
+        marker_ff4f440cd79a3a14eee58da894e2025d.bindPopup(popup_c8a2c216ce013355995b940e9c0d9f30)
+        ;
+
+        
+    
+    
+            var marker_e96922238a55dccc54aeca6a8d8d11dd = L.marker(
+                [12.9778309, 77.5719523],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_88d48a056b22d7eee040cac34270df37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ae9c8156714e0438e7ba179cd5bbc04 = $(`<div id="html_7ae9c8156714e0438e7ba179cd5bbc04" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 4-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/pqOWLMDJZDVQGakYwoPsf74ge3olJ2eQ3nvvvIp7R2VmKNt1DiYJpOpdtBv0CMM0SAeIA1643wAqZ9QTE2ewU1vjj-D6rpw8aK2mFHi9oRwBKJsply6GLQOQ1YlCazA_GsLQEA&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 242-B (TAVAREKERE)&lt;br&gt;242-CB (THUNGANAGAR)&lt;br&gt;242-T (HUNNIGERE)&lt;br&gt;242-X (DODDERI VILLAGE)&lt;br&gt;242-Z (TIPPAGONDANAHALLI)&lt;br&gt;242-ZD (KALLURU)&lt;br&gt;243-D (TIGALARAPALYA)&lt;br&gt;243-F (GIDADAKONENAHALLI)&lt;br&gt;&lt;br&gt;VIA: MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, KADABAGRE CROSS, CHANNENAHALLI&lt;br&gt;MAGADI ROAD, PRASANNA, A DASARAHALLI, KAMAKSHIPALYA, SUNKADAKATTE, BYADARAHALLI&lt;br&gt;SUJATHA 6TH BLOCK, PRASANNA, KAMAKSHIPALYA, SUNKADAKATTE, TAVAREKERE, MALLASANDRA, GERALLI&lt;br&gt;MAGADI ROAD, PRASANNA, A DASARAHALLI, SUNKADAKATTE, TAVAREKERE, HULUVENAHALLI CROSS, CHANDRAPPA CIRCLE, BYALALU&lt;br&gt;MAGADI ROAD, PRASANNA, A DASARAHALLI, SUNKADAKATTE, TAVAREKERE, GOLLARAHATTI, MARENAHALLI, CHOLANAYAKANAHALLI TB&lt;br&gt;MAGADI ROAD, PRASANNA, TAVAREKERE, TIPPAGONDANAHALLI, SHANUBHOGANAHALLI&lt;br&gt;MAGADI ROAD, PRASANNA, SUNKADAKATTE, TUNGANAGAR, ANDRAHALLI&lt;br&gt;MAGADI ROAD, PRASANNA, SUNKADAKATTE, EAST WEST COLLEGE&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/Ixsce-WIOh4l6X4RVE01_XlFMr8xtRbotWpfMtHykKbH031bRrBpjL-uHjjDNHCtdFKr1Q2tdtua7dHAaE9CLi89CaWhtebY2JiRK8PXNBvqse8uoFDKwDNerCpalvh5A-gD8w&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;</div>`)[0];
+                popup_88d48a056b22d7eee040cac34270df37.setContent(html_7ae9c8156714e0438e7ba179cd5bbc04);
+            
+        
+
+        marker_e96922238a55dccc54aeca6a8d8d11dd.bindPopup(popup_88d48a056b22d7eee040cac34270df37)
+        ;
+
+        
+    
+    
+            var marker_2b951748d885baa0f423fe793a31e37a = L.marker(
+                [12.9777318, 77.5719064],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_399332e609e5c1fdbb904c6e4200a03e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c16228af6de6beda3df0ce065429cb92 = $(`<div id="html_c16228af6de6beda3df0ce065429cb92" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 4-B&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/oku98Ke5Tnh1gbL7UuORPrh4wDxDW_aOx-fbEuaqyV-vvrtgxZo7tsposijPaQ-5hRgUKgtZUaBRm_ysMO-9FahfNetj7Pc_McabTIVJ25e57kHSOuiHOIj1FD1k9bkqyrGbAA&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 265 (KBS-KBS)&lt;br&gt;265-B (TIGALARAPALYA)&lt;br&gt;265-E (MATTIHALLI)&lt;br&gt;G-7 (JANAPRIYA TOWNSHIP)&lt;br&gt;&lt;br&gt;VIA: MAGADI ROAD, PRASANNA, KAMAKSHIPALYA, SUNKADAKATTE, HEGGANAHALLI, PEENYA 2ND STAGE, JALAHALLI CROSS, YESHWANTHPUR&lt;br&gt;MAGADI ROAD, PRASANNA, KAMAKSHIPALYA, SUNKADAKATTE, HEGGANAHALLI, PEENYA 2ND STAGE, ANDRAHALLI&lt;br&gt;MAGADI ROAD, PRASANNA, KAMAKSHIPALYA, SUNKADAKATTE, HEGGANAHALLI, NTTF, JALAHALLI CROSS, MARANAYAKANAHALLI&lt;br&gt;SUJATHA, PRASANNA, SUNKADAKATTE, GOLLARAHATTI, KADABAGERE CROSS&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/u9QHV1hq3wI7IvK2bxz44z6ZKxTkmrnDwQH8KP8b9sHgWWbNk4vvIieGRGfQHkkeBiWSnSJk5AedFzfcGg3YFU_0YATaBY2t72zVuRtLDVtyY3MSAc2N7vmzpW7eemI0vAbFcQ&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;</div>`)[0];
+                popup_399332e609e5c1fdbb904c6e4200a03e.setContent(html_c16228af6de6beda3df0ce065429cb92);
+            
+        
+
+        marker_2b951748d885baa0f423fe793a31e37a.bindPopup(popup_399332e609e5c1fdbb904c6e4200a03e)
+        ;
+
+        
+    
+    
+            var marker_9e6d6813b3334769ff65755adafdd39f = L.marker(
+                [12.9778184, 77.571778],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_2d1e5c7dbd8cbc7c719fd2031dafeff3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30c2f19ac3411d71708e09d08c219552 = $(`<div id="html_30c2f19ac3411d71708e09d08c219552" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 5&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/lwn4TTSBUs86KIHP7xsShdaKrvg0vUd_2lqAcq-knXh7vkCQp2rQxojCWzionAHaMXC9hNOERxJiTsSJ-8mZae_Jvy0HfqlQtY_CYhbNndnamJVPOYsBS2a2dHINsqDZA4Mltw&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 88 (BASAVESHWARANAGAR)&lt;br&gt;88-A (BASAVESHWARANAGAR, SANE GURUVANAHALLI)&lt;br&gt;96 (BASAVESHWARANAGAR)&lt;br&gt;96-A (BASAVESHWARANAGAR)&lt;br&gt;96-B (KAMALANAGARA)&lt;br&gt;96-D (KAMALANAGARA)&lt;br&gt;96-E (BEML LAYOUT)&lt;br&gt;96-F (BHEEMAJYOTHINAGAR)&lt;br&gt;96-G (SHANKARNAG BUS STAND)&lt;br&gt;&lt;br&gt;VIA: SUJATHA TALKIES, DHOBIGHAT&lt;br&gt;BHASHYAM CIRCLE, DHOBIGHAT&lt;br&gt;MALLESHWARAM CIRCLE, SHANKAR MUTT&lt;br&gt;SUJATHA TALKIES, INDUSTRIAL TOWN&lt;br&gt;INDUSTRIAL TOWN, BASAVESHWARANAGAR&lt;br&gt;MARIYAPPANA PALYA, SHANKAR MUTT&lt;br&gt;MALLESHWARAM CIRCLE, MODI HOSPITAL&lt;br&gt;MALLESHWARAM CIRCLE, MARIYAPPANA PALYA&lt;br&gt;NAGAPPA BLOCK, NAVARANG TALKIES&lt;br&gt;</div>`)[0];
+                popup_2d1e5c7dbd8cbc7c719fd2031dafeff3.setContent(html_30c2f19ac3411d71708e09d08c219552);
+            
+        
+
+        marker_9e6d6813b3334769ff65755adafdd39f.bindPopup(popup_2d1e5c7dbd8cbc7c719fd2031dafeff3)
+        ;
+
+        
+    
+    
+            var marker_25870de3b2eedd1702135aef874823f5 = L.marker(
+                [12.9778211, 77.57178],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_dd39c00dfb76356d148c88cc7c89d4b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99b7289711aa84106fbff50168531b04 = $(`<div id="html_99b7289711aa84106fbff50168531b04" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 6&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/5b7eC_ACv9OH_Z2_N2HWov9-gexsVknKeTz1npUeDRj-mlFkWVlOAgLdMaHFtikPmfQWOobbmU38F0VF_N2IaIMhEW0AZVXB1cb73YrD1ocbCfK2hh8o2hDzsJ27P-0_wVvykQ&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 78-A (ISKON TEMPLE)&lt;br&gt;78-E (YESHWANTHPUR RAILWAY STATION)&lt;br&gt;80 (MAHALAKSHMI LAYOUT)&lt;br&gt;80-A (NANDINI LAYOUT)&lt;br&gt;80-B (JAI MARUTHINAGARA CIRCLE)&lt;br&gt;80-C (GORAGUNTE PALYA)&lt;br&gt;80-D (JAI MARUTHINAGAR)&lt;br&gt;80-E (KRISHNANANDA NAGAR)&lt;br&gt;80-F (JAI BHUVANESHWARI NAGAR)&lt;br&gt;&lt;br&gt;VIA: SUJATHA, RAJAJINAGAR 1ST BLOCK&lt;br&gt;SUJATHA, ISKON TEMPLE&lt;br&gt;SUJATHA, RAJAJINAGAR 1ST BLOCK&lt;br&gt;SUJATHA, MAHALAKSHMI LAYOUT&lt;br&gt;SUJATHA, RAJAJINAGAR 1ST BLOCK&lt;br&gt;ESI, MAHALAKSMI LAYOUT&lt;br&gt;SUJATHA, RAJAJINAGAR 1ST BLOCK&lt;br&gt;SUJATHA, MAHALAKSHMI LAYOUT&lt;br&gt;SUJATHA, KANTEERAVA STUDIO&lt;br&gt;</div>`)[0];
+                popup_dd39c00dfb76356d148c88cc7c89d4b8.setContent(html_99b7289711aa84106fbff50168531b04);
+            
+        
+
+        marker_25870de3b2eedd1702135aef874823f5.bindPopup(popup_dd39c00dfb76356d148c88cc7c89d4b8)
+        ;
+
+        
+    
+    
+            var marker_744caae0fdab736f5bf157f04d0763bc = L.marker(
+                [12.9780334, 77.5719249],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_c1dc9361896320fce09411d7eebb2f62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b61a3af71c28f14d5d5214b749ae57a5 = $(`<div id="html_b61a3af71c28f14d5d5214b749ae57a5" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 6-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/JSkr-CaWJkRKmmwp5qCXlmUFFv5kFmqFKuU3sRCWHFVSGwzyDM1SFcysyvYQbg4bEJbkIKcYEVFb5v5xOjcVu_mwgT9m03qt2puyRnYuhG0SVudjoxs5wBHgBTNEBYRaveFK&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 80-G (SWATHANTHRA YODHARA NAGAR)&lt;br&gt;80-R (DR. RAJKUMAR PUNYA BHOOMI)&lt;br&gt;80-K (SAKAMMA LAYOUT)&lt;br&gt;80-L (ASRAYA NAGAR)&lt;br&gt;89 (KURUBARAHALLI)&lt;br&gt;89-A (KAVERI NAGAR)&lt;br&gt;89-B (GELEYARA BALAGA)&lt;br&gt;89-C (KURUBARAHALLI)&lt;br&gt;89-D (KURUBARAHALLI, JC NAGAR)&lt;br&gt;&lt;br&gt;VIA: RAJAJINAGAR 1ST BLOCK, KANTEERAVA STUDIO&lt;br&gt;SUJATHA, MAHALAKSHMI LAYOUT, SHANKARA NAGAR&lt;br&gt;SUJATHA, ESI, MAHALAKSHMI LAYOUT, JAI MARUTHI NAGAR&lt;br&gt;ESI, MAHALAKSMI LAYOUT, KANTEERAVA NAGAR&lt;br&gt;SUJATHA, RAJAJINAGAR 1ST BLOCK&lt;br&gt;SUJATHA, SHANKAR MUTT&lt;br&gt;SUJATHA, RAJAJINAGAR 1ST BLOCK&lt;br&gt;ESI, RAJAJINAGAR 1ST BLOCK&lt;br&gt;CENTRAL, HARISHCHANDRAGHAT, MODI HOSPITAL&lt;br&gt;</div>`)[0];
+                popup_c1dc9361896320fce09411d7eebb2f62.setContent(html_b61a3af71c28f14d5d5214b749ae57a5);
+            
+        
+
+        marker_744caae0fdab736f5bf157f04d0763bc.bindPopup(popup_c1dc9361896320fce09411d7eebb2f62)
+        ;
+
+        
+    
+    
+            var marker_ce795b2b71d8fdf18d31d3988636ccdd = L.marker(
+                [12.9781824, 77.5721525],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_9480b96d50f11beb6b146129c43a6486 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9defbd0115b2b7b55c7c7fa7dea92afa = $(`<div id="html_9defbd0115b2b7b55c7c7fa7dea92afa" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 7&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/EA7-gTF1LjwRLpyN-je8ZFSuWVNpCu3tiseA7Fx49ADEZNWy1pPcq7Ee8rgZR_KXSqwOUTsEumWlEm1dtIhbmiptPbJ3Zi32kb1hOzu8v5LpXiH7A3AR3dcNusveK8zpIcpp7A&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 89-E (KAVERI NAGAR)&lt;br&gt;89-F (GELEYARA BALAGA)&lt;br&gt;252-F (PEENYA 2ND STAGE)&lt;br&gt;252-H (RAJEEVGHANDHI NAGAR)&lt;br&gt;264 (JALAHALLI CROSS)&lt;br&gt;267-A (CHOWDESHWARI NAGAR)&lt;br&gt;&lt;br&gt;VIA: SUJATHA, BHEEMAJYOTHINAGAR&lt;br&gt;SUJATHA, RAJAJINAGAR 1ST BLOCK&lt;br&gt;SUJATHA, MAHALAKSHMI LAYOUT&lt;br&gt;SUJATHA, MAHALAKSHMI LAYOUT&lt;br&gt;ESI, KRISHNANDANAGAR&lt;br&gt;MAHALAKSHMI LAYOUT, SHANKARNAGAR&lt;br&gt;</div>`)[0];
+                popup_9480b96d50f11beb6b146129c43a6486.setContent(html_9defbd0115b2b7b55c7c7fa7dea92afa);
+            
+        
+
+        marker_ce795b2b71d8fdf18d31d3988636ccdd.bindPopup(popup_9480b96d50f11beb6b146129c43a6486)
+        ;
+
+        
+    
+    
+            var marker_f1a3314348263a95a1ae40c4ddee5ee7 = L.marker(
+                [12.9782184, 77.5723949],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_5c9c8a8286b0b8f808ac7058ab20f57b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b1e85811865eecf500a92f6ec2731bc = $(`<div id="html_9b1e85811865eecf500a92f6ec2731bc" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 8-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/SdSxsTvMMBLIeKo58kiNO5_JpnTl53sg0O7lWwn7zx1lK2gV5zzyTjLgoqWClhr77i0D1rscDKLZhL6oio5qyfWEF4doiYqCMtXp81YFbmdcRnTeHake6fbuFnycFh_q4TkH&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 45-E (CHANNAMANNAKERE ACHUKATTU)&lt;br&gt;45-F (CHANNAMANNAKERE ACHUKATTU)&lt;br&gt;45-G (AGS LAYOUT)&lt;br&gt;&lt;br&gt;VIA: KR MARKET, KATHRIGUPPE&lt;br&gt;CHAMARAJAPETE, KATHRIGUPPE&lt;br&gt;HOSAKEREHALLI CROSS, ITTAMADAVU&lt;br&gt;</div>`)[0];
+                popup_5c9c8a8286b0b8f808ac7058ab20f57b.setContent(html_9b1e85811865eecf500a92f6ec2731bc);
+            
+        
+
+        marker_f1a3314348263a95a1ae40c4ddee5ee7.bindPopup(popup_5c9c8a8286b0b8f808ac7058ab20f57b)
+        ;
+
+        
+    
+    
+            var marker_2dec920ee1d960ecd335c7f315859cc2 = L.marker(
+                [12.978154, 77.5726514],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_96183666a71647ddca05d3f298f40128 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f01f3a2db62dfcfb0ebcdada355fdfb = $(`<div id="html_7f01f3a2db62dfcfb0ebcdada355fdfb" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 8-B&lt;/b&gt;&lt;br&gt;Route (Destination): 45-H&lt;br&gt;45-H&lt;br&gt;45-K&lt;br&gt;45-M&lt;br&gt;49&lt;br&gt;49-B&lt;br&gt;210-P&lt;br&gt;210-W&lt;br&gt;210-X&lt;br&gt;210-Z&lt;br&gt;&lt;br&gt;VIA: </div>`)[0];
+                popup_96183666a71647ddca05d3f298f40128.setContent(html_7f01f3a2db62dfcfb0ebcdada355fdfb);
+            
+        
+
+        marker_2dec920ee1d960ecd335c7f315859cc2.bindPopup(popup_96183666a71647ddca05d3f298f40128)
+        ;
+
+        
+    
+    
+            var marker_ec17f0418b050afafd88cacd5defd2eb = L.marker(
+                [12.9780174, 77.5728583],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_d086832a1eb7bf599cbb80a922911bae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd0fc513542418bdc528ad1fa4c7bd85 = $(`<div id="html_cd0fc513542418bdc528ad1fa4c7bd85" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 9&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/24ICpqYqb6ooX4lS1GmMAAVTk8KG5_0Uv2kRW3QrNoShbMqRg_KLNWsIbbiQg9AjzM9wiHmZcfLEJMfixHkH5uBAFqVDIbuP2QptCDWyIBohBqtheCxlZtPiIqmXR7HBT4I&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 210-A (ISRO LAYOUT)&lt;br&gt;210-E (VASANTHAPURA)&lt;br&gt;210-I (CHIKKALLASANDRA)&lt;br&gt;210-J (RAMANJENEYA LAYOUT)&lt;br&gt;210-K (UTTARAHALLI&lt;br&gt;BHARATH CO-OPERATIVE SOCIETY)&lt;br&gt;210-NA (POORNAPRAGNA LAYOUT)&lt;br&gt;&lt;br&gt;VIA: KR MARKET, KUMARASWAMY LAYOUT&lt;br&gt;TOWN HALL, UTTARAHALLI&lt;br&gt;CORPORATION, BANASHANKRI, BDA COMPLEX&lt;br&gt;CORPORATION, PADMANABHA NAGAR&lt;br&gt;CORPORATION, BANASHANKRI, BDA COMPLEX&lt;br&gt;KR MARKET, PADMANABHA NAGAR&lt;br&gt;PADMANABHA NAGARA, UTTARAHALLI&lt;br&gt;</div>`)[0];
+                popup_d086832a1eb7bf599cbb80a922911bae.setContent(html_cd0fc513542418bdc528ad1fa4c7bd85);
+            
+        
+
+        marker_ec17f0418b050afafd88cacd5defd2eb.bindPopup(popup_d086832a1eb7bf599cbb80a922911bae)
+        ;
+
+        
+    
+    
+            var marker_74bb85a86352f5c53b2a32493ba3f2a8 = L.marker(
+                [12.97779, 77.5730115],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_073349f57617d533ce6ce994abd04313 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0c03f21773f47e86c39bef296b28273 = $(`<div id="html_f0c03f21773f47e86c39bef296b28273" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 10&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/JrXwPsiq2TJlorLXZOo7oxBb5yOcCk1dEd_huoLWFHCna0d8C4XZ6VwyZaEGFaib8mTYxajT3uJ0MaOLG4SpPgzF4-yP6UHGHVAsCvkT_vm2uaIV8V50uZzrgeXBDJ1KvIqno3M&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 36 (SREENAGARA)&lt;br&gt;36-A (AVALAHALLI BDA PARK)&lt;br&gt;36-B (GIRINAGARA EXTENSION)&lt;br&gt;36-D (MUNESHWARA BLOCK)&lt;br&gt;36-E (GIRINAGARA)&lt;br&gt;36-F (KALIDASA LAYOUT)&lt;br&gt;36-H (GIRINAGARA)&lt;br&gt;36-G (AVALAHALLI NEW BDA LAYOUT) &lt;br&gt;10 (AVALAHALLI BDA PARK)&lt;br&gt;&lt;br&gt;VIA: CORPORATION, LALBAGH MAIN GATE&lt;br&gt;KR MARKET, APEX BANK&lt;br&gt;CHAMARAJPETE, APEX BANK&lt;br&gt;KR MARKET, APEX BANK&lt;br&gt;CORPORATION, APEX BANK&lt;br&gt;KR MARKET, SREENAGARA&lt;br&gt;CHAMARAJPETE, APEX BANK&lt;br&gt;KR MARKET, NAGENDRA BLOCK&lt;br&gt;CHAMARAJAPETE, ASHRAMA&lt;br&gt;</div>`)[0];
+                popup_073349f57617d533ce6ce994abd04313.setContent(html_f0c03f21773f47e86c39bef296b28273);
+            
+        
+
+        marker_74bb85a86352f5c53b2a32493ba3f2a8.bindPopup(popup_073349f57617d533ce6ce994abd04313)
+        ;
+
+        
+    
+    
+            var marker_3de31e06a5c5dacd7bc8d5f0017a97d6 = L.marker(
+                [12.9776391, 77.5732362],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_55e611dfce561ddf43f1e56dfb09932e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b6bd07010b793fa415d03a31c94839b = $(`<div id="html_0b6bd07010b793fa415d03a31c94839b" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 11&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/x_d2O3VeskALZPhUvRvUThN4BuO4eTcNvYoOX-uSZUHktku9-s3A6w-uPgvX-7a2_1h_yjxwYMqg-a_wpye73mj9KaZt4Y7lGo9sO5WUixH78gAjIc2hwmtL_2Q9GrcFLmGF5WM&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 2 (JP NAGARA 6TH PHASE)&lt;br&gt;2-A (JP NAGARA 1ST PHASE)&lt;br&gt;2-E (JP NAGAR 6TH PHASE)&lt;br&gt;2-G (JP NAGARA 3RD PHASE)&lt;br&gt;&lt;br&gt;VIA: LALBAGH MAIN GATE, JAYNAGAR 4TH BLOCK&lt;br&gt;CORPORATION, JAYNAGAR 4TH BLOCK&lt;br&gt;LALBAGH MAIN GATE, JAYNAGAR 4TH BLOCK&lt;br&gt;CORPORATION, JAYNAGAR 4TH BLOCK&lt;br&gt;</div>`)[0];
+                popup_55e611dfce561ddf43f1e56dfb09932e.setContent(html_0b6bd07010b793fa415d03a31c94839b);
+            
+        
+
+        marker_3de31e06a5c5dacd7bc8d5f0017a97d6.bindPopup(popup_55e611dfce561ddf43f1e56dfb09932e)
+        ;
+
+        
+    
+    
+            var marker_00a4f94ae9be0158ad57e416f1601cfa = L.marker(
+                [12.977892, 77.5731795],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_f15d7ce2de73ed09889b164bb52d516d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72cbac5ad318f2c9f47dbf957da06f7f = $(`<div id="html_72cbac5ad318f2c9f47dbf957da06f7f" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 11-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/t-7ERbdztFEb0NweCMUZhYt6USs0NphzpU42HS2s5tTd025JrcJHor37ntQheHV9JEv9i8BF_40rdXrgiPWZRe8_iT2KHYLhv6TGRezu6WZ-XlcPeB4uqGqM6ArSBfdaUoIWuw&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 210-R (VASANTHAPURA)&lt;br&gt;210-U (KUMARSWAMY LAYOUT)&lt;br&gt;211-B (SOMANAHALLI)&lt;br&gt;211-F (KAGGALIPURA)&lt;br&gt;211-L (BCC LAYOUT (RAGUVANAHALLI))&lt;br&gt;212-B (MUNESHWARANAGAR)&lt;br&gt;212-D (AGARA)&lt;br&gt;213-Z (HAROHALLI)&lt;br&gt;&lt;br&gt;VIA: MONOTYPE, ISRO LAYOUT&lt;br&gt;KR MARKET, MONOTYPE&lt;br&gt;BANASHANKARI, KAGGALIPURA&lt;br&gt;BANASHANKARI, KONANKUNTE CROSS&lt;br&gt;KR MARKET, CORPORATION&lt;br&gt;CORPORATION, BANASHANKRI&lt;br&gt;CORPORATION, TALAGHATTAPURA&lt;br&gt;KR MARKET, UDAYANAPALYA&lt;br&gt;</div>`)[0];
+                popup_f15d7ce2de73ed09889b164bb52d516d.setContent(html_72cbac5ad318f2c9f47dbf957da06f7f);
+            
+        
+
+        marker_00a4f94ae9be0158ad57e416f1601cfa.bindPopup(popup_f15d7ce2de73ed09889b164bb52d516d)
+        ;
+
+        
+    
+    
+            var marker_d4436e90bb1190a8760c66798d388023 = L.marker(
+                [12.9780697, 77.5730769],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_8f8c1ce953cbe08fdb3227dd95da9beb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_858dc4f184d4e11849c665ed3a59f62c = $(`<div id="html_858dc4f184d4e11849c665ed3a59f62c" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 11-B&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/7g_cfTzM-XNYgBkp8XrHogmyl7C2vf_2Xz6tDVh8BsKOIKpqOwKJzo98bY0W6uxVRn2Okq1lrFXMbda1yWrsMXipjX4G6SC7EL8A8S03iKOSR0DOBsAyl4yyFPHsHjHXiljbLQ&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 215-R (ESHAWARA LAYOUT)&lt;br&gt;215-G (SHRINIDHI LAYOUT (KOTTANUR))&lt;br&gt;215-H (JAMBUSAVARI DINNE)&lt;br&gt;215-I (PUNJAB NATIONAL BANK LAYOUT)&lt;br&gt;215-J (KOTTANURU)&lt;br&gt;215-M (VINAYAKANAGAR)&lt;br&gt;215-N (ANJANAPURA)&lt;br&gt;215-NA (AMRUTHANAGAR)&lt;br&gt;&lt;br&gt;VIA: VIJAYA COLLEGE, PUTTENAHALLI&lt;br&gt;KR MARKET, KONANAKUNTE CROSS&lt;br&gt;VIJAYA COLLEGE, KOTTANURU DINNE&lt;br&gt;CORPORATION, JARAGANAHALLI&lt;br&gt;VIJAYA COLLEGE, CHANCHAGHATTA&lt;br&gt;CORPORATION, JAYNAGAR 5TH BLOCK&lt;br&gt;KR MARKET, SOUTH END CIRCLE&lt;br&gt;MAHILA SEVA SAMAJA ANJANAPURA&lt;br&gt;</div>`)[0];
+                popup_8f8c1ce953cbe08fdb3227dd95da9beb.setContent(html_858dc4f184d4e11849c665ed3a59f62c);
+            
+        
+
+        marker_d4436e90bb1190a8760c66798d388023.bindPopup(popup_8f8c1ce953cbe08fdb3227dd95da9beb)
+        ;
+
+        
+    
+    
+            var marker_c1d9bdcb5a328a027db2aeaedefc1f1f = L.marker(
+                [12.9781984, 77.5729572],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_13bf0653165863a0bbb1e757fe615268 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0ad4775d9616637ccd663b42a0708ba = $(`<div id="html_c0ad4775d9616637ccd663b42a0708ba" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 12&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/syF_uaifoasWrMAGCxTlHuND4p_xqdILVoSle2iZeBMcc6WQe8k9fytCV5ArtM7pGUPVW2-w7toQBimg6sw6A8Bpgg8i_AZ-h3jgkHxIHfNb1tUWjmUzU5keDeoNHRrzyyn2wg&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 12 (BANASHANKARI)&lt;br&gt;12-A (BANASHANKARI 2ND STAGE)&lt;br&gt;12-B (PADMANABHA NAGAR)&lt;br&gt;12-C (PADMANABHA NAGAR)&lt;br&gt;12-D (KADIRENAHALLI PARK)&lt;br&gt;12-E (BANASHANKARI)&lt;br&gt;12-F (CHIKKALLASANDRA)&lt;br&gt;15-C (KUMARSWAMY LAYOUT)&lt;br&gt;15-E (KUMARSWAMY LAYOUT)&lt;br&gt;&lt;br&gt;VIA: LALBAGH MAIN GATE, VIJAYA COLLEGE&lt;br&gt;CORPORATION, VIJAYA COLLEGE&lt;br&gt;LALBAGH MAIN GATE, BANASHANKARI 2ND STAGE&lt;br&gt;CORPORATION, VIJAYA COLLEGE, TATA SILK FARM&lt;br&gt;CORPORATION, VIJAYA COLLEGE&lt;br&gt;CORPORATION, SOUTHEND CIRCLE&lt;br&gt;LALBAGH MAIN GATE, MANOTYPE&lt;br&gt;CORPORATION, VIJAYA COLLEGE, TATA SILK FARM&lt;br&gt;KR MARKET, MANOTYPE&lt;br&gt;</div>`)[0];
+                popup_13bf0653165863a0bbb1e757fe615268.setContent(html_c0ad4775d9616637ccd663b42a0708ba);
+            
+        
+
+        marker_c1d9bdcb5a328a027db2aeaedefc1f1f.bindPopup(popup_13bf0653165863a0bbb1e757fe615268)
+        ;
+
+        
+    
+    
+            var marker_91548fc7f53befc160626cbe6b65bc6f = L.marker(
+                [12.9783088, 77.5727942],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_823964d8ec76ad6f6494a1399e51a24c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9afdf6ff940d43f38b03a35296e59f2c = $(`<div id="html_9afdf6ff940d43f38b03a35296e59f2c" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 12-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/ADQC7WGHBee3-_768Vh9Lrwa8E70Bh7bLJ0XUqMfZCZsNISZNeLHEtYclRVsbm9NfpgMfBFrPfmySex8AkLGLZl9p0G5qzaLpQNkHtjTu27vqA0DFEEeQErsutZnHBcQGWmvMg&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 15-G (KUMARSWAMY LAYOUT 2ND STAGE)&lt;br&gt;15-H (JHB COLONY)&lt;br&gt;15-J (BANASHANKARI 2ND STAGE)&lt;br&gt;15-L (MINAJ NAGAR)&lt;br&gt;&lt;br&gt;VIA: TOWN HALL, MANOTYPE&lt;br&gt;CORPORATION, KADIRENAHALLI CROSS&lt;br&gt;KR MARKET, MANOTYPE&lt;br&gt;KR MARKET, KADIRENAHALLI CROSS&lt;br&gt;</div>`)[0];
+                popup_823964d8ec76ad6f6494a1399e51a24c.setContent(html_9afdf6ff940d43f38b03a35296e59f2c);
+            
+        
+
+        marker_91548fc7f53befc160626cbe6b65bc6f.bindPopup(popup_823964d8ec76ad6f6494a1399e51a24c)
+        ;
+
+        
+    
+    
+            var marker_2cda1d238919205119687fdbc2d29a6e = L.marker(
+                [12.9783699, 77.5726299],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_8c8ef87a74bd25c795b9c958d1b7bb18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_004613eb7c52ea19728f2b10e1b8cf28 = $(`<div id="html_004613eb7c52ea19728f2b10e1b8cf28" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 13-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/8kGzgkBsw9ZOBg9KNy1xw2sZHXvuKGr_eRn5aEFRBqSnP9SI2ivwUaTXN0JPYUbRlHcMpd0qwWPqEphI0VaPliFN6_3xO4oxfZEgAlKrphd2panvjOWuunPoGYKdgnmG2fUnFw&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 25-F	(BTM LAYOUT)&lt;br&gt;25-G	(BTM LAYOUT)&lt;br&gt;25-H	(KUVEMPUNAGAR)&lt;br&gt;25-K	(JP NAGAR 4TH STAGE, DOLLAR&#39;S COLONY)&lt;br&gt;25-N	(BTM 7TH MAIN ROAD)&lt;br&gt;25-J	(KUVEMPUNAGAR)&lt;br&gt;364-A	(MICO SHRAMAJEEVI COLONY)&lt;br&gt;364-B	(DEVARACHIKKANAHALLI)&lt;br&gt;364-C	(VIJAYA BANK COLONY)&lt;br&gt;&lt;br&gt;VIA: CORPORATION, VIJAYA COLLEGE&lt;br&gt;CORPORATION, VIJAYA COLLEGE&lt;br&gt;CORPORATION, LALBAGH&lt;br&gt;MAHARANI COLLEGE, JAYNAGAR 4TH BLOCK&lt;br&gt;CORPORATION, ASHOKA PILLAR, JAYNAGAR 4TH BLOCK EAST&lt;br&gt;CORPORATION, ASHOKA PILLAR&lt;br&gt;CORPORATION, SOUTHEND CIRCLE, BILEKALLI&lt;br&gt;CORPORATION, SOUTHEND CIRCLE, VIJAYA BANK COLONY&lt;br&gt;CORPORATION, SOUTHEND CIRCLE&lt;br&gt;</div>`)[0];
+                popup_8c8ef87a74bd25c795b9c958d1b7bb18.setContent(html_004613eb7c52ea19728f2b10e1b8cf28);
+            
+        
+
+        marker_2cda1d238919205119687fdbc2d29a6e.bindPopup(popup_8c8ef87a74bd25c795b9c958d1b7bb18)
+        ;
+
+        
+    
+    
+            var marker_232ec2f4443172d009f9d8af03b9b1a3 = L.marker(
+                [12.978402, 77.5723962],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_ed1979eba73f6489ee7d643d456fe095 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_297a58c38b2726d404a988fb66b3c8d4 = $(`<div id="html_297a58c38b2726d404a988fb66b3c8d4" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 13-B&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/6VYlWvSP1VTjw7OfGxevGj5Fr_fmo3SU3FJXo9dZ28HWAyQQytOzNwGVhURIjgItGz7cHtz00z20lpx9PuzLLKpXbbxy57gsJdALSMKoQGz8B_AW2wS_dLftXny9a1mXWKwH2A&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 364-F	(NARAYANAPPANA HALLI)&lt;br&gt;364-G	(KODICHIKKANA HALLI)&lt;br&gt;&lt;br&gt;VIA: SHANTINAGAR, JAYADEVA HOSPITAL&lt;br&gt;CORPORATION, JAYADEVA HOSPITAL&lt;br&gt;</div>`)[0];
+                popup_ed1979eba73f6489ee7d643d456fe095.setContent(html_297a58c38b2726d404a988fb66b3c8d4);
+            
+        
+
+        marker_232ec2f4443172d009f9d8af03b9b1a3.bindPopup(popup_ed1979eba73f6489ee7d643d456fe095)
+        ;
+
+        
+    
+    
+            var marker_bea279d7e9d78e013d862eb4f9cac71e = L.marker(
+                [12.9783797, 77.572185],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_952862fe89e61179b0397e4ca43bb8aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69edde12b513cbfaee0fff37852b4c5f = $(`<div id="html_69edde12b513cbfaee0fff37852b4c5f" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 14-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/yosXFGEfd2DKh77Rn6wLW3owBm8oWqzPynoDQzMOKoQdxIhCgRNBsCcerS_3V4UDuWjgKJEcPQn3ntaF0M_VQ3aGDmhm_hdTPFN8sKe0VWx6caW-3z7xLQMftr3KYb0dg6zzhA&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 165-G	(KORAMANGALA 8TH BLOCK)&lt;br&gt;168-D	(TAVAREKERE)&lt;br&gt;168-E	(JAI BHEEMANAGARA)&lt;br&gt;168-F	(OLD GURAPPANAPALYA)&lt;br&gt;171	(KORAMANGALA )&lt;br&gt;171-B	(KORAMANGALA 8TH BLOCK)&lt;br&gt;171-C	(KORAMANGALA KENDRIYA SADANA)&lt;br&gt;171-D	(VENKATAPURA)&lt;br&gt;&lt;br&gt;VIA: CORPORATION, WILSON GARDEN&lt;br&gt;CORPORATION, NIMHANS&lt;br&gt;CORPORATION, NIMHANS&lt;br&gt;SHANTHINAGAR, NIMHANS&lt;br&gt;CORPORATION, BANGALORE DAIRY&lt;br&gt;SHANTHINAGAR, WILSON GARDEN&lt;br&gt;NIMHANS, BANGLORE DAIRY&lt;br&gt;CORPORATION, BANGALORE DAIRY&lt;br&gt;</div>`)[0];
+                popup_952862fe89e61179b0397e4ca43bb8aa.setContent(html_69edde12b513cbfaee0fff37852b4c5f);
+            
+        
+
+        marker_bea279d7e9d78e013d862eb4f9cac71e.bindPopup(popup_952862fe89e61179b0397e4ca43bb8aa)
+        ;
+
+        
+    
+    
+            var marker_3753d357b42294fe2ab4fcd277e1e14c = L.marker(
+                [12.9783085, 77.5719879],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_62e3602be3f0ca8e61d5e4587d4cc42c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1730871d4ee104aae537456c4de2804a = $(`<div id="html_1730871d4ee104aae537456c4de2804a" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 14-B&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/PL15ZWyZFS5e7b_SYvV9lQm79-iBVnOwDlXH6S_OuXZI3A03EmJbHsTrAWapiFZOSrctSKLkRK2fLfHTiGm0OT6stap7zBDjVWMNYSQA8wLT_0mLXow3ZGwLZVNUN1ZrRtrFbw&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 171-F	(KORAMANGALA HOUSING COMPANY)&lt;br&gt;171-G	(KORAMANGALA)&lt;br&gt;171-H	(KORAMANGALA HOUSING COMPANY)&lt;br&gt;171-J	(KORAMANGALA)&lt;br&gt;171-PP	(KORAMNAGALA)&lt;br&gt;&lt;br&gt;VIA: SHANTI NAGAR, BANGLORE DAIRY&lt;br&gt;CORPORATION, HOSUR ROAD, KALYANA MANTAPA&lt;br&gt;CORPORATION, DAIRY, AUDUGODI&lt;br&gt;BANGLORE DAIRY, KRM, KALYANA MANTAPA&lt;br&gt;CORPORATION, DAIRY, AUDUGODI&lt;br&gt;</div>`)[0];
+                popup_62e3602be3f0ca8e61d5e4587d4cc42c.setContent(html_1730871d4ee104aae537456c4de2804a);
+            
+        
+
+        marker_3753d357b42294fe2ab4fcd277e1e14c.bindPopup(popup_62e3602be3f0ca8e61d5e4587d4cc42c)
+        ;
+
+        
+    
+    
+            var marker_3d205f8a3ca5fdb6c95b5e5e5ef8cf9c = L.marker(
+                [12.9781785, 77.5718102],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_56f5e10ef48068175e99b1fbc4290cc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f7a7d24a33ef938e5324ba2440f033b = $(`<div id="html_7f7a7d24a33ef938e5324ba2440f033b" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 15-D&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/w_FZ_lHxiL9thZfvDZ0dTw1IKiG2loj2G4apC8od8STT1XJRXJtAOaP8k_j_KEXd64Z4DB0AVVk_vbu0w7XpnXVk7umudyDg-SVR7RPxNruKzN5IeAEbzixoS69mnmqx8mMLm8U&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 353-C	(JIGANI)&lt;br&gt;354-C	(MARASUR)&lt;br&gt;355-A	(SREERAMPURA)&lt;br&gt;355-C	(JIGANI)&lt;br&gt;355-Q	(DYAVASANDRA)&lt;br&gt;356	(CHANDAPURA)&lt;br&gt;356-A	(TATTANAHALLI)&lt;br&gt;356-C	(ELECTRONIC CITY)&lt;br&gt;356-D	(SAMPUGENAGAR)&lt;br&gt;&lt;br&gt;VIA: MADIVALA, RAJAPURA&lt;br&gt;MADIVALA, KOODLU GATE, IGLURU&lt;br&gt;HEBBAGODI, MARADEVANHALLI&lt;br&gt;KOODLU GATE, TEMPLE CROSS&lt;br&gt;MADIVALA, KONAPPANA AGRAHARA&lt;br&gt;SINGASANDRA, BTL COLLEGE&lt;br&gt;KOODLU GATE, BYRADEVAHALLI&lt;br&gt;SINGASANDRA, KONAPPANA AGRAHARA&lt;br&gt;MADIVALA, HUSKURU GATE&lt;br&gt;</div>`)[0];
+                popup_56f5e10ef48068175e99b1fbc4290cc3.setContent(html_7f7a7d24a33ef938e5324ba2440f033b);
+            
+        
+
+        marker_3d205f8a3ca5fdb6c95b5e5e5ef8cf9c.bindPopup(popup_56f5e10ef48068175e99b1fbc4290cc3)
+        ;
+
+        
+    
+    
+            var marker_dcba8d779c8c8a9763b5631cac6efed7 = L.marker(
+                [12.9780403, 77.5716928],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_6119f523e23715b262c956d1f7b111b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba4939b9ab4b65eef3f91e6cf00b2610 = $(`<div id="html_ba4939b9ab4b65eef3f91e6cf00b2610" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 17-D&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/6vGUzz7VxeVvwPkSQyREDeIcdrR9Q8nPrwSpHvPsqpASPpoPX_sB3IO1wrzCpQyQQmnic2sXZDPO0PtuEWAdJzbMDBSt3m-Kkft2wDbK5hmh_-v9QTGJSqfoOBUF1Zr0CbwI&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 335-A	(SATHYA SAI HOSPITAL)&lt;br&gt;335-F	(LAL BAHADUR SHASTRI NAGAR)&lt;br&gt;336-B	(KEMPAPURA)&lt;br&gt;381	(THIMMASANDRA)&lt;br&gt;&lt;br&gt;VIA: MILITARY HOSPITAL, MARATHAHALLI&lt;br&gt;MAYOHALL, HAL MAIN GATE&lt;br&gt;DOMLURU, YAMALURU&lt;br&gt;HALASURU, HALAPPANAHALLI&lt;br&gt;</div>`)[0];
+                popup_6119f523e23715b262c956d1f7b111b1.setContent(html_ba4939b9ab4b65eef3f91e6cf00b2610);
+            
+        
+
+        marker_dcba8d779c8c8a9763b5631cac6efed7.bindPopup(popup_6119f523e23715b262c956d1f7b111b1)
+        ;
+
+        
+    
+    
+            var marker_3d00bb1dab4256310834f532aa285f64 = L.marker(
+                [12.977788, 77.5715651],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_2b6cf2515e95d302f141c8f482d91eb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16a3924df3d94a3ac06df09a8ed1f63f = $(`<div id="html_16a3924df3d94a3ac06df09a8ed1f63f" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 18&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/Ia0t33vwJFNoP617noHmRM7BkFGM9SwEsWPS7U1Io-x7QTDqaMxRSKv1ShQHuT9y1RuwOpNQ7Q6gU2Jpf9d_sHqJen56J9MMEm0qftwOIqgOE-QYLQNA4QdsnODG2n6nrYGTNg&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 131	(DOOPANAHALLI)&lt;br&gt;131-B	(OLD BYAPPANAHALLI)&lt;br&gt;131-C	(DOMLURU)&lt;br&gt;314-H	(DOMLURU)&lt;br&gt;314-D	(INDIRANAGAR, ESI HOSPITAL)&lt;br&gt;314-B	(JEEVANABHIMA NAGAR)&lt;br&gt;138-D	(JEEVANABHIMA NAGAR)&lt;br&gt;&lt;br&gt;VIA: CORPORATION, ULSOOR&lt;br&gt;MAYOHALL, ULSOOR&lt;br&gt;ULSOOR, DOOPANAHALLI&lt;br&gt;MALLESHPALYA&lt;br&gt;VIGNANANAGAR&lt;br&gt;C.V. RAMAN NAGAR&lt;br&gt;K.R. CIRCLE, ULSOOR&lt;br&gt;</div>`)[0];
+                popup_2b6cf2515e95d302f141c8f482d91eb7.setContent(html_16a3924df3d94a3ac06df09a8ed1f63f);
+            
+        
+
+        marker_3d00bb1dab4256310834f532aa285f64.bindPopup(popup_2b6cf2515e95d302f141c8f482d91eb7)
+        ;
+
+        
+    
+    
+            var marker_f922c9cae76a98bd3c2304429c0a6eb7 = L.marker(
+                [12.9777841, 77.5715631],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_9dfc3dc0d06dd184c1e6de62c739281e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7acfa93308ccbebf7cc91fee22c83d70 = $(`<div id="html_7acfa93308ccbebf7cc91fee22c83d70" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 18-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/ZJtwOOqhvlZiw2juXD2EV36_8Y763hUrBWAQ1KlZuHPhK8DmVOlsvBQPYQynQIjr9YdytG8BYKiV5QCllMNG7TTsYbmPfUN9Zk1PKpEi4jjl58VbL0u4UfIFi-vKKtZefuProg&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 314-B	(C.V. RAMAN NAGAR)&lt;br&gt;314-D	(288 VIGNYANA NAGAR)&lt;br&gt;314-E	(D.R.D.O. TOWNSHIP)&lt;br&gt;314-G	(BYRASANDRA)&lt;br&gt;314-H	(MALLESH PALYA)&lt;br&gt;314-T	(BASAVANAGAR)&lt;br&gt;314-X	(ABBAIAREDDY LAYOUT)&lt;br&gt;314-Z	(JAGADISHANAGAR)&lt;br&gt;&lt;br&gt;VIA: HALASURU, NAGAVARAPALYA&lt;br&gt;MAYOHALL, MALLESHPALYA&lt;br&gt;HALASURU, KAGGADASAPURA&lt;br&gt;MEYOHALLI, BEML GATE&lt;br&gt;CORPORATION, THIPPASANDRA CROSS&lt;br&gt;HALASURU, MALLESH PALYA&lt;br&gt;HALASURU, VIGNANANAGAR&lt;br&gt;HALASURU, BEML GATE&lt;br&gt;</div>`)[0];
+                popup_9dfc3dc0d06dd184c1e6de62c739281e.setContent(html_7acfa93308ccbebf7cc91fee22c83d70);
+            
+        
+
+        marker_f922c9cae76a98bd3c2304429c0a6eb7.bindPopup(popup_9dfc3dc0d06dd184c1e6de62c739281e)
+        ;
+
+        
+    
+    
+            var marker_9115327d010081b40c52976cdb2a1fcd = L.marker(
+                [12.9776505, 77.5713184],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_7f070a33d9090369bd1d9231e53f0292 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f243ab753c02508100d8197d008be72d = $(`<div id="html_f243ab753c02508100d8197d008be72d" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 19&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/wiI3ngQGaXIOFPVQuuQEqtaGVQOGCpeS9j_F_-9AT4ox_pGtsvsEapj_ia4Zb5miCn1ynZM9sIn6sSflYCARslx2cKS8dLygypP3Hp1SvdP4lKbDzhxdQJnkHEgKV40H-UIzXA&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 126	(JEEVANAHALLI)&lt;br&gt;129	(SHIVAJINAGAR)&lt;br&gt;290	(NAGAVARA)&lt;br&gt;290-B	(NAGAVARA)&lt;br&gt;290-T	(HBR LAYOUT 1ST STAGE)&lt;br&gt;290-J	(MESTRI PALYA)&lt;br&gt;291-H	(RK HEGDE NAGAR)&lt;br&gt;291-M	(GOVINDAPURA)&lt;br&gt;302-F	(BABASAB PALYA)&lt;br&gt;302-B	(JALAVAYU VIHARA)&lt;br&gt;302-K	(LINGARAJAPURA KHB COLONY)&lt;br&gt;302-N	(KALYANANAGAR)&lt;br&gt;302-A	(BABASAB PALYA)&lt;br&gt;&lt;br&gt;VIA: INDIAN EXPRESS, COLES PARK&lt;br&gt;VIDHANA SOUDHA, INDIAN EXPRESS&lt;br&gt;VIDHAN SOUDHA, COLES PARK&lt;br&gt;INDIAN EXPRESS, CANTONMENT&lt;br&gt;INDIAN EXPRESS, KACHAKANAHALLI&lt;br&gt;INDIAN EXPRESS, NAGAVARA&lt;br&gt;VIDHANA SOUDHA, MUSLIM COLONY&lt;br&gt;INDIAN EXPRESS, COLES PARK&lt;br&gt;COLES PARK, SUBBAIAHNA PALYA&lt;br&gt;ITC FACTORY, KAMMANAHALLI&lt;br&gt;KR CIRCLE, MARUTHISEVANAGAR&lt;br&gt;VASANTHANAGAR, COLES PARK&lt;br&gt;KR CIRCLE, ITC FACTORY&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/TwGgp_XkWNaevyqJW3j8ZOMG-3RVyDjaWNSDidFIFEgMjdaK85HL4-hdBBd2c-zi-Dmx4wDU6fLBRr1_ndbGp_67CVdTszkLCvqTqNCnn3TsZIPjexZw4ZDvQvzLIR0mzkrW-Q&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;</div>`)[0];
+                popup_7f070a33d9090369bd1d9231e53f0292.setContent(html_f243ab753c02508100d8197d008be72d);
+            
+        
+
+        marker_9115327d010081b40c52976cdb2a1fcd.bindPopup(popup_7f070a33d9090369bd1d9231e53f0292)
+        ;
+
+        
+    
+    
+            var marker_2ce7c88480abe701d338142d02403bff = L.marker(
+                [12.9778671, 77.5713586],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_1b0ecdae317325ec15fbafa1b2833a25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed8272703afd71fe629e166f87195646 = $(`<div id="html_ed8272703afd71fe629e166f87195646" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 19-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/E0EiEGpq-rb-7t6onubXgoluHSTN7iigwDP4ivT7JLTnqYOVFc-FP8OO2k37OdIKMqZ1o0ZrVQm_D_Mah4Aj5ieckbPSeBdHW84JqbTDUEsfFrZ7DgaPazlIf8IWegz9Zbewpg&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 292-A	(K NARAYANAPURA)&lt;br&gt;292-B	(NAGARESH NAGENAHALLI)&lt;br&gt;292-C	(K NARAYANAPURA)&lt;br&gt;293-N	(GEDDALAHALLI)&lt;br&gt;293-H	(DASANAYAKANAHALLI)&lt;br&gt;294-E	(BILISHIVALAYA)&lt;br&gt;295-A	(DODDAGUBBI)&lt;br&gt;295-B	(ANGALIPURA)&lt;br&gt;296-A	(YARABNAHALLI)&lt;br&gt;&lt;br&gt;VIA: SHIVANANDA STORE, HEBBALA&lt;br&gt;CONTONMENT, LINGARAJAPURA&lt;br&gt;INDIAN EXPRESS, ITC&lt;br&gt;INDIAN EXPRESS, COLES PARK&lt;br&gt;INDIAN EXPRESS, BAGALURU&lt;br&gt;INDIAN EXPRESS, KACHAKANAHALLI&lt;br&gt;CONTONMENT, HENNUR CROSS&lt;br&gt;INDIAN EXPRESS, GEDDALAHALLI&lt;br&gt;PULKESHINAGAR, CHIKKAGUBBI CROSS&lt;br&gt;</div>`)[0];
+                popup_1b0ecdae317325ec15fbafa1b2833a25.setContent(html_ed8272703afd71fe629e166f87195646);
+            
+        
+
+        marker_2ce7c88480abe701d338142d02403bff.bindPopup(popup_1b0ecdae317325ec15fbafa1b2833a25)
+        ;
+
+        
+    
+    
+            var marker_618b21c46d0ff7ad44d9332e13dde5ec = L.marker(
+                [12.9780795, 77.5714525],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_77311fe7bbbef91ae4852d469710c216 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a8a9eb823dade60e63f861e434469de = $(`<div id="html_0a8a9eb823dade60e63f861e434469de" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 19-B&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/4_Y50k2Uwik9MvDRRgwJLCHOwApGChRYPG-OP3Izy99V2qYVwkIy1eWXMfUu8BGBgjdVFdLtzZqu2dFhhkJssKTZ2PdsBKpbIGCCiiD0ZX2-vIP4sNbTIhYlVaIjP-n_ZoSWag&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 296-B	(HBR LAYOUT 5TH STAGE)&lt;br&gt;296-C	(KALYANANAGAR)&lt;br&gt;296-N	(KADA AGRHARA)&lt;br&gt;296-T	(HBR LAYOUT 1ST STAGE)&lt;br&gt;296-V	(HBR, BDA COMPLEX)&lt;br&gt;300-B	(BANASWADI)&lt;br&gt;300-C	(K.R. PURAM)&lt;br&gt;415-H	(AMARAJYOTHI LAYOUT)&lt;br&gt;&lt;br&gt;VIA: COLES PARK, HBR LAYOUT, K.P.T.C.L. OFFICE&lt;br&gt;COLES PARK, LINGARAJAPURA&lt;br&gt;VASANTHANAGAR, CLARENCE SCHOOL&lt;br&gt;CLARENCE SCHOL, KACHARAKANAHALLI&lt;br&gt;CONTONMENT, LINGARAJAPURA&lt;br&gt;MARUTHI, SEVANAGAR&lt;br&gt;COLES PARK, BANASWADI&lt;br&gt;HEBBALA, NAGAWARA&lt;br&gt;</div>`)[0];
+                popup_77311fe7bbbef91ae4852d469710c216.setContent(html_0a8a9eb823dade60e63f861e434469de);
+            
+        
+
+        marker_618b21c46d0ff7ad44d9332e13dde5ec.bindPopup(popup_77311fe7bbbef91ae4852d469710c216)
+        ;
+
+        
+    
+    
+            var marker_5d3f9a1cbf7ab85787a2c67313c776e7 = L.marker(
+                [12.9782764, 77.5715976],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_2709d2bbe479f693338ab2a33c65277a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32365ad66057982881ca8c1559589fd6 = $(`<div id="html_32365ad66057982881ca8c1559589fd6" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 19-C&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/ZAgHg6XqmabZmGZnP80Acq_119YaACtYLhbZzgPu4fbfWWTWPSdDWINR3Eu6Nh_ViuwXLhpEuRz8cVV0yEOmouRo_eJ3a4dkJS_Xzu6doFNdm3lrE17X4RicsbizuYjIvyB4qg&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 56	(JAGAJEEVANRAM NAGAR)&lt;br&gt;57-A	(BAPUJINAGAR)&lt;br&gt;58	(TIMBER YARD LAYOUT)&lt;br&gt;58-C	(TELECOM LAYOUT)&lt;br&gt;59-D	(NAYANDAHALLI RAILWAY GATE)&lt;br&gt;218-A	(KAMBIPURA)&lt;br&gt;221-A	(TAVAREKERE)&lt;br&gt;&lt;br&gt;VIA: KR MARKET, SIRASI CIRCLE&lt;br&gt;CORPORATION, SIRASI CIRCLE&lt;br&gt;CORPORATION, NEW GUDDADAHALLI&lt;br&gt;KR MARKET, BAPUJINAGAR&lt;br&gt;KR MARKET, ATTIGUPPE&lt;br&gt;M.C.T.C. BUS STATION, KENGERI&lt;br&gt;NAYANDAHALLI, KOMMAGHATTA&lt;br&gt;</div>`)[0];
+                popup_2709d2bbe479f693338ab2a33c65277a.setContent(html_32365ad66057982881ca8c1559589fd6);
+            
+        
+
+        marker_5d3f9a1cbf7ab85787a2c67313c776e7.bindPopup(popup_2709d2bbe479f693338ab2a33c65277a)
+        ;
+
+        
+    
+    
+            var marker_959e1de8643b3cf19df5fb7993f0ae80 = L.marker(
+                [12.9784128, 77.5717565],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_a4728da3338e128444b6457647d62886 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e3eff9061f3e7564a17f0f872283a39 = $(`<div id="html_8e3eff9061f3e7564a17f0f872283a39" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 19-D&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/qJdfZlgJ3Q9nuhjlZzhg4EwPa4Qo33jOF1yduugTRiPZM4B8ZKNdipGKMwzqDyF_rCO-y-_nZxhKOlPvaOZQ_5yQZN2nZKskG7seF4H9pPv6zquJ0Irvyt8KVjuLPiIiCZPuMWI&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 222-C	(NAGADEVANAHALLI)&lt;br&gt;225-CB	(B.H.E.L. LAYOUT)&lt;br&gt;225-G	(BANGARAPPANAGAR)&lt;br&gt;225-H	(SHAKTI HILLS RESORTS)&lt;br&gt;405	(KEMPEGOWDA BUS STATION)&lt;br&gt;&lt;br&gt;VIA: BAPUJINAGAR, NAYANDAHALLI, KENGERI&lt;br&gt;COTTONPETE, R.R. TEMPLE, B.H.E.L. LAYOUT CROSS&lt;br&gt;KR MARKET, BPUJINAGAR, DEVADIGA SOUDHA&lt;br&gt;COTTONPETE, NAYANDAHALLI, DEVADIGA SOUDHA&lt;br&gt;COTTONPETE, R.V. COLLEGE, MALLATHAHALLI, KAMAKSHIPALYA&lt;br&gt;</div>`)[0];
+                popup_a4728da3338e128444b6457647d62886.setContent(html_8e3eff9061f3e7564a17f0f872283a39);
+            
+        
+
+        marker_959e1de8643b3cf19df5fb7993f0ae80.bindPopup(popup_a4728da3338e128444b6457647d62886)
+        ;
+
+        
+    
+    
+            var marker_c5c35cbe6af5c7b768231ffd16a90a98 = L.marker(
+                [12.9785304, 77.571945],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_ca389e7e47768af4a1df6dcbd5a0a228 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b46ef693691e563ea7f9e5a4d17928a2 = $(`<div id="html_b46ef693691e563ea7f9e5a4d17928a2" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 20-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/lszqSoUiN4ycddAVY-q-CRV5rERX5H2ic9SlCj0AO5wuUjExvGvkSJCIiotwAbiCCqTEJmAeCGOcaL7dJ2Mq64ccdvnVbMEkArFBHOwVz7j63AO3oWCtEqRH_LNesaUWoksvww&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 250-S	(GELEYARA BALAGA)&lt;br&gt;250-Y	(KUDARAGERE COLONY)&lt;br&gt;250-SA	(KUDARAGERE)&lt;br&gt;250-CB	(MALLASANDRA)&lt;br&gt;251-B	(RAJANUKUNTE)&lt;br&gt;252	(PEENYA 2ND STAGE)&lt;br&gt;252-C	(MACHOHALLI)&lt;br&gt;252-D	(RAJNI FORUM)&lt;br&gt;252-E	(LAGGERE)&lt;br&gt;&lt;br&gt;VIA: YESHWANTHPUR, DASARAHALLI&lt;br&gt;YESHWANTHPUR, SEEDEDAHALLI&lt;br&gt;R.M.C. YARD, THOTADAGUDDAHALLI&lt;br&gt;R.M.C. YARD, BAGALAGUNTE CROSS&lt;br&gt;YESHWANTHPUR, HESARAGHATTA CROSS&lt;br&gt;YESHWANTHPUR, JALAHALLI CROSS&lt;br&gt;YESHWANTHPUR, SUNKADAKATTE&lt;br&gt;YESHWANTHPUR, JALAHALLI CROSS&lt;br&gt;R.M.C. YARD, JALAHALLI CROSS&lt;br&gt;</div>`)[0];
+                popup_ca389e7e47768af4a1df6dcbd5a0a228.setContent(html_b46ef693691e563ea7f9e5a4d17928a2);
+            
+        
+
+        marker_c5c35cbe6af5c7b768231ffd16a90a98.bindPopup(popup_ca389e7e47768af4a1df6dcbd5a0a228)
+        ;
+
+        
+    
+    
+            var marker_8678783c5bc099a8f288b3d38780bf0d = L.marker(
+                [12.9786029, 77.5721605],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_bec04b76c2d2d02ffc6a998b39d01d53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63c2ff121daac7cb7d5ad76b8d4a2300 = $(`<div id="html_63c2ff121daac7cb7d5ad76b8d4a2300" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 20-C&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/9pLqPC5SsIj4PLtUBRocX77MeC3S2npHSsTdOhs6ZRLEapJQgJPkq9yyiC2h1t9PwPoLBA5iR-FviThgvINfaOpWrIYLhkW110SZtZ6fk20yX61k4vZH8QnDnG8V4pSgfDfX&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 258-T	(KANNAMANGALA)&lt;br&gt;258-VA	(BYRASANDRA)&lt;br&gt;258-VB	(CHIKKAMARANAHALLI)&lt;br&gt;258-VD	(BETTASANDRA)&lt;br&gt;258-WA	(JODIRAGITHIMMASANDRA)&lt;br&gt;261	(PEENYA 2ND STAGE)&lt;br&gt;263-D	(K.R.S. GOWDA LAYOUT)&lt;br&gt;263-F	(BYADARAHALLI)&lt;br&gt;263-G	(GANGONDANAHALLI)&lt;br&gt;&lt;br&gt;VIA: DASARAHALLI, NELAMANGALA&lt;br&gt;JALAHALLI CROSS, NELAMANGALA&lt;br&gt;YESHWANTHPUR, NELAMANGALA&lt;br&gt;JALAHALLI CROSS, NELAMANGALA&lt;br&gt;YESHWANTHPUR, NELAMANGALA&lt;br&gt;MALLESHWARAM RAILWAY STATION&lt;br&gt;YESHWANTHPUR, DASARAHALLI&lt;br&gt;MALLESHWARAM, NELAGEDARANAHALLI&lt;br&gt;YESHWANTHPUR, NELAGEDARANAHALLI&lt;br&gt;</div>`)[0];
+                popup_bec04b76c2d2d02ffc6a998b39d01d53.setContent(html_63c2ff121daac7cb7d5ad76b8d4a2300);
+            
+        
+
+        marker_8678783c5bc099a8f288b3d38780bf0d.bindPopup(popup_bec04b76c2d2d02ffc6a998b39d01d53)
+        ;
+
+        
+    
+    
+            var marker_d5977e8819c618c5f8a074f5aa37730b = L.marker(
+                [12.9786179, 77.5723983],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_cc9805ff912191d9455befc9d759c800 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56f87b07caefb6e25f35f25245fc2ded = $(`<div id="html_56f87b07caefb6e25f35f25245fc2ded" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 21&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/I72vZFVz_dG8n5NNta75nUF07lsFTAmfL3fvW2Hz_lCQZ5-il8bB3YygEojXWXFT7RhfzAed1RmPRa-qn6OgzIupBfwapT2E41DA4Lb2N45KyQPnPdgPWy2Jk-zFIT4U7KJD&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 82	(KEMPEGOWDA BUS STAND)&lt;br&gt;82-A	(YESHWANTHPUR RAILWAY STATION)&lt;br&gt;82-C	(YESHWANTHPUR RAILWAY STATION)&lt;br&gt;90-E	(YESHWANTHPUR RAILWAY STATION)&lt;br&gt;98-B	(RMV 2ND STAGE)&lt;br&gt;98-E	(LAKSHMIDEVI NAGAR)&lt;br&gt;98-F	(VIDHANASOUDHA LAYOUT)&lt;br&gt;98-G	(LOTTEGOLLAHALLI)&lt;br&gt;99-B	(CHOWDESHWARI BUS STAND)&lt;br&gt;&lt;br&gt;VIA: HARISHCHANDRAGHAT, YESHWANTHPUR&lt;br&gt;MALLESHWARAM, YESHWANTHPUR&lt;br&gt;CENTRAL, YESHWANTHPUR&lt;br&gt;CENTRAL, YESHWANTHPUR&lt;br&gt;MALLESHWARAM, DEVASANDRA&lt;br&gt;YESHWANTHPUR, KANTIRAVANAGAR&lt;br&gt;MALLESHWARAM 8TH CROSS, GORGUNTEPALYA&lt;br&gt;MALLESHWARAM, DEVASANDRA&lt;br&gt;MALLESHWARAM, MATTHIKERE&lt;br&gt;</div>`)[0];
+                popup_cc9805ff912191d9455befc9d759c800.setContent(html_56f87b07caefb6e25f35f25245fc2ded);
+            
+        
+
+        marker_d5977e8819c618c5f8a074f5aa37730b.bindPopup(popup_cc9805ff912191d9455befc9d759c800)
+        ;
+
+        
+    
+    
+            var marker_1f7ed9b3026531eb69dd5d2928cc7b09 = L.marker(
+                [12.9785836, 77.5726397],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_d6ee4e7ada220732f2605424652ba863 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1944a68ce6353933569588c94e98756a = $(`<div id="html_1944a68ce6353933569588c94e98756a" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 22&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/okgoTRrZpVlNb_q7FQBtLtroN8FTHsCzA8WohT8WsUspqTGioDEvqJgGhvjjC7xpXcIHynboPeHjmNoxnVWtawMD8OJVkWAcXmJKdcqTk5t1ATfkKvaH5VBxl1GmGT8SgU1z&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 266-H	(MARASANDRA CIRCLE)&lt;br&gt;269	(RAMACHANDRAPURA)&lt;br&gt;269-B	(VIDYARANYAPURA)&lt;br&gt;271	(JALAHALLI EAST AREA CAMP)&lt;br&gt;271-A	(ABBIGERE)&lt;br&gt;271-B	(KUVEMPUNAGAR 2ND STAGE)&lt;br&gt;271-C	(SINGAPURA)&lt;br&gt;271-D	(JALAHALLI VILLAGE)&lt;br&gt;271-E	(VEERASAGARA)&lt;br&gt;&lt;br&gt;VIA: MATTHIKERE, MS PALYA, DIBBUR&lt;br&gt;MALLESHWARAM, BEL CIRCLE&lt;br&gt;MATTHIKERE, BALIGA CIRCLE&lt;br&gt;BEL CIRCLE, JALAHALLI EAST&lt;br&gt;MATTHIKERE, GANGAMMA CIRCLE&lt;br&gt;MATTHIKERE&lt;br&gt;BEL MARKET, KUVEMPUNAGAR&lt;br&gt;MALLESHWARAM, MUTHYALANAGAR&lt;br&gt;MALLESHWARAM, MS PALYA&lt;br&gt;</div>`)[0];
+                popup_d6ee4e7ada220732f2605424652ba863.setContent(html_1944a68ce6353933569588c94e98756a);
+            
+        
+
+        marker_1f7ed9b3026531eb69dd5d2928cc7b09.bindPopup(popup_d6ee4e7ada220732f2605424652ba863)
+        ;
+
+        
+    
+    
+            var marker_d4afdf9e0d315f4d451357bce3a9f05b = L.marker(
+                [12.9785026, 77.5728565],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_f52dbf89e60d4108157b23a3e49f3dcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_656e1a653ef9210d88fe3bfaa8c72726 = $(`<div id="html_656e1a653ef9210d88fe3bfaa8c72726" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 22-B&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/jjrUk_6I2i9C8CV5JMa-1zV_PpNQ22vq1b7dwKOZpA8TFjWOUaJVYrmJd57UCJtowQ_d80ya4GhA8TljxtiK8V-HGmwDNydp8qM1U-29S8j9-oiDW4Z-0ICcbxmok6dGNSpx2g&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 276	(VIDYARANYAPURA)&lt;br&gt;276-C	(LOTTEGOLLAHALLI)&lt;br&gt;276-J	(YELAHANKA)&lt;br&gt;&lt;br&gt;VIA: MALLESHWARAM, DEVASANDRA&lt;br&gt;MALLESHWARAM, DEVASANDRA&lt;br&gt;MATHIKERE, ATTUR LAYOUT&lt;br&gt;</div>`)[0];
+                popup_f52dbf89e60d4108157b23a3e49f3dcb.setContent(html_656e1a653ef9210d88fe3bfaa8c72726);
+            
+        
+
+        marker_d4afdf9e0d315f4d451357bce3a9f05b.bindPopup(popup_f52dbf89e60d4108157b23a3e49f3dcb)
+        ;
+
+        
+    
+    
+            var marker_14a7144fa49de437a0678e015582a2a8 = L.marker(
+                [12.9783847, 77.5730608],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_00a82a5e26e70a7fafca0a38a1ec1787 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09430751aad03d49976e68fe7b1bd1bc = $(`<div id="html_09430751aad03d49976e68fe7b1bd1bc" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 23&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/RdmL0FhZl8W43FkhJoyzjDTNmzG1MBFvv6O8qfpgztNUx5TGXMruCK7TMU2SI9AEOv74-hAs5ArCkVUfe53VXe4fOfX7JNASjRDHvW4E0VBw6xLhXz0VbyFpN2NM4lKCSJ6sCGo&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 279-C	(TATANAGAR)&lt;br&gt;279-E	(BHOOPASANDRA)&lt;br&gt;279-K	(PATELAPPA LAYOUT)&lt;br&gt;281-F	(KANNAMANGALA GATE)&lt;br&gt;282-F	(MARANAYAKANAHALLI)&lt;br&gt;282-G	(KODAGALAHATTI)&lt;br&gt;284	(YELAHANKA)&lt;br&gt;284-C	(NYAYANGA BADAVANE)&lt;br&gt;415-H	(AMARJYOTHI LAYOUT)&lt;br&gt;&lt;br&gt;VIA: MEKHRI CIRCLE, NAGASHETTIHALLI&lt;br&gt;RAJMAHAL GUTTAHALLI, GEDDALAHALLI&lt;br&gt;MEKHRI CIRCLE, ASHWATHNAGAR&lt;br&gt;MEKHRI CIRCLE, HUNASAMARANAHALLI&lt;br&gt;HEBBAL, BETTAHALASURU CROSS&lt;br&gt;MEKHRI CIRCLE, YELAHANKA&lt;br&gt;MEKHRI CIRCLE, BYATARAYANAPURA&lt;br&gt;RAJMAHAL GUTTAHALLI, ALLALASANDRA&lt;br&gt;HEBBALA, NAGAVARA&lt;br&gt;</div>`)[0];
+                popup_00a82a5e26e70a7fafca0a38a1ec1787.setContent(html_09430751aad03d49976e68fe7b1bd1bc);
+            
+        
+
+        marker_14a7144fa49de437a0678e015582a2a8.bindPopup(popup_00a82a5e26e70a7fafca0a38a1ec1787)
+        ;
+
+        
+    
+    
+            var marker_d7cf0fe3ea7d52617705f0922aa366e5 = L.marker(
+                [12.9782268, 77.5732271],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_59ab70509d322f473eafd74a520c65e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94820a87ee74725d5e4187613fbf850d = $(`<div id="html_94820a87ee74725d5e4187613fbf850d" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 23-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/Svgi7O3_L309J_exNrwTWrWv6k8sr4rU2mOSblNmjpzIaqrl0Okqafn2VTT24kjUgcNJyzrDcWVr4Vevh8WcewfZ9j4m8RivLvcZl8gdJ2ArDRvGP6z52X0gB3THFFX2ogBJRw&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 284-D	(YELAHANKA NEW TOWN)&lt;br&gt;285-M	(DODDABALLAPURA)&lt;br&gt;286-F	(K NARAYANAPURA)&lt;br&gt;286-G	(JAKKUR)&lt;br&gt;287-G	(COFFEE BOARD LAYOUT)&lt;br&gt;287-J	(CHAMUNDESHWARINAGAR)&lt;br&gt;288-D	(KODIGEHALLI)&lt;br&gt;288-G	(KODIGEHALLI CANARA BANK COLONY)&lt;br&gt;&lt;br&gt;VIA: RAJMAHAL GUTTAHALLI, BYATARAYANAPURA&lt;br&gt;BYATARAYANAPURA, RAJANUKUNTE&lt;br&gt;HEBBALA, BYATARAYANAPURA&lt;br&gt;MEKHRI CIRCLE, BYATARAYANAPURA&lt;br&gt;MEKHRI CIRCLE, MILITARY DAIRY FORUM&lt;br&gt;RAJMAHAL GUTTAHALLI, HEBBAL&lt;br&gt;MEKHRI CIRCLE, HEBBAL&lt;br&gt;MEKHRI CIRCLE, HEBBAL&lt;br&gt;</div>`)[0];
+                popup_59ab70509d322f473eafd74a520c65e1.setContent(html_94820a87ee74725d5e4187613fbf850d);
+            
+        
+
+        marker_d7cf0fe3ea7d52617705f0922aa366e5.bindPopup(popup_59ab70509d322f473eafd74a520c65e1)
+        ;
+
+        
+    
+    
+            var marker_3ad89aef964dd62fe97b847af4cf7ece = L.marker(
+                [12.9780338, 77.5733411],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_ceabfe284209dd01f0c6b86e576a2107 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5fd92e67a95bbd825754277a466c818 = $(`<div id="html_b5fd92e67a95bbd825754277a466c818" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 23-B&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/SUWf3hul1BtQunx5dxADm2MDXzvrlal1M0H3KwSTtzcYKuDC8aYsg1T24c9YUBS17u0_UfeIcPPz60Tqthaw93wC_dhcvAH0sfF1Vj6HRhZ5k10MsdePPSjBuBRLcEe-MLFj44Y&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 288-H	(THINDLU)&lt;br&gt;289-M	(BEGUR)&lt;br&gt;297-G	(NERAGANAHALLI)&lt;br&gt;298-G	(ERATAGANAHALLI)&lt;br&gt;298-M	(DEVANAHALLI)&lt;br&gt;298-MA	(BOMMAVARA)&lt;br&gt;402-B	(YELAHANKA NEW TOWN 5TH STAGE)&lt;br&gt;&lt;br&gt;VIA: MEKHRI CIRCLE, SANJEEVINI NAGAR&lt;br&gt;MEKHRI CIRCLE, YELAHANKA&lt;br&gt;HEBBALA, SADAHALLI&lt;br&gt;HEBBAL, CHIKKAJALA&lt;br&gt;YELAHANKA, CHIKKAJALA&lt;br&gt;HEBBAL, KANNAMANGALA GATE&lt;br&gt;HEBBAL, YELAHANKA NEW TOWN&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/y77rgDkT0HbkNLghuuuYtwK7cnx6b_TVfZBki0YU5M3rsL_-F7DOjauGp5-qMhfS2wx1-8UFhx78NfdLc1QPO49N-Ta7mu5p2FkhYOr7nPKnKU3xHr3YPKBgojTUd7lwfSONAWk&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;</div>`)[0];
+                popup_ceabfe284209dd01f0c6b86e576a2107.setContent(html_b5fd92e67a95bbd825754277a466c818);
+            
+        
+
+        marker_3ad89aef964dd62fe97b847af4cf7ece.bindPopup(popup_ceabfe284209dd01f0c6b86e576a2107)
+        ;
+
+        
+    
+    
+            var marker_045d38f9bfa5296c93a05da9c31f193d = L.marker(
+                [12.97784, 77.5734081],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_9f690a8fcbe4d96a41d433779e74e4d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3edd1e895f264a98c2a25eea48493181 = $(`<div id="html_3edd1e895f264a98c2a25eea48493181" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 23-C&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/3valUviLDLih1GQRNjo2OkKUbljGV0wTHnKMvT5-QIwBfpNQ9iSY0DxlePD5LWSakqgt0w371RHQD0QLpH_NC71CpF3Rl7x93fh38LJ5wXDBRYYr4nA7yvSjYhyzjnGfujufew&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 297-J	(NERAGANAHALLI)&lt;br&gt;298-G	(ERATAGANAHALLI)&lt;br&gt;298-M	(DEVANAHALLI)&lt;br&gt;298-MA	(BOMMAVARA)&lt;br&gt;402-B	(YELAHANKA NEW TOWN 5TH STAGE)&lt;br&gt;&lt;br&gt;VIA: HEBBALA, SADAHALLI&lt;br&gt;HEBBALA, CHIKKAJALA&lt;br&gt;YELAHANKA, CHIKKAJALA&lt;br&gt;HEBBAL, KANNAMANGALA GATE&lt;br&gt;HEBBAL, YELAHANKA NEW TOWN&lt;br&gt;</div>`)[0];
+                popup_9f690a8fcbe4d96a41d433779e74e4d6.setContent(html_3edd1e895f264a98c2a25eea48493181);
+            
+        
+
+        marker_045d38f9bfa5296c93a05da9c31f193d.bindPopup(popup_9f690a8fcbe4d96a41d433779e74e4d6)
+        ;
+
+        
+    
+    
+            var marker_49fd57658776b27ea6b9b942c3e0b0df = L.marker(
+                [12.9776241, 77.5734047],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_ff63b7125ed588c8c08c4f53e3613785 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c01bc0b54fa390f18934e51dafa17c1 = $(`<div id="html_2c01bc0b54fa390f18934e51dafa17c1" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 24&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/L1aQ6FnMQAFAzcksTQSxagB9JzkHYBJgyKHreIv0U6HZxF_rMdqqvAJxjYsftr15HPlj4z-0o54SGwgVHv3bJ6GtRwpmkm274yrC9pKRumccFWvseMsmT1KmA46Lg6mXs9qlOnc&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 108-B	(GANGANAGAR)&lt;br&gt;111-C	(KAVALBYRASANDRA)&lt;br&gt;114-C	(SULTHANAPALYA)&lt;br&gt;415-A	(SHYAMPUR)&lt;br&gt;415-B	(VISHWANATHA NAGENAHALLI)&lt;br&gt;&lt;br&gt;VIA: VASANTHANAGAR, MUNIREDDYPALYA&lt;br&gt;VASANTHANAGAR, MUNIREDDYPALYA&lt;br&gt;VASANTHANAGAR, MUNIREDDYPALYA&lt;br&gt;VASANTHANAGAR, HMT LAYOUT&lt;br&gt;VASANTHANAGAR, HMT LAYOUT&lt;br&gt;</div>`)[0];
+                popup_ff63b7125ed588c8c08c4f53e3613785.setContent(html_2c01bc0b54fa390f18934e51dafa17c1);
+            
+        
+
+        marker_49fd57658776b27ea6b9b942c3e0b0df.bindPopup(popup_ff63b7125ed588c8c08c4f53e3613785)
+        ;
+
+        
+    
+    
+            var marker_5de3244f5dcbf7037b805f1d48365158 = L.marker(
+                [12.9778233, 77.5733642],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_80c25445f4f11aba27f314f23cdb226f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84f854dd4b761da4b6678db39f63f200 = $(`<div id="html_84f854dd4b761da4b6678db39f63f200" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 25&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/LQFOdXS0sEH4ffrLgzttd3ZSdJjclG0py0xfnRpdPvqMn3BADuG1b7jHXUZgCeB75vuiiVI1IFmcm34lWQyGg8ZzyOfqogYPrHPUra6zZ3SYu4AUoSfhw3n8UtkJQVgc-Zs0&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 104	(SADASHIVANAGAR)&lt;br&gt;&lt;br&gt;VIA: CENTRAL, MALLESHWARAM&lt;br&gt;</div>`)[0];
+                popup_80c25445f4f11aba27f314f23cdb226f.setContent(html_84f854dd4b761da4b6678db39f63f200);
+            
+        
+
+        marker_5de3244f5dcbf7037b805f1d48365158.bindPopup(popup_80c25445f4f11aba27f314f23cdb226f)
+        ;
+
+        
+    
+    
+            var marker_1416f6874e363f35d63a466f868f4666 = L.marker(
+                [12.9779929, 77.5733032],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_c57d92845e6f255dc630d6c13a008bf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7b7819db9f9774b3dbef883ff6c83d6 = $(`<div id="html_b7b7819db9f9774b3dbef883ff6c83d6" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 25-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/yiEd4W1rvgZa7LIPvUBQNkWamg_P-1wzg77mAxm9Qe9O5_LW66qdh0yFsPsexbE2iyCdE5-VWGzB5TgNoOa_c2wby0yeBWGvtsmQ25kZ-SgzT4gbz2Jkm-9Pr882_hFULBxY&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 145	(NEELASANDRA)&lt;br&gt;145-A	(NEELASANDRA ROSE GARDEN)&lt;br&gt;146	(VIVEK NAGAR)&lt;br&gt;146-B	(SRINIVAGILU)&lt;br&gt;146-E	(EJIPURA)&lt;br&gt;&lt;br&gt;VIA: CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN&lt;br&gt;CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN, NEELASANDRA&lt;br&gt;CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN&lt;br&gt;CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN, EJIPURA&lt;br&gt;CORPORATION, NANJAPPA CIRCLE, AUSTIN TOWN, VIVEK NAGAR&lt;br&gt;</div>`)[0];
+                popup_c57d92845e6f255dc630d6c13a008bf2.setContent(html_b7b7819db9f9774b3dbef883ff6c83d6);
+            
+        
+
+        marker_1416f6874e363f35d63a466f868f4666.bindPopup(popup_c57d92845e6f255dc630d6c13a008bf2)
+        ;
+
+        
+    
+    
+            var marker_db2711bfdb0b7d79f62797b413ef8c8b = L.marker(
+                [12.9781572, 77.573218],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_2c1488b455ce9d529d7576c05595f50c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_429d7ba2deaff97c54b3eb873082e1d8 = $(`<div id="html_429d7ba2deaff97c54b3eb873082e1d8" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 25-B&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/cJb93GZqD7C3xDPgKcAJTpVQ84Vq-G0C7eteeZTrHdHp7yScZW6ZfAJp2cXMODEyNqww0dWEMDT2JsN2ZD2YYxrw9iqwfYQrmD6g4KKjkcULVFgLYOfHDut5MnUIplxtg3xveA&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 340-A	(H.S.R. LAYOUT (CAMBRIDGE SCHOOL))&lt;br&gt;340-M	(H.S.R. 2ND SECTOR (CAMBRIDGE SCHOOL))&lt;br&gt;340-L	(HOSUR MAIN ROAD)&lt;br&gt;340-H	(KORAMANGALA)&lt;br&gt;340-G	(BDA COMPLEX)&lt;br&gt;340-F	(PARANGIPALYA)&lt;br&gt;341-D	(BELANDURU)&lt;br&gt;341-E	(HARALUR)&lt;br&gt;342-F	(SARJAPUR)&lt;br&gt;&lt;br&gt;VIA: MAHARANI COLLEGE, DIARY CIRCLE, AGARA, PARANGIPALYA&lt;br&gt;MAHARANI COLLEGE, WILSON GARDEN, JAKKASANDRA, PARANGIPALYA&lt;br&gt;CORPORATION, BELLANDUR MAIN ROAD, CENTRAL JAIL&lt;br&gt;CORPORATION, DIARY CIRCLE&lt;br&gt;ADUGODI, JAKKASANDRA, H.S.R. LAYOUT 2ND SECTOR&lt;br&gt;WILSON GARDEN, ADUGODI&lt;br&gt;CORPORATION, DIARY CIRCLE, AGADA&lt;br&gt;CORPORATION, JAKKASANDRA, HARALUR CROSS&lt;br&gt;CORPORATION, JAKKASANDRA, DODDAKANNELLI, AMERE&lt;br&gt;</div>`)[0];
+                popup_2c1488b455ce9d529d7576c05595f50c.setContent(html_429d7ba2deaff97c54b3eb873082e1d8);
+            
+        
+
+        marker_db2711bfdb0b7d79f62797b413ef8c8b.bindPopup(popup_2c1488b455ce9d529d7576c05595f50c)
+        ;
+
+        
+    
+    
+            var marker_b5ec9305a1b6f947caee234903508d27 = L.marker(
+                [12.9782974, 77.5730977],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_a21288856c57c281514fc3ee37dd0061 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18bfe19e9fa5c51779152c75a6282dde = $(`<div id="html_18bfe19e9fa5c51779152c75a6282dde" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 26&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/aYNiLeaR6X7g1nb6P9chYsgDoYKFgdlcocX74LmFqv9nlRkHkBY7lqfjnbNf-HOCNBUiTlDkm4LRA-2aJPBbQ4WFvrX4AELFjNaFM5Gex0dT17OzMkNKwhtzpg4KoUIPrbFxuA&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): KBS-3A	(ATTIBELE)&lt;br&gt;KBS-3C	(CHANDAPURA)&lt;br&gt;KBS-3E	(ELECTRONIC CITY WIPRO GATE)&lt;br&gt;342-F	(SARJAPURA)&lt;br&gt;343-A	(HULLAHALLI)&lt;br&gt;343-B	(KODICHIKKANAHALLI)&lt;br&gt;343-L	(HONGASANDRA MICO LAYOUT)&lt;br&gt;343-K	(VISHWAPRIYA LAYOUT)&lt;br&gt;344-B	(BETTADASANAPURA)&lt;br&gt;&lt;br&gt;VIA: MADIWALA, BOMMANAHALLI, SINGASANDRA, HEBBAGODI, CHANDAPURA&lt;br&gt;MADIWALA, BOMMANAHALLI, SINGASANDRA, HEBBAGODI, NARAYANA HRUDAYALAYA&lt;br&gt;MADIWALA, BOMMANAHALLI, KONAPPANA AGRAHARA&lt;br&gt;CORPORATION, SHANTHI NAGAR, KORAMANGALA 1ST BLOCK, BELLANDUR GATE&lt;br&gt;MADIWALA, BOMMANAHALLI, HONGSANDRA, BETTADASANAPURA CROSS&lt;br&gt;LALBAGH&lt;br&gt;MADIWALA, BOMMANAHALLI, HONGASANDRA&lt;br&gt;MADIWALA, BOMMANAHALLI, HONGASANDRA&lt;br&gt;MADIWALA, BOMMANAHALLI, BEGURU&lt;br&gt;</div>`)[0];
+                popup_a21288856c57c281514fc3ee37dd0061.setContent(html_18bfe19e9fa5c51779152c75a6282dde);
+            
+        
+
+        marker_b5ec9305a1b6f947caee234903508d27.bindPopup(popup_a21288856c57c281514fc3ee37dd0061)
+        ;
+
+        
+    
+    
+            var marker_7a79171edbd28fe0b20de6b8490302b1 = L.marker(
+                [12.9784202, 77.5729243],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_9b40a83052130ea2135b42b15aeb03d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d14edc20fafd1782309f847203e97070 = $(`<div id="html_d14edc20fafd1782309f847203e97070" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 26-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/GQ01LRDazDOKAy4RnOWU5fAMCooACPtNwJ91shhjeq-YAUN-sZwtnrYCMPRMc9Evlj7YVvOUvh5IzBLCXX8y5F3oibCUPIGsy4rEI2Rl-xEPz_baz2L0rcau4XGml1_w--85iQ&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 346-C	(RAYASANDRA)&lt;br&gt;346-H	(PARAPPANA AGRAHARA)&lt;br&gt;346-CK	(KARNATAKA SLUM BOARD)&lt;br&gt;347-H	(BASAPURA)&lt;br&gt;346-N	(DODDATHOGURU MUNESHWARA TEMPLE)&lt;br&gt;346-V	(DODDANAGAMANGALA)&lt;br&gt;347-B	(KUDLU)&lt;br&gt;347-C	(CHIKKA BEGUR)&lt;br&gt;347-HD	(DEVENDRA NAGAR (CHIKKATHOGURU))&lt;br&gt;347-E	(SOMASUNDARAPALYA)&lt;br&gt;347-L	(HOSAPALYA)&lt;br&gt;348	(MANGAMMANA PALYA)&lt;br&gt;&lt;br&gt;VIA: BANGLORE DAIRY, MADIWALA, KUDLE GATE, HOSA ROAD&lt;br&gt;BANGLORE DAIRY, MADIWALA, KUDLE GATE, HOSA ROAD&lt;br&gt;MADIWALA, HOSA ROAD, CENTRAL JAIL&lt;br&gt;MADIWALA, SINGASANDRA, HOSA ROAD&lt;br&gt;MADIWALA, SINGASANDRA, KONAPPANA AGRAHARA&lt;br&gt;MADIWALA, BOMMANAHALLI, SINGASANDRA&lt;br&gt;MADIWALA, BOMMANAHALLI&lt;br&gt;MADIWALA, BOMMANAHALLI, HOSA ROAD&lt;br&gt;MADIWALA, BOMMANAHALLI, HOSA ROAD, CHIKKATHOGURU&lt;br&gt;MADIWALA, BOMMANAHALLI, KUDLUGATE&lt;br&gt;MADIWALA, BOMMANAHALLI, KUDLUGATE, SOMASUNDARAPALYA&lt;br&gt;MADIWALA, SI APARTMENT&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/NSfDfje-6_cm64MXhkrvY7ifcfzoWz3fmaTmZR3T4Q8C3vuP97L8FDx-PZcw2AcCw4pTCBrK9Z74iBhq15foeYRQj1Rko1bG7ynFRTsG6nExYuT0-bWYvAIrb4PNG8NmMGMLWFk&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;</div>`)[0];
+                popup_9b40a83052130ea2135b42b15aeb03d9.setContent(html_d14edc20fafd1782309f847203e97070);
+            
+        
+
+        marker_7a79171edbd28fe0b20de6b8490302b1.bindPopup(popup_9b40a83052130ea2135b42b15aeb03d9)
+        ;
+
+        
+    
+    
+            var marker_766b11957870d04c1a66be3c6b6996ce = L.marker(
+                [12.9784941, 77.5727668],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_ed6d312aa7113a2abb9ae62e684e3685 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11dbc7ea3efd50bfdb493410305198eb = $(`<div id="html_11dbc7ea3efd50bfdb493410305198eb" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 26-B&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/nl5MxE_1ZW9MfySbmautvnpl0MfVvF1U3Cit6bdleDlHHRvvY83SL3zqT-h4Z2fZKg1U0uAThIGusEtF9y7wBf5RzcSFqE9ErLfdZvljJV2noNjo6mz-O67Gj8Eqo-UuWctXgA&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 351-A	(NARAYANAGHATTA)&lt;br&gt;351-J	(HANDENAHALLI)&lt;br&gt;352-A	(HENNAGARA)&lt;br&gt;352-B	(MASTENAHALLI)&lt;br&gt;353-C	(JIGANI)&lt;br&gt;354-B	(SHETTIHALLI)&lt;br&gt;354-C	(MARASUR)&lt;br&gt;355-A	(SRIRAMPURA)&lt;br&gt;355-E	(BANDENALLASANDRA)&lt;br&gt;&lt;br&gt;VIA: MADIWALA, HEBBAGODI, CHANDAPURA, RAMASANDRA&lt;br&gt;MADIWALA, HEBBAGODI, CHANDAPURA, RAMASANDRA, MUTTA NELLORU&lt;br&gt;MADIWALA, HEBBAGODI, KITHAGANUR&lt;br&gt;MADIWALA, HEBBAGODI, HENNAGARA&lt;br&gt;MADIWALA, HEBBAGODI, HINMAKKI, SHITANAYAKANAHALLI, MADAPATTANA&lt;br&gt;LALBAGH, MADIWALA, HEBBAGODI, CHANDAPURA, HIGGALURU&lt;br&gt;MADIWALA, HEBBAGODI, CHANDAPURA, HIGGALURU&lt;br&gt;MADIWALA, HEBBAGODI, ARMADALLI&lt;br&gt;MADIWALA, HEBBAGODI, BIOCON FACTORY, KYALASANAHALLI&lt;br&gt;</div>`)[0];
+                popup_ed6d312aa7113a2abb9ae62e684e3685.setContent(html_11dbc7ea3efd50bfdb493410305198eb);
+            
+        
+
+        marker_766b11957870d04c1a66be3c6b6996ce.bindPopup(popup_ed6d312aa7113a2abb9ae62e684e3685)
+        ;
+
+        
+    
+    
+            var marker_8c15f8a3749b2c8f1b4a9067ff5fb346 = L.marker(
+                [12.9785568, 77.5725659],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_cc5f8efaad0d96edcebfbdacbb54c332 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b7a075cc4e4a0535d8fb2f55141d453 = $(`<div id="html_5b7a075cc4e4a0535d8fb2f55141d453" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 26-C&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/VMQCrYCwtAkM0PKMbkLxHdsMekjbUTEExp4hiXia-JzhceATS5TpVZmGqzNpKZvvAXGkTn_nMHWhTGBJyn8570PC0FCaSbGprArEMjHiThShzuyYUfPb2qwhmg5423JTzWNW&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 356-A	(THATTNAHALLI)&lt;br&gt;356-D	(SAMPIGENAGAR)&lt;br&gt;356-H	(SURYANAGAR (CHANDAPUR))&lt;br&gt;356-M	(ANEKAL)&lt;br&gt;356-CB	(ELECTRONIC CITY 2ND STAGE)&lt;br&gt;358-A	(SAMANDURU)&lt;br&gt;360-B	(ATTIBELE)&lt;br&gt;360-J	(ATTIBELE)&lt;br&gt;&lt;br&gt;VIA: MADIWALA, HEBBAGODI, CHANDAPURA, HIGGALURU&lt;br&gt;MADIWALA, KUDLUGATE, HUSKUR GATE&lt;br&gt;MADIWALA, HEBBAGODI, CHANDAPURA&lt;br&gt;MADIWALA, HEBBAGODI, CHANDAPURA, JGGALURU, TARAPUR GATE&lt;br&gt;MADIWALA, KONAPPANA AGRAHARA&lt;br&gt;MADIWALA, HEBBAGODI, CHANDAPURA, GUTTADAHATTI CROSS, KAMBLIPURA TEMPLE&lt;br&gt;MADIWALA, HEBBAGODI, CHANDAPURA&lt;br&gt;LALBAGH, MADIWALA, HEBBAGODI, CHANDAPURA&lt;br&gt;</div>`)[0];
+                popup_cc5f8efaad0d96edcebfbdacbb54c332.setContent(html_5b7a075cc4e4a0535d8fb2f55141d453);
+            
+        
+
+        marker_8c15f8a3749b2c8f1b4a9067ff5fb346.bindPopup(popup_cc5f8efaad0d96edcebfbdacbb54c332)
+        ;
+
+        
+    
+    
+            var marker_604d420031cf03d7c0f050403f6811f0 = L.marker(
+                [12.9785758, 77.5723627],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_2fde260067f49d8cf10b7b4e7c7e0258 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_537600e2b386844d3f897bd7270f2707 = $(`<div id="html_537600e2b386844d3f897bd7270f2707" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 27&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/t7kL9qWEWhuMpGps2voo1A6dPI-Ez7YbH24OIxRWvhYyBU7G_DdHtOeVp2CFIET7oZrep5XL_DX5CS18iz2Guz87czeoReog1tKZfaYQpOQ5dNlaJg96ppcPvSkXUID60YGT0Q&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 365	(BANNERGHATTA NATIONAL PARK)&lt;br&gt;365-C	(KOPPA)&lt;br&gt;365-D	(BILVARADAHALLI)&lt;br&gt;365-E	(SHANUBHOGANAHALLI)&lt;br&gt;365-F	(NOSENURU)&lt;br&gt;365-J	(JIGANI)&lt;br&gt;365-N	(GEDDENAHALLI)&lt;br&gt;365-P	(ANEKAL)&lt;br&gt;&lt;br&gt;VIA: BANGALORE DAIRY, GOTTIGERE, KALKERE&lt;br&gt;BANGALORE DAIRY, BILEKANAHALLI, BASAVANAPURA, KOPPA GATE&lt;br&gt;BANGALORE DAIRY, GOTTIGERE, BASAVANAPURA&lt;br&gt;BANGALORE DAIRY, GOTTIGERE, BILAVARADAHALLI&lt;br&gt;BANGALORE DIARY, GOTTIGERE, KOPPA GATE, JIGANI, HARAGADDE&lt;br&gt;BANGALORE DIARY, GOTTIGERE, BANNERGHATTA CIRCLE, KOPPA GATE&lt;br&gt;BANGALORE DIARY, GOTTIGERE, JIGANI, GOWDANAHALLI&lt;br&gt;BANGALORE DIARY, GOTTIGERE, BANNERGHATTA CIRCLE, HARAGADDE&lt;br&gt;</div>`)[0];
+                popup_2fde260067f49d8cf10b7b4e7c7e0258.setContent(html_537600e2b386844d3f897bd7270f2707);
+            
+        
+
+        marker_604d420031cf03d7c0f050403f6811f0.bindPopup(popup_2fde260067f49d8cf10b7b4e7c7e0258)
+        ;
+
+        
+    
+    
+            var marker_6f8d673ac83cb622a0fca2b30aed7fa3 = L.marker(
+                [12.9785574, 77.5721843],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_5ebd6f93057f45d0c2750b904b2fb150 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5709c09642b8a7f54bc8c196bdf36f2 = $(`<div id="html_f5709c09642b8a7f54bc8c196bdf36f2" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 27-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/fVcR08Ecao8kqQFpF63FQAQ1KOSlpa4DgykZQ9bPn9NDBE9mG4BFuC9qlaPi8qGC2Hb4CCpPXdzcWzCwmOQJpLAANXsjDTCFIre-zjyrijKqT10lbdLHPc4ENT2KnObb16kX&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 369-C	(HULIMAVU)&lt;br&gt;369-D	(SHANTINIKETAN LAYOUT)&lt;br&gt;369-J	(C.K. PALYA)&lt;br&gt;365-Q	(DYAVASANDRA)&lt;br&gt;365-R	(BASAVANAPURA)&lt;br&gt;365-W	(VADERA MANCHENAHALLI)&lt;br&gt;367-F	(PILLAGANAHALLI)&lt;br&gt;369-CA	(CHIKKAMMANAHALLI)&lt;br&gt;369-H	(MICO SHRAMAJEEVI COLONY)&lt;br&gt;369-F	(HOMMADEVANAHALLI)&lt;br&gt;372-F	(NISARGA BADAVANE)&lt;br&gt;&lt;br&gt;VIA: BANGALORE DIARY, BILEKANAHALLI, HULIMAVU GATE&lt;br&gt;BANGALORE DIARY, BILEKANAHALLI, AREKERE GATE&lt;br&gt;BANGALORE DIARY, HULIMAVU GATE, CHIKKAMMANAHALLI&lt;br&gt;BANGALORE DIARY, HULIMAVU GATE, JIGANI HARAGADDE&lt;br&gt;BANGALORE DIARY, HULIMAVU GATE, GOTTIGERE&lt;br&gt;BANGALORE DIARY, HULIMAVU GATE, KALKERE, JIGANI&lt;br&gt;BANGALORE DIARY, HULIMAVU GATE, BASAVANAPURA GATE&lt;br&gt;BANGALORE DIARY, BILEKANAHALLI, HULIMAVU&lt;br&gt;BANGALORE DIARY, BILEKANAHALLI, AREKERE GATE&lt;br&gt;BANGALORE DIARY, BILEKANAHALLI, CHIKKAMMANAHALLI&lt;br&gt;BANGALORE DIARY, BILEKANAHALLI, KALKERE, KOPPA GATE&lt;br&gt;</div>`)[0];
+                popup_5ebd6f93057f45d0c2750b904b2fb150.setContent(html_f5709c09642b8a7f54bc8c196bdf36f2);
+            
+        
+
+        marker_6f8d673ac83cb622a0fca2b30aed7fa3.bindPopup(popup_5ebd6f93057f45d0c2750b904b2fb150)
+        ;
+
+        
+    
+    
+            var marker_5a6ced144f1826f02b90a2b2371e7a39 = L.marker(
+                [12.978511, 77.5720173],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_777421793d865ec186a591156b934629 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87db6cef097bf1ec4631e4193d54407f = $(`<div id="html_87db6cef097bf1ec4631e4193d54407f" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 28&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/vRarifOQ2PEimzDV4WYiOYQ4F-V30WJq5NM7rccHniXnaK21XaywUL9FgRNKNb9WeHfYWAxVccFgt4pDZtGOxzajXFfnxG6uvOE8F5gMZxv-zwCHKD8cL4PdZdLtsqXBRBYD&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 304-R	(B.N. BACHE GOWDA BADAVANE)&lt;br&gt;304-L	(MEDIMALLASANDRA)&lt;br&gt;304-X	(AREHALLI)&lt;br&gt;304-J	(KALKUNTE AGRAHARA)&lt;br&gt;304-Z	(CHIKKA THIRUPATHI)&lt;br&gt;305-D	(CHANNASANDRA)&lt;br&gt;305-S	(SOURYA HOSPITAL)&lt;br&gt;&lt;br&gt;VIA: CORPORATION,HALASURU, K.R. PURAM RAILWAY STATION, CHANNASANDRA, MEDIMALLASANDRA, NARAYANAKERE&lt;br&gt;CORPORATION, HALASURU, K.R. PURAM RAILWAY STATION, GARUDACHAR PALYA, HOODI, BODANA HOSAHALLI, DUNNASANDRA&lt;br&gt;HALASURU, K.R. PURAM RAILWAY STATION, CHANNASANDRA, DUNNASANDRA&lt;br&gt;CORPORATION, HALASURU, GARUDACHAR PALYA, HOPE FARM, DUNNASANDRA&lt;br&gt;GARUDACHAR PALYA, BODANA HOSAHALLI, KALKUNTE AGRAHARA&lt;br&gt;HALASURI, GARUDACHAR PALYA, HOPE FARM&lt;br&gt;HALASURU, GARUDACHAR PALYA, CHANNASANDRA, NADUVATTI&lt;br&gt;</div>`)[0];
+                popup_777421793d865ec186a591156b934629.setContent(html_87db6cef097bf1ec4631e4193d54407f);
+            
+        
+
+        marker_5a6ced144f1826f02b90a2b2371e7a39.bindPopup(popup_777421793d865ec186a591156b934629)
+        ;
+
+        
+    
+    
+            var marker_5de993dbeac52b20e7f394573749385b = L.marker(
+                [12.9784235, 77.5718484],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_7c871dd67ae59073c16a2b9d1d02c9ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e1861771630c4d668c26a4b5defb324 = $(`<div id="html_3e1861771630c4d668c26a4b5defb324" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 28-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/npLvETfD2BMszPz8742G-5Qu9-T8jM-tiaRU0jxXmqcnmzpAH9OzgOZwmnkCvQ1Of9KsMpzAwwDeAGolMg-iHCDGXN1fvn3Xs0oh8r_QbNezAyiq6UttVevakCJgmmQ9AYlLqg&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 315-J	(RAMPURA)&lt;br&gt;315-K	(K.R. PURAM)&lt;br&gt;315-L	(RAMAMURTHY NAGAR)&lt;br&gt;315-P	(SHANTI LAYOUT)&lt;br&gt;315-T	(KITHAGANUR)&lt;br&gt;315-V	(KADUGODI BALAJI CIRCLE)&lt;br&gt;&lt;br&gt;VIA: HALASURU, K.R. PURAM, AVALAHALLI, BIDARAHALLI, ADURU&lt;br&gt;HALASURU, BENNIGANAHALLI, CHANNASANDRA BRIDGE, RAMURTHY NAGAR&lt;br&gt;HALASURU, BENNIGANAHALLI BRIDGE, RING ROAD&lt;br&gt;HALASURU, BENNIGANAHALLI, RAMURTHY NAGAR, KOWDENAHALLI&lt;br&gt;HALASURU, BENNIGANAHALLI, KOWDENAHALLI, T.C. PALYA&lt;br&gt;HALASURU, K.R. PURAM, SADARAMANGALA, HOODI&lt;br&gt;</div>`)[0];
+                popup_7c871dd67ae59073c16a2b9d1d02c9ca.setContent(html_3e1861771630c4d668c26a4b5defb324);
+            
+        
+
+        marker_5de993dbeac52b20e7f394573749385b.bindPopup(popup_7c871dd67ae59073c16a2b9d1d02c9ca)
+        ;
+
+        
+    
+    
+            var marker_3d36d971f0173047f6c18cee1ef9ae9e = L.marker(
+                [12.9783069, 77.5717048],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_f8eb939f4dbe9fd3b04892be62163222 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91c9c2a2defe41d2208568a23e29fc40 = $(`<div id="html_91c9c2a2defe41d2208568a23e29fc40" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 28-B&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/oVRTLJnslSX6-imCFg-kxJFrth10tR1TAhzMzfe1aHGwMJIGXbI7uAzgoCWaOnZ0aIA-SOBufDKThDD2ZNnJFtBtA-CnGxRG-rg6aBpO5JGVzFOe8QU_shsMjwj03gbPDW-o9g&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 315-V	(KADUGODI BALAJI CIRCLE)&lt;br&gt;316-B	(BUDIGERE)&lt;br&gt;316-E	(CHEEMASANDRA)&lt;br&gt;316-G	(MANDURU)&lt;br&gt;316-M	(SINGRAHALLI)&lt;br&gt;317-A	(HOSAKOTE)&lt;br&gt;317-P	(KANNAMANGALA)&lt;br&gt;317-V	(POOJENA AGRAHARA (NADUVATTI))&lt;br&gt;381	(THIMMASANDRA)&lt;br&gt;381-E	(KAMBIPURA)&lt;br&gt;381-A	(POOJENA AGRAHARA)&lt;br&gt;HK-12	(HOSAKOTE)&lt;br&gt;&lt;br&gt;VIA: HALASURU, K.R. PURAM, SADARAMANGALA, HOODI&lt;br&gt;HALASURU, K.R. PURA, AVALAHALLI, BUDIGERE CROSS&lt;br&gt;HALASURU, K.R. PURA, AVALAHALLI, CHEEMASANDRA CROSS&lt;br&gt;HALASURU, K.R. PURA, AVALAHALLI, BUDIGERE CROSS&lt;br&gt;HALASURU, K.R. PURA, BUDIGERE CROSS, BUDIGERE&lt;br&gt;HALASURU, K.R. PURA, BUDIGERE CROSS&lt;br&gt;HALASURU, K.R. PURA, BUDIGERE CROSS, KAJI SONNENAHALLI&lt;br&gt;HALASURU, K.R.PURA, BUDIGERE CROSS, HOSAKOTE, KODIHALLI, BASAVANAHALLI&lt;br&gt;HALASURU, K.R.PURA, BATTARAHALLI, BUDIGERE CROSS, HOSAKOTE&lt;br&gt;HALASURU, K.R.PURA, BATTARAHALLI, BUDIGERE CROSS, HOSAKOTE&lt;br&gt;HALASURU, K.R.PURA, BATTARAHALLI, BUDIGERE CROSS, HOSAKOTE&lt;br&gt;HALASURU, K.R.PURA, BATTARAHALLI, BUDIGERE CROSS, HOSAKOTE&lt;br&gt;</div>`)[0];
+                popup_f8eb939f4dbe9fd3b04892be62163222.setContent(html_91c9c2a2defe41d2208568a23e29fc40);
+            
+        
+
+        marker_3d36d971f0173047f6c18cee1ef9ae9e.bindPopup(popup_f8eb939f4dbe9fd3b04892be62163222)
+        ;
+
+        
+    
+    
+            var marker_3729fe871c620512d5b14676046fd075 = L.marker(
+                [12.9781759, 77.5715772],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_69c20dadfdc20617ebc9da205c846c6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_157b83d474731380326eb184baa70bdc = $(`<div id="html_157b83d474731380326eb184baa70bdc" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 29&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/imS2J-k2U7fb_jHmubC3ValvDLW3v53VsqR4rf2bkfLY14bdHX8emVXl2Yt6CLtb_Xg5E9awR47s4FGzmF1CgF33TRfAfSj4DDlgUs2VPClRIlqjL9VGHyEn9GbYP2qy1L69Rw&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 319-F	(BATTANDURU AGRAHARA)&lt;br&gt;319-J	(AMBEDKAR NAGAR)&lt;br&gt;320-A	(NAGONDANAHALLI)&lt;br&gt;321-J	(MUTTUKURU)&lt;br&gt;322-A	(THATHANUR)&lt;br&gt;&lt;br&gt;VIA: HALASURU, GARUDACHAR PALYA, HOODI, AGRAHARA&lt;br&gt;HALASURU, GARUDACHAR PALYA, HOODI, BA AGRAHARA&lt;br&gt;HALASURU, GARUDACHAR PALYA, HOODI, IMMADIHALLI&lt;br&gt;HALASURU, GARUDACHAR PALYA, HOODI, NAGANAYAKANAKOTE&lt;br&gt;HALASURU, CHANNASANDRA, MATKAGURU, MUTHUGADAHALLI&lt;br&gt;</div>`)[0];
+                popup_69c20dadfdc20617ebc9da205c846c6e.setContent(html_157b83d474731380326eb184baa70bdc);
+            
+        
+
+        marker_3729fe871c620512d5b14676046fd075.bindPopup(popup_69c20dadfdc20617ebc9da205c846c6e)
+        ;
+
+        
+    
+    
+            var marker_df338a1c2b26ece2178fa6e2cd4b6c24 = L.marker(
+                [12.9780066, 77.5714679],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_ceaf05ba3b348481dc555f760e0fc7fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a4d8f4624a28c4ad67db586f73acd4c = $(`<div id="html_3a4d8f4624a28c4ad67db586f73acd4c" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 29-A&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/VEw6FF81fp7l7nC_a5M-QM_jFFN5Ps49GWJyryNuXyOMKonGhBjwZH9E0R_0l2osZN1GdW9il19UJdYFmN37jfE5jtTV1owA1l1G1atC0m8BfW7CVLeYPdFRisH7Xd62TTY5cg&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 323-AK	(GONIGHATTAPURA)&lt;br&gt;232-F	(NERIGE)&lt;br&gt;325-A	(HAROHALLI)&lt;br&gt;327-A	(DOMMASANDRA)&lt;br&gt;327-G	(KUGUR)&lt;br&gt;327-K	(SARJAPURA)&lt;br&gt;328-E	(VARTHUR)&lt;br&gt;328-M	(MADHURA NAGAR)&lt;br&gt;&lt;br&gt;VIA: MARATHAHALLI, VARTHUR, RAMAGONDANAHALLI&lt;br&gt;MARATHAHALLI, VARTHUR, GUNJURU&lt;br&gt;MARATHAHALLI, SIDDAPURA, VARTHUR&lt;br&gt;MARATHAHALLI, VARTHUR, GUNJURU&lt;br&gt;MARATHAHALLI, SIDDAPURA, VARTHUR, NERIGE&lt;br&gt;MARATHAHALLI, KADUBISANAHALLI, KANNALI, KODATIGET, HEMARE&lt;br&gt;MARATHAHALLI, SIDDAPURA, KODI&lt;br&gt;MARATHAHALLI, SIDDAPURA, VARTHUR&lt;br&gt;</div>`)[0];
+                popup_ceaf05ba3b348481dc555f760e0fc7fa.setContent(html_3a4d8f4624a28c4ad67db586f73acd4c);
+            
+        
+
+        marker_df338a1c2b26ece2178fa6e2cd4b6c24.bindPopup(popup_ceaf05ba3b348481dc555f760e0fc7fa)
+        ;
+
+        
+    
+    
+            var marker_ada086d5b3c8018832e87c658bdf1524 = L.marker(
+                [12.9776483, 77.5713706],
+                {}
+            ).addTo(map_d90593dd55484f5d7c67f61fbf0ad53e);
+        
+    
+        var popup_32f08b9aaadd0236c8bad991687d684d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eea4c9be3207db8e409c354fd816192d = $(`<div id="html_eea4c9be3207db8e409c354fd816192d" style="width: 100.0%; height: 100.0%;">&lt;b&gt;Platform 29-B&lt;/b&gt;&lt;br&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/i3Ot7JIApLaTKrcbuBGnAYM0eBNPQpK5SoU4Rvbyq4GPIyhKA7vPIFT6vIPIAFEnBGgpFDC2hDcNkFkP5fto7qym_IQwqTuhmKGmj83PZbuWRquF4n1t8CvuNE903DUSqDj4eeA&#34; height=&#34;200&#34; width=&#34;auto&#34; /&gt;&lt;br&gt;&lt;br&gt;Route (Destination): 334-C	(NAGASANDRA)&lt;br&gt;334-D	(VARTHUR)&lt;br&gt;335-AA	(WHITEFIELD TTMC)&lt;br&gt;335-N	(KADUGODI)&lt;br&gt;335-F	(LAL BAHADUR SHASTRI NAGAR)&lt;br&gt;336-B	(KEMPAPURA)&lt;br&gt;KBS-1I	(KADUGODI)&lt;br&gt;KBS-1K	(KADUGODI)&lt;br&gt;&lt;br&gt;VIA: DOMLURU, N.A.L., GOLF CLUB&lt;br&gt;DOMLURU, HAL, MARATHAHALLI, KODI&lt;br&gt;MARATHAHALLI, KUNDALAHALLI, GRAPHIT INDIA&lt;br&gt;DOMLURU, HAL, MARATHAHALLI, ITPL, HOPE FARM&lt;br&gt;DOMLURU, HAL&lt;br&gt;DOMLURU, HAL, YAMALURU&lt;br&gt;DOMLURU, HAL, MARATHAHALLI, ITPL, VAIDEHI&lt;br&gt;DOMLUR, MARATHAHALLI, SIDDAPURA, KODI, WHITEFIELD&lt;br&gt;</div>`)[0];
+                popup_32f08b9aaadd0236c8bad991687d684d.setContent(html_eea4c9be3207db8e409c354fd816192d);
+            
+        
+
+        marker_ada086d5b3c8018832e87c658bdf1524.bindPopup(popup_32f08b9aaadd0236c8bad991687d684d)
+        ;
+
+        
+    
+</script>
+</html>
