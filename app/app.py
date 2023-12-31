@@ -1,5 +1,8 @@
 import streamlit as st
 import pandas as pd
+from streamlit_folium import folium_static
+import folium
+from bs4 import BeautifulSoup
 from pathlib import Path
 
 csv_file = Path(__file__).parents[1] / 'app/data_source.csv'
@@ -18,10 +21,34 @@ def get_platform_number(bus_route):
     except IndexError:
         return None
 
+def create_folium_map(mapfile):
+    # Read KML file
+    kml_file = Path(__file__).parents[1] / 'app/map.kml'  # Replace with the actual path to your KML file
+
+    # Parse KML file
+    with open(kml_file, 'r', encoding='utf-8') as file:
+        soup = BeautifulSoup(file, 'xml')
+
+    # Extract placemark information
+    placemarks = soup.find_all('Placemark')
+
+    # Create a Folium Map
+    m = folium.Map(location=[12.9776273, 77.5728988], zoom_start=40)
+
+    # Add names of placemarks as text on the map
+    for placemark in placemarks:
+        name = placemark.find('name').text
+        coords = placemark.find('coordinates').text.strip().split(',')
+        lat, lon = float(coords[1]), float(coords[0])
+
+        # Create a text marker with the placemark name
+        folium.Marker(location=[lat, lon], icon=folium.DivIcon(html=f'<div style="font-size: 10pt; color: blue;">{name.replace("-", "").replace("Platform","")}</div>')).add_to(m)
+    
+    return m
+
 # Streamlit App
 def main():
-    st.title(':red[Kempegowda Bus Stand Platform]')
-    st.divider()
+    st.subheader(':red[Kempegowda Bus Stand Platform Information]', divider='rainbow')
 
     # Section 1: User Input - Search Bar and Drop Down
     st.subheader('Search Bus Route')
@@ -33,18 +60,21 @@ def main():
     if user_input:
         platform_number, destination, via = get_platform_number(user_input)
         if platform_number is not None:
-            st.metric("Platform number", f"{platform_number}")
-            st.metric("VIA", f"{via}")
-            st.metric("To", destination)
+            with st.chat_message("assistant"):
+                st.write("Your vahana will arrive at Platform 🚌")
+                st.metric("", f"{platform_number}")
+                st.markdown(f"Via: {via}")
+                st.markdown(f"To: {destination}")
             
         else:
             st.error(f'Bus Route {user_input} not found.')
 
-    # Section 3: Display Map Image
-    # st.header('Bus Route Map')
-    # map_image_path = 'path/to/your/map_image.png'  # Replace with the actual path to your map image
-    # map_image = mpimg.imread(map_image_path)
-    # st.image(map_image, use_column_width=True, caption='Bus Route Map')
+
+    # Section 3: Display the platform map
+    st.divider()
+    folium_map = create_folium_map("map.kml")
+    folium_static(folium_map)
+
 
 if __name__ == '__main__':
     main()
